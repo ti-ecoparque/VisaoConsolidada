@@ -11,12 +11,13 @@ __pycache__/
 Thumbs.db
 .DS_Store
 *.pyc
+lePDF.py
 
 # Pastas de arquivos e relatórios locais (Adicione isso)
 pdf_pedido_compra/
 xls_pedido/
-xls_solicitacao/
-processados/
 
 # Cache oculto do Python na raiz (Importante incluir)
 __pycache__/XX_backup/
+
+.streamlit/
