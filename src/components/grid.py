@@ -99,10 +99,12 @@ def criar_multiindex_compras(df_final):
             "Qt. Compr."
         ),
         
-        "Dt. Entrega":(
+        
+        "dt_entrega": (
             "PEDIDO DE COMPRA MEGA",
-            "dt_entrega"
+            "Dt. Entrega"
         ),
+
         
         ### Falta a data de compra
         
