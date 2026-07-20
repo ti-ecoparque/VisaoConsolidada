@@ -19,6 +19,7 @@ def criar_multiindex_compras(df_final):
         "Comprador",
         "Nr. Pedido",
         "Qt. Compr.",
+        "dt_entrega",
         
         #"Data Ocorrência",
         #"Aprovador RM",

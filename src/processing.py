@@ -54,6 +54,8 @@ def processar_dataframe_compras(dados_brutos: list) -> pd.DataFrame:
         "app_data_ocorrencia": "Dt Ocorrência", # Ocoorencia Aprovp
         "app_status_doc": "Status App",
         
+        "pc_data_entrega": "dt_entrega",
+        
         # Status Final 
         "rm_situacao_item": "Status da Baixa"
         
