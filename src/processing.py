@@ -123,15 +123,27 @@ def processar_dataframe_compras(dados_brutos: list) -> pd.DataFrame:
         df["rm_qtd_solicitada"] = (pd.to_numeric(df["rm_qtd_solicitada"], errors="coerce").fillna(0).astype(int))
 
     
-    # Força a ordenação final e substitui todos os nulos por "None" para aparecer na tela
-    df_ordenado = df[list(mapeamento_colunas.keys())].copy()
-    
-    df["status_entrega"] = df.apply(
-        calcular_prazo,
-        axis=1
+    if "pc_data_entrega" in df.columns and "rm_data_necessidade" in df.columns:
+
+        df["status_entrega"] = df.apply(
+            calcular_prazo,
+            axis=1
+        )
+
+    df_ordenado = df[
+        list(mapeamento_colunas.keys())
+    ].copy()
+
+    df_final = df_ordenado.rename(
+        columns=mapeamento_colunas
     )
 
-    df_final = df_ordenado.rename(columns=mapeamento_colunas)
-    df_final = df_final.replace({np.nan: "None", None: "None"}).astype(str).replace("nan", "None")
+    df_final = (
+        df_final
+        .replace({np.nan: "None", None: "None"})
+        .astype(str)
+        .replace("nan", "None")
+    )
+
     
     return df_final
