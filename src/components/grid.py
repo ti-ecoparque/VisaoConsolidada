@@ -28,7 +28,9 @@ def criar_multiindex_compras(df_final):
 
         "Situação Pedido",
         
-        "Status da Baixa"
+        "Status da Baixa",
+        
+        "Prazo Entrega",
     ]
 
     colunas_multiindex = {
@@ -60,7 +62,7 @@ def criar_multiindex_compras(df_final):
 
         "Data RM": (
             "REQUISIÇÃO DE MATERIAL MEGA",
-            "Dt. da Requisição"
+            "Dt. Requisição"
         ),
 
         "Data Necessidade": (
@@ -104,6 +106,7 @@ def criar_multiindex_compras(df_final):
             "PEDIDO DE COMPRA MEGA",
             "Dt. Entrega"
         ),
+        
 
         
         ### Falta a data de compra
@@ -135,7 +138,14 @@ def criar_multiindex_compras(df_final):
         "Status da Baixa": (
             "SITUAÇÃO",
             "Status da Baixa"
-        )
+        ),
+        
+        
+        "Prazo Entrega": (
+            "SITUAÇÃO",
+            "Prazo"
+        ),
+
 
     }
     

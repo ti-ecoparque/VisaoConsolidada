@@ -14,6 +14,32 @@ def aplicar_estilo_alerta(val):
         return "background-color: #fff2cc; color: #7f6000; font-weight: bold;"
     return ""
 
+def calcular_prazo(row):
+
+    entrega = pd.to_datetime(
+        row["pc_data_entrega"],
+        errors="coerce"
+    )
+
+    necessidade = pd.to_datetime(
+        row["rm_data_necessidade"],
+        errors="coerce"
+    )
+
+    if pd.isna(entrega) or pd.isna(necessidade):
+        return "Sem Data"
+
+    diferenca = (entrega - necessidade).days
+
+    if diferenca == 0:
+        return "Em dia"
+
+    elif diferenca > 0:
+        return f"Divergência + {diferenca} dia(s)"
+
+    else:
+        return f"Divergência - {abs(diferenca)} dia(s)"
+
 def processar_dataframe_compras(dados_brutos: list) -> pd.DataFrame:
     if not dados_brutos:
         return pd.DataFrame()
@@ -57,8 +83,8 @@ def processar_dataframe_compras(dados_brutos: list) -> pd.DataFrame:
         "pc_data_entrega": "dt_entrega",
         
         # Status Final 
-        "rm_situacao_item": "Status da Baixa"
-        
+        "rm_situacao_item": "Status da Baixa",
+        "status_entrega": "Prazo Entrega",
     }
 
     # CORREÇÃO CRUCIAL: Trocado '...' por 'coluna_banco' para forçar a criação das colunas vazias
@@ -99,6 +125,12 @@ def processar_dataframe_compras(dados_brutos: list) -> pd.DataFrame:
     
     # Força a ordenação final e substitui todos os nulos por "None" para aparecer na tela
     df_ordenado = df[list(mapeamento_colunas.keys())].copy()
+    
+    df["status_entrega"] = df.apply(
+        calcular_prazo,
+        axis=1
+    )
+
     df_final = df_ordenado.rename(columns=mapeamento_colunas)
     df_final = df_final.replace({np.nan: "None", None: "None"}).astype(str).replace("nan", "None")
     
