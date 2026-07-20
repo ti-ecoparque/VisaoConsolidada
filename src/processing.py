@@ -50,9 +50,9 @@ def processar_dataframe_compras(dados_brutos: list) -> pd.DataFrame:
         #"app_data_ocorrencia": "Data Ocorrência", # Ocoorencia Aprovp
         "app_nome_solicitante": "Aprovador RM",   #Rel Aprovo
         
-        "app_nome_aprovador" : "Aprovador App",
+        #"app_nome_aprovador" : "Aprovador App",
         "app_data_ocorrencia": "Dt Ocorrência", # Ocoorencia Aprovp
-        "app_status_doc": "Status App",
+        #"app_status_doc": "Status App",
         
         "pc_data_entrega": "dt_entrega",
         
