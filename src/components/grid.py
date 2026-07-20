@@ -138,7 +138,8 @@ def criar_multiindex_compras(df_final):
         )
 
     }
-
+    
+    print(df_final.columns.tolist())
     df_exibicao = df_final[ordem_colunas].copy()
 
     df_exibicao.columns = pd.MultiIndex.from_tuples(
