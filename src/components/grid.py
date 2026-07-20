@@ -59,7 +59,7 @@ def criar_multiindex_compras(df_final):
 
         "Data RM": (
             "REQUISIÇÃO DE MATERIAL MEGA",
-            "Data da Requisição"
+            "Dt. da Requisição"
         ),
 
         "Data Necessidade": (
@@ -96,6 +96,11 @@ def criar_multiindex_compras(df_final):
         "Qt. Compr.": (
             "PEDIDO DE COMPRA MEGA",
             "Qt. Compr."
+        ),
+        
+        "Dt. Entrega":(
+            "PEDIDO DE COMPRA MEGA",
+            "dt_entrega"
         ),
         
         ### Falta a data de compra
