@@ -27,7 +27,7 @@ def criar_multiindex_compras(df_final):
         #"Data Ocorrência",
         #"Aprovador RM",
 
-        "Status Pedido",
+        #"Status Pedido",
 
         
         "Status Aprovação Pedido",
@@ -142,7 +142,6 @@ def criar_multiindex_compras(df_final):
             "Aprovador"
         ),
 
-        
         ##### Aqui
         #"Situação Pedido": (
          #   "APROVAÇÃO DO PEDIDO",
