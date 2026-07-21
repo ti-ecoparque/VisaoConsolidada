@@ -60,9 +60,19 @@ def processar_dataframe_compras(dados_brutos: list) -> pd.DataFrame:
         "rm_data_necessidade": "Data Necessidade",
         
         # Rel do Aprovo
-        "app_status_doc": "Status Aprovação",
-        "app_nome_aprovador": "Aprovador Ocorrência",
-        "app_data_documento": "Dt de Aprovação",
+        #"app_status_doc": "Status Aprovação",
+        #"app_nome_aprovador": "Aprovador Ocorrência",
+        #"app_data_documento": "Dt de Aprovação",
+        
+        "rm_status_aprovacao": "Status Aprovação",
+        "rm_aprovador": "Aprovador Ocorrência",
+        "rm_data_aprovacao": "Dt de Aprovação",
+        
+        # Aprovação Pedido
+        "pc_status_aprovacao": "Status Aprovação Pedido",
+        "pc_aprovador": "Aprovador Pedido",
+        "pc_data_aprovacao": "Dt Aprovação Pedido",
+
         
         #Pedido de compra do Mega
         "ped_comprador": "Comprador",
