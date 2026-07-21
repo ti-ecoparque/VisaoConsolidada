@@ -125,6 +125,15 @@ def processar_dataframe_compras(dados_brutos: list) -> pd.DataFrame:
         df["rm_qtd_solicitada"] = (pd.to_numeric(df["rm_qtd_solicitada"], errors="coerce").fillna(0).astype(int))
 
     
+    if "pc_data_entrega" in df.columns:
+        df["pc_data_entrega"] = (
+            pd.to_datetime(
+                df["pc_data_entrega"],
+                errors="coerce"
+            )
+            .dt.strftime("%d/%m/%Y")
+        )
+    
     if "pc_data_entrega" in df.columns and "rm_data_necessidade" in df.columns:
 
         df["status_entrega"] = df.apply(
