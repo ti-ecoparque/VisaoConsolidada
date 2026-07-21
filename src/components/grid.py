@@ -178,14 +178,12 @@ def criar_multiindex_compras(df_final):
     df_exibicao = df_final[ordem_colunas].copy()
 
     
-    
     for col in ordem_colunas:
 
         if col not in colunas_multiindex:
 
-            raise Exception(
-                f"Coluna '{col}' não encontrada em colunas_multiindex"
-            )
+            print(f"ERRO: {col}")
+            raise Exception(col)
 
 
     df_exibicao.columns = pd.MultiIndex.from_tuples(
