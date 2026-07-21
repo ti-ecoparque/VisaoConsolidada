@@ -18,12 +18,14 @@ def calcular_prazo(row):
 
     entrega = pd.to_datetime(
         row["pc_data_entrega"],
-        errors="coerce"
+        errors="coerce",
+        dayfirst=True
     )
 
     necessidade = pd.to_datetime(
         row["rm_data_necessidade"],
-        errors="coerce"
+        errors="coerce",
+        dayfirst=True
     )
 
     if pd.isna(entrega) or pd.isna(necessidade):
