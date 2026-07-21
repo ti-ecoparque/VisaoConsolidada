@@ -71,17 +71,17 @@ def processar_dataframe_compras(dados_brutos: list) -> pd.DataFrame:
         "pc_status_aprovacao": "Status Aprovação Pedido",
         "pc_aprovador": "Aprovador Pedido",
         "pc_data_aprovacao": "Dt Aprovação Pedido",
-
+        
         
         #Pedido de compra do Mega
-        "ped_comprador": "Comprador",
+        "pc_comprador": "Comprador",
         "pc_numero": "Nr. Pedido",
         # Falta data de Entrega 
-        "ped_quantidade_comprada": "Qt. Compr.",
+        "pc_quantidade_comprada": "Qt. Compr.",
        
         # Approval dos Pedidos de Compra 
         
-        "ped_situacao": "Situação Pedido",
+        #"ped_situacao": "Situação Pedido",
 
         "ped_status_descricao": "Status Pedido",
         #"app_data_ocorrencia": "Data Ocorrência", # Ocoorencia Aprovp
@@ -138,8 +138,17 @@ def processar_dataframe_compras(dados_brutos: list) -> pd.DataFrame:
         df["pc_numero"] = df["pc_numero"].apply(
             lambda x: str(int(float(x))) if pd.notna(x) and str(x).strip() not in ["", "None"] else None)
     
-    if "ped_quantidade_comprada" in df.columns:
-        df["ped_quantidade_comprada"] = (pd.to_numeric(df["ped_quantidade_comprada"], errors="coerce").fillna(0).astype(int))
+    
+    if "pc_quantidade_comprada" in df.columns:
+        df["pc_quantidade_comprada"] = (
+            pd.to_numeric(
+                df["pc_quantidade_comprada"],
+                errors="coerce"
+            )
+            .fillna(0)
+            .astype(int)
+        )
+
 
     if "rm_qtd_solicitada" in df.columns:
         df["rm_qtd_solicitada"] = (pd.to_numeric(df["rm_qtd_solicitada"], errors="coerce").fillna(0).astype(int))
