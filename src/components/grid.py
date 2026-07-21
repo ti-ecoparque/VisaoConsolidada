@@ -146,20 +146,20 @@ def criar_multiindex_compras(df_final):
 
         
         ##### Aqui
-        #"Situação Pedido": (
-         #   "APROVAÇÃO DO PEDIDO",
-       #     "Situação"
-       # ),
+        "Situação Pedido": (
+            "APROVAÇÃO DO PEDIDO",
+            "Situação"
+       ),
         
-       # "Status Pedido": (
-       #     "APROVAÇÃO DO PEDIDO",
-       ## ),
+        "Status Pedido": (
+           "APROVAÇÃO DO PEDIDO",
+        ),
 
 
-        #"Aprovador RM": (
-            #"ARRUMAR",
-            #"Solicitante"
-        #),
+        "Aprovador RM": (
+            "ARRUMAR",
+            "Solicitante"
+        ),
 
                 
         "Status da Baixa": (
