@@ -72,7 +72,7 @@ def criar_multiindex_compras(df_final):
         # Aprovação da RM 
         "Status Aprovação": (
             "APROVAÇÃO DA RM",
-            "Status da Aprovação"
+            "Status"
         ),
 
         "Aprovador Ocorrência": (
@@ -125,7 +125,7 @@ def criar_multiindex_compras(df_final):
         
         "Status Pedido": (
             "APROVAÇÃO DO PEDIDO",
-            "Status da Aprovação"
+            "Status"
         ),
 
 
@@ -193,7 +193,7 @@ def destacar_rm(df):
             )
             
         # Status
-        if campo == "Status da Aprovação":
+        if campo == "Status":
             for idx in df.index:
                 valor = str(df.at[idx, col]).upper()
                 if valor == "APROVADO":
