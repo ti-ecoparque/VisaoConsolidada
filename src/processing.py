@@ -15,17 +15,16 @@ def aplicar_estilo_alerta(val):
     return ""
 
 def calcular_prazo(row):
-
     entrega = pd.to_datetime(
         row["pc_data_entrega"],
-        errors="coerce",
-        dayfirst=True
+        format="%d/%m/%Y",
+        errors="coerce"
     )
 
     necessidade = pd.to_datetime(
         row["rm_data_necessidade"],
-        errors="coerce",
-        dayfirst=True
+        format="%d/%m/%Y",
+        errors="coerce"
     )
 
     if pd.isna(entrega) or pd.isna(necessidade):
@@ -117,8 +116,19 @@ def processar_dataframe_compras(dados_brutos: list) -> pd.DataFrame:
     if "rm_data_necessidade" in df.columns:
         df["rm_data_necessidade"] = pd.to_datetime(df["rm_data_necessidade"], errors='coerce').dt.strftime('%d/%m/%Y')
         
-    if "app_data_documento" in df.columns:
-        df["app_data_documento"] = pd.to_datetime(df["app_data_documento"], errors='coerce').dt.strftime('%d/%m/%Y')
+    #if "app_data_documento" in df.columns:
+        #df["app_data_documento"] = pd.to_datetime(df["app_data_documento"], errors='coerce').dt.strftime('%d/%m/%Y')
+    if "rm_data_aprovacao" in df.columns:
+        df["rm_data_aprovacao"] = pd.to_datetime(
+            df["rm_data_aprovacao"],
+            errors="coerce"
+        ).dt.strftime("%d/%m/%Y")
+
+    if "pc_data_aprovacao" in df.columns:
+        df["pc_data_aprovacao"] = pd.to_datetime(
+            df["pc_data_aprovacao"],
+            errors="coerce"
+        ).dt.strftime("%d/%m/%Y")    
         
     if "app_data_ocorrencia" in df.columns:
         df["app_data_ocorrencia"] = pd.to_datetime(df["app_data_ocorrencia"], errors='coerce').dt.strftime('%d/%m/%Y %H:%M')
