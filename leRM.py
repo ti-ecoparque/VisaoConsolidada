@@ -4,8 +4,13 @@ import pandas as pd
 from datetime import datetime
 from supabase import create_client
 
-SUPABASE_URL = os.getenv("SUPABASE_URL")
-SUPABASE_KEY = os.getenv("SUPABASE_KEY")
+
+import toml
+
+config = toml.load(".streamlit/secrets.toml")
+SUPABASE_URL = config["SUPABASE_URL"]
+SUPABASE_KEY = config["SUPABASE_KEY"]
+
 
 if not SUPABASE_URL or not SUPABASE_KEY:
     raise ValueError(

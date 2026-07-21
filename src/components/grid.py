@@ -143,7 +143,7 @@ def criar_multiindex_compras(df_final):
         
         "Prazo Entrega": (
             "SITUAÇÃO",
-            "Prazo"
+            "Prazo Entrega"
         ),
 
 

@@ -37,10 +37,10 @@ def calcular_prazo(row):
         return "Em dia"
 
     elif diferenca > 0:
-        return f"Divergência + {diferenca} dia(s)"
+        return f"+ {diferenca} dia(s)"
 
     else:
-        return f"Divergência - {abs(diferenca)} dia(s)"
+        return f"- {abs(diferenca)} dia(s)"
 
 def processar_dataframe_compras(dados_brutos: list) -> pd.DataFrame:
     if not dados_brutos:
@@ -156,5 +156,4 @@ def processar_dataframe_compras(dados_brutos: list) -> pd.DataFrame:
         .replace("nan", "None")
     )
 
-    
     return df_final
