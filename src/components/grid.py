@@ -65,7 +65,7 @@ def criar_multiindex_compras(df_final):
 
         "Qt. Sol": (
             "REQUISIÇÃO DE MATERIAL MEGA",
-            "Qt. Sol."
+            "Qtd."
         ),
 
         "Data RM": (
@@ -106,7 +106,7 @@ def criar_multiindex_compras(df_final):
 
         "Qt. Compr.": (
             "PEDIDO DE COMPRA MEGA",
-            "Qt. Compr."
+            "Qtd"
         ),
         
         

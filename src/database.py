@@ -16,8 +16,8 @@ def buscar_dados_view(filtros: dict) -> list:
         query = query.eq("rm_numero", filtros["rm_numero"])
     if filtros.get("pc_numero"):
         query = query.eq("pc_numero", filtros["pc_numero"])
-    if filtros.get("ped_comprador"):
-        query = query.ilike("ped_comprador", f"%{filtros['ped_comprador']}%")
+    if filtros.get("pc_comprador"):
+        query = query.ilike("pc_comprador", f"%{filtros['ped_comprador']}%")
     if filtros.get("rm_usuario_solicitante"):
         query = query.ilike("rm_usuario_solicitante", f"%{filtros['rm_usuario_solicitante']}%")
     if filtros.get("ped_status_descricao") and filtros["ped_status_descricao"] != "Todos":
