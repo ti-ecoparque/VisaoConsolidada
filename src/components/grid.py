@@ -4,6 +4,7 @@ import pandas as pd
 def criar_multiindex_compras(df_final):
 
     ordem_colunas = [
+        #RM MEGA
         "Requisitante",
         "Nr. RM",
         "Material",
@@ -12,25 +13,34 @@ def criar_multiindex_compras(df_final):
         "Data RM",
         "Data Necessidade",
 
+        # Status RM Approvals
         "Status Aprovação",
         "Dt de Aprovação",
         "Aprovador Ocorrência",
         
+        # Pedido de compra MEGA
         "Comprador",
         "Nr. Pedido",
         "Qt. Compr.",
         "dt_entrega",
+        
+        
         
         #"Data Ocorrência",
         #"Aprovador RM",
 
         "Status Pedido",
 
+        
+        "Status Aprovação Pedido",
+        "Dt Aprovação Pedido",
+        "Aprovador Pedido",
+
         "Situação Pedido",
-        
+
         "Status da Baixa",
-        
         "Prazo Entrega",
+
     ]
 
     colunas_multiindex = {
@@ -118,15 +128,32 @@ def criar_multiindex_compras(df_final):
             #"Data da Ocorrência"
         #),
         
-        "Situação Pedido": (
-            "APROVAÇÃO DO PEDIDO",
-            "Situação"
-        ),
         
-        "Status Pedido": (
+        "Status Aprovação Pedido": (
             "APROVAÇÃO DO PEDIDO",
             "Status"
         ),
+
+        "Dt Aprovação Pedido": (
+            "APROVAÇÃO DO PEDIDO",
+            "Dt. Aprovação"
+        ),
+
+        "Aprovador Pedido": (
+            "APROVAÇÃO DO PEDIDO",
+            "Aprovador"
+        ),
+
+        
+        ##### Aqui
+        #"Situação Pedido": (
+         #   "APROVAÇÃO DO PEDIDO",
+       #     "Situação"
+       # ),
+        
+       # "Status Pedido": (
+       #     "APROVAÇÃO DO PEDIDO",
+       ## ),
 
 
         #"Aprovador RM": (
