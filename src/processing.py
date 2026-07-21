@@ -46,6 +46,12 @@ def processar_dataframe_compras(dados_brutos: list) -> pd.DataFrame:
         return pd.DataFrame()
 
     df = pd.DataFrame(dados_brutos)
+    #Validações temp
+    print(df.columns.tolist())
+    
+    if "pc_comprador" in df.columns:
+        print(df[["pc_numero", "pc_comprador", "pc_quantidade_comprada"]].head(20))
+    #fim validações
     
     # Dicionário com a ordem estrita de todas as colunas (incluindo Data Necessidade)
     mapeamento_colunas = {

@@ -43,4 +43,5 @@ def buscar_dados_view(filtros: dict) -> list:
         if len(resposta.data) < tamanho_lote:
             break
         offset += tamanho_lote
+        print(todos_dados[0])
     return todos_dados
