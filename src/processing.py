@@ -184,6 +184,17 @@ def processar_dataframe_compras(dados_brutos: list) -> pd.DataFrame:
         columns=mapeamento_colunas
     )
 
+    
+    print(
+        df_final[
+            [
+                "Comprador",
+                "Qt. Compr.",
+                "Nr. Pedido"
+            ]
+        ].head(30)
+    )
+
     df_final = (
         df_final
         .replace({np.nan: "None", None: "None"})

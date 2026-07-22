@@ -32,7 +32,7 @@ def criar_multiindex_compras(df_final):
         
         "Status Aprovação Pedido",
         "Dt Aprovação Pedido",
-        "Aprovador Pedido",
+        #"Aprovador Pedido",
 
         #"Situação Pedido",
 
@@ -70,12 +70,12 @@ def criar_multiindex_compras(df_final):
 
         "Data RM": (
             "REQUISIÇÃO DE MATERIAL MEGA",
-            "Dt. Requisição"
+            "Dt. Req."
         ),
 
         "Data Necessidade": (
             "REQUISIÇÃO DE MATERIAL MEGA",
-            "Dt. Necessidade"
+            "Dt. Nec."
         ),
         # Aprovação da RM 
         "Status Aprovação": (
@@ -90,7 +90,7 @@ def criar_multiindex_compras(df_final):
         
         "Dt de Aprovação": (
             "APROVAÇÃO DA RM",
-            "Dt. Aprovação"
+            "Dt. Apr."
         ),
 
         # Pedido de Compra
@@ -109,10 +109,9 @@ def criar_multiindex_compras(df_final):
             "Qtd"
         ),
         
-        
         "dt_entrega": (
             "PEDIDO DE COMPRA MEGA",
-            "Dt. Entrega"
+            "Dt. Ent."
         ),
         
 
@@ -134,13 +133,13 @@ def criar_multiindex_compras(df_final):
 
         "Dt Aprovação Pedido": (
             "APROVAÇÃO DO PEDIDO",
-            "Dt. Aprovação"
+            "Dt. Apr."
         ),
 
-        "Aprovador Pedido": (
-            "APROVAÇÃO DO PEDIDO",
-            "Aprovador"
-        ),
+        #"Aprovador Pedido": (
+        #    "APROVAÇÃO DO PEDIDO",
+        #    "Aprovador"
+        #),
 
         ##### Aqui
         #"Situação Pedido": (
