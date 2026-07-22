@@ -1,6 +1,5 @@
 import pandas as pd
 
-
 def criar_multiindex_compras(df_final):
 
     ordem_colunas = [
@@ -38,7 +37,6 @@ def criar_multiindex_compras(df_final):
 
         "Status da Baixa",
         "Prazo Entrega",
-
     ]
 
     colunas_multiindex = {
@@ -114,17 +112,12 @@ def criar_multiindex_compras(df_final):
             "Dt. Ent."
         ),
         
-
-        
         ### Falta a data de compra
-        
         # Aproval do Pedido de Compra 
-        
         #"Data Ocorrência": (
             #"APROVAÇÃO DO PEDIDO - Approval",
             #"Data da Ocorrência"
         #),
-        
         
         "Status Aprovação Pedido": (
             "APROVAÇÃO DO PEDIDO",
@@ -151,25 +144,20 @@ def criar_multiindex_compras(df_final):
         #   "APROVAÇÃO DO PEDIDO",
         #),
 
-
         "Aprovador RM": (
             "ARRUMAR",
             "Solicitante"
         ),
-
                 
         "Status da Baixa": (
             "SITUAÇÃO",
             "Status da Baixa"
         ),
-        
-        
+    
         "Prazo Entrega": (
             "SITUAÇÃO",
             "Prazo Entrega"
         ),
-
-
     }
     
     print(df_final.columns.tolist())
@@ -192,6 +180,7 @@ def criar_multiindex_compras(df_final):
 
 
 def destacar_rm(df):
+
     estilos = pd.DataFrame(
         "",
         index=df.index,
@@ -199,86 +188,140 @@ def destacar_rm(df):
     )
 
     for col in df.columns:
+
         grupo = col[0]
         campo = col[1]
-        # Grupo RM
+
+        # Cor de fundo por grupo
         if grupo == "REQUISIÇÃO DE MATERIAL MEGA":
             estilos[col] = (
                 "background-color:#f2f7f2;"
                 "color:#000000;"
             )
-        if grupo == "APROVAÇÃO DA RM":
+
+        elif grupo == "APROVAÇÃO DA RM":
             estilos[col] = (
                 "background-color:#e2f0d9;"
                 "color:#000000;"
-            )    
-        if grupo == "PEDIDO DE COMPRA MEGA":
+            )
+
+        elif grupo == "PEDIDO DE COMPRA MEGA":
             estilos[col] = (
                 "background-color:#fbf2fa;"
                 "color:#000000;"
-            )  
-        
-        if grupo == "APROVAÇÃO DO PEDIDO":
+            )
+
+        elif grupo == "APROVAÇÃO DO PEDIDO":
             estilos[col] = (
                 "background-color:#f3daf1;"
                 "color:#000000;"
             )
-            
-        # Status
+
+        elif grupo == "SITUAÇÃO":
+            estilos[col] = (
+                "background-color:#fff2cc;"
+                "color:#a68a00;"
+            )
+
+        # STATUS APROVAÇÕES
         if campo == "Status":
+
             for idx in df.index:
+
                 valor = str(df.at[idx, col]).upper()
-                if valor == "APROVADO":
+
+                if valor in ["A", "APROVADO"]:
+
                     estilos.at[idx, col] = (
                         "background-color:#e2f0d9;"
                         "color:#385723;"
                         "font-weight:bold;"
                     )
 
-                elif valor == "REPROVADO":
+                elif valor in ["R", "REPROVADO"]:
+
                     estilos.at[idx, col] = (
                         "background-color:#fce4d6;"
                         "color:#c00000;"
                         "font-weight:bold;"
                     )
-                elif valor == "PENDENTE":
+
+                elif valor in ["P", "PENDENTE"]:
+
                     estilos.at[idx, col] = (
                         "background-color:#fff2cc;"
                         "color:#7f6000;"
                         "font-weight:bold;"
                     )
-        
-        
-    if campo == "Status da Baixa":
 
-        for idx in df.index:
-            valor = str(df.at[idx, col]).upper()
-            if valor == "ABERTO":
-                estilos.at[idx, col] = (
-                    "background-color:#fff2cc;"
-                    "color:#7f6000;"
-                    "font-weight:bold;"
-                )
+        # STATUS DA BAIXA
+        if campo == "Status da Baixa":
 
-            elif valor == "BAIXADO":
-                estilos.at[idx, col] = (
-                    "background-color:#e2f0d9;"
-                    "color:#385723;"
-                    "font-weight:bold;"
-                )
+            for idx in df.index:
 
-            elif valor == "PENDENTE":
-                estilos.at[idx, col] = (
-                    "background-color:#fce4d6;"
-                    "color:#c00000;"
-                    "font-weight:bold;"
-                )
+                valor = str(df.at[idx, col]).upper()
 
-            elif valor == "APROVAR ESTOQUE":
-                estilos.at[idx, col] = (
-                    "background-color:#ddebf7;"
-                    "color:#1f4e78;"
-                    "font-weight:bold;"
-                )            
+                if valor == "ABERTO":
+
+                    estilos.at[idx, col] = (
+                        "background-color:#fff2cc;"
+                        "color:#7f6000;"
+                        "font-weight:bold;"
+                    )
+
+                elif valor == "BAIXADO":
+
+                    estilos.at[idx, col] = (
+                        "background-color:#e2f0d9;"
+                        "color:#385723;"
+                        "font-weight:bold;"
+                    )
+
+                elif valor == "PENDENTE":
+
+                    estilos.at[idx, col] = (
+                        "background-color:#fce4d6;"
+                        "color:#c00000;"
+                        "font-weight:bold;"
+                    )
+
+                elif valor == "APROVAR ESTOQUE":
+
+                    estilos.at[idx, col] = (
+                        "background-color:#ddebf7;"
+                        "color:#1f4e78;"
+                        "font-weight:bold;"
+                    )
+
+        # PRAZO ENTREGA
+        if campo == "Prazo Entrega":
+
+            for idx in df.index:
+
+                valor = str(df.at[idx, col]).upper()
+
+                if valor == "EM DIA":
+
+                    estilos.at[idx, col] = (
+                        "background-color:#e2f0d9;"
+                        "color:#385723;"
+                        "font-weight:bold;"
+                    )
+
+                elif valor.startswith("+"):
+
+                    estilos.at[idx, col] = (
+                        "background-color:#fce4d6;"
+                        "color:#c00000;"
+                        "font-weight:bold;"
+                    )
+
+                elif valor.startswith("-"):
+
+                    estilos.at[idx, col] = (
+                        "background-color:#ddebf7;"
+                        "color:#1f4e78;"
+                        "font-weight:bold;"
+                    )
 
     return estilos

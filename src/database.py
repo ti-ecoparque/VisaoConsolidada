@@ -16,15 +16,54 @@ def buscar_dados_view(filtros: dict) -> list:
         query = query.eq("rm_numero", filtros["rm_numero"])
     if filtros.get("pc_numero"):
         query = query.eq("pc_numero", filtros["pc_numero"])
+    
     if filtros.get("pc_comprador"):
-        query = query.ilike("pc_comprador", f"%{filtros['ped_comprador']}%")
+        query = query.ilike(
+            "pc_comprador",
+            f"%{filtros['pc_comprador']}%"
+        )
+
     if filtros.get("rm_usuario_solicitante"):
         query = query.ilike("rm_usuario_solicitante", f"%{filtros['rm_usuario_solicitante']}%")
-    if filtros.get("ped_status_descricao") and filtros["ped_status_descricao"] != "Todos":
-        query = query.eq("ped_status_descricao", filtros["ped_status_descricao"])
-    if filtros.get("app_status_doc") and filtros["app_status_doc"] != "Todos":
-        status_map = {"Aprovado": "A", "Reprovado": "R", "Pendente": "P"}
-        query = query.eq("app_status_doc", status_map[filtros["app_status_doc"]])
+        
+    if filtros.get("pc_status_descricao") and filtros["pc_status_descricao"] != "Todos":
+        query = query.eq(
+            "pc_status_descricao",
+            filtros["pc_status_descricao"]
+        )
+        
+    if filtros.get("rm_status_aprovacao") and filtros["rm_status_aprovacao"] != "Todos":
+        status_map = {
+            "Aprovado": "A",
+            "Reprovado": "R",
+            "Pendente": "P"
+        }
+        query = query.eq(
+            "rm_status_aprovacao",
+            status_map[filtros["rm_status_aprovacao"]]
+        )
+    
+    if (filtros.get("rm_situacao_item") and filtros["rm_situacao_item"] != "Todos"):
+        query = query.eq(
+            "rm_situacao_item",
+            filtros["rm_situacao_item"]
+        )
+    
+    if filtros.get("possui_pc") == "Sim":
+
+        query = query.not_.is_(
+            "pc_numero",
+            None
+        )
+
+    elif filtros.get("possui_pc") == "Não":
+
+        query = query.is_(
+            "pc_numero",
+            None
+        )
+
+        
     if filtros.get("data_inicio"):
         query = query.gte("rm_data_emissao", filtros["data_inicio"].isoformat())
     if filtros.get("data_fim"):
@@ -35,13 +74,23 @@ def buscar_dados_view(filtros: dict) -> list:
     offset = 0
     tamanho_lote = 1000
 
+    
     while True:
         resposta = query.range(offset, offset + tamanho_lote - 1).execute()
+
         if not resposta.data:
             break
+
         todos_dados.extend(resposta.data)
+
         if len(resposta.data) < tamanho_lote:
             break
+
         offset += tamanho_lote
-        print(todos_dados[0])
+
+
+    for registro in todos_dados[:3]:
+        print(registro)
+
     return todos_dados
+
