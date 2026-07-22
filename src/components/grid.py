@@ -180,7 +180,10 @@ def criar_multiindex_compras(df_final):
 
 
 def destacar_rm(df):
-    df("VERSAO NOVA DO GRID")
+    
+    import streamlit as st
+    st.write("VERSAO NOVA DO GRID")
+
     estilos = pd.DataFrame(
         "",
         index=df.index,
