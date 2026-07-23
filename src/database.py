@@ -89,8 +89,8 @@ def buscar_dados_view(filtros: dict) -> list:
         offset += tamanho_lote
 
 
-    for registro in todos_dados[:3]:
-        print(registro)
+    #for registro in todos_dados[:3]:
+        #print(registro)
 
     return todos_dados
 

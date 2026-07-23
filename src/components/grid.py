@@ -25,17 +25,15 @@ def criar_multiindex_compras(df_final):
         
         #"Data Ocorrência",
         #"Aprovador RM",
-
         #"Status Pedido",
-
+         #"Aprovador Pedido",
+        #"Situação Pedido",
         
         "Status Aprovação Pedido",
         "Dt Aprovação Pedido",
-        #"Aprovador Pedido",
-
-        #"Situação Pedido",
-
+        
         "Status da Baixa",
+        "Dt. Baixa",
         "Prazo Entrega",
     ]
 
@@ -88,7 +86,7 @@ def criar_multiindex_compras(df_final):
         
         "Dt de Aprovação": (
             "APROVAÇÃO DA RM",
-            "Dt. Apr."
+            "Dt. Aprovação"
         ),
 
         # Pedido de Compra
@@ -109,7 +107,7 @@ def criar_multiindex_compras(df_final):
         
         "dt_entrega": (
             "PEDIDO DE COMPRA MEGA",
-            "Dt. Ent."
+            "Dt. Entrega"
         ),
         
         ### Falta a data de compra
@@ -126,7 +124,7 @@ def criar_multiindex_compras(df_final):
 
         "Dt Aprovação Pedido": (
             "APROVAÇÃO DO PEDIDO",
-            "Dt. Apr."
+            "Dt. Aprovação."
         ),
 
         #"Aprovador Pedido": (
@@ -153,14 +151,19 @@ def criar_multiindex_compras(df_final):
             "SITUAÇÃO",
             "Status da Baixa"
         ),
-    
+        
+        "Dt. Baixa": (
+            "SITUAÇÃO",
+            "Dt. Baixa"
+        ),
+
         "Prazo Entrega": (
             "SITUAÇÃO",
             "Prazo Entrega"
         ),
     }
     
-    print(df_final.columns.tolist())
+    #print(df_final.columns.tolist())
     df_exibicao = df_final[ordem_colunas].copy()
 
     
@@ -181,9 +184,8 @@ def criar_multiindex_compras(df_final):
 
 def destacar_rm(df):
     
-    import streamlit as st
-    st.write("VERSAO NOVA DO GRID")
-
+    #import streamlit as st
+    #st.write("VERSAO NOVA DO GRID")
     estilos = pd.DataFrame(
         "",
         index=df.index,

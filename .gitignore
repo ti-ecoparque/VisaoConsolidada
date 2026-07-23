@@ -14,8 +14,7 @@ Thumbs.db
 lePDF.py
 
 # Pastas de arquivos e relatórios locais (Adicione isso)
-pdf_pedido_compra/
-xls_pedido/
+logs/
 
 # Cache oculto do Python na raiz (Importante incluir)
 __pycache__/XX_backup/

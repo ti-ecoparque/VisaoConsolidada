@@ -101,6 +101,7 @@ def processar_dataframe_compras(dados_brutos: list) -> pd.DataFrame:
         
         # Status Final 
         "rm_situacao_item": "Status da Baixa",
+        "rm_data_baixa": "Dt. Baixa",
         "status_entrega": "Prazo Entrega",
     }
 
@@ -159,6 +160,11 @@ def processar_dataframe_compras(dados_brutos: list) -> pd.DataFrame:
     if "rm_qtd_solicitada" in df.columns:
         df["rm_qtd_solicitada"] = (pd.to_numeric(df["rm_qtd_solicitada"], errors="coerce").fillna(0).astype(int))
 
+    if "rm_data_baixa" in df.columns:
+        df["rm_data_baixa"] = pd.to_datetime(
+            df["rm_data_baixa"],
+            errors="coerce"
+        ).dt.strftime("%d/%m/%Y")
     
     if "pc_data_entrega" in df.columns:
         df["pc_data_entrega"] = (
@@ -184,7 +190,6 @@ def processar_dataframe_compras(dados_brutos: list) -> pd.DataFrame:
         columns=mapeamento_colunas
     )
 
-    
     print(
         df_final[
             [

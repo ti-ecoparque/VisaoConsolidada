@@ -3,14 +3,11 @@ import json
 import pandas as pd
 from datetime import datetime
 from supabase import create_client
-
-
 import toml
 
 config = toml.load(".streamlit/secrets.toml")
 SUPABASE_URL = config["SUPABASE_URL"]
 SUPABASE_KEY = config["SUPABASE_KEY"]
-
 
 if not SUPABASE_URL or not SUPABASE_KEY:
     raise ValueError(
@@ -29,7 +26,6 @@ PASTA_XLS_RM = os.path.join(
         "XLS_req_material"
     )
 
-
 PASTA_LOGS = "logs"
 os.makedirs(PASTA_LOGS, exist_ok=True)
 
@@ -37,8 +33,6 @@ ARQUIVO_LOG = os.path.join(
     PASTA_LOGS,
     f"rm_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
 )
-
-
 
 def gerar_log_rm(arquivo, registros, arquivo_log):
 
@@ -87,6 +81,80 @@ def gerar_log_rm(arquivo, registros, arquivo_log):
             default=str
         )
 
+def registrar_historico_situacao(dados_formatados):
+
+    registros_atuais = (
+        supabase.table("rel_solicitacao_compras")
+        .select(
+            "rm,seq_item,mat,sit_item"
+        )
+        .execute()
+    )
+
+    mapa_atual = {
+        (
+            str(r["rm"]),
+            int(r["seq_item"]),
+            str(r["mat"])
+        ): r
+        for r in registros_atuais.data
+    }
+
+    historicos = []
+
+    for registro in dados_formatados:
+
+        chave = (
+            str(registro["rm"]),
+            int(registro["seq_item"]),
+            str(registro["mat"])
+        )
+
+        registro_antigo = mapa_atual.get(chave)
+
+        if not registro_antigo:
+            continue
+
+        situacao_antiga = (
+            registro_antigo.get("sit_item") or ""
+        ).strip()
+
+        situacao_nova = (
+            registro.get("sit_item") or ""
+        ).strip()
+
+        if (situacao_antiga != situacao_nova and situacao_nova.upper() == "BAIXADO"):
+
+            existe = (
+                supabase.table("rel_solicitacao_compras_hist")
+                .select("id")
+                .eq("rm", registro["rm"])
+                .eq("seq_item", registro["seq_item"])
+                .eq("mat", registro["mat"])
+                .eq("situacao_nova", "BAIXADO")
+                .limit(1)
+                .execute()
+            )
+            if not existe.data:
+                historicos.append({
+                    "rm": registro["rm"],
+                    "seq_item": registro["seq_item"],
+                    "mat": registro["mat"],
+                    "situacao_anterior": situacao_antiga,
+                    "situacao_nova": situacao_nova
+                })
+
+    if historicos:
+        (
+            supabase.table("rel_solicitacao_compras_hist")
+            .insert(historicos)
+            .execute()
+        )
+        print(
+            f"✅ Histórico gerado: "
+            f"{len(historicos)} alterações)"
+        )
+
 def processar_rms():
     
     global total_arquivos
@@ -106,7 +174,6 @@ def processar_rms():
             PASTA_XLS_RM,
             arquivo
         )
-
         
         arquivo_log = os.path.join(
             PASTA_LOGS,
@@ -226,15 +293,16 @@ def processar_rms():
             )
 
             if not dados_formatados:
-
                 print(
                     f"⚠️ Nenhum registro válido "
                     f"em {arquivo}"
                 )
-
                 continue
 
-            
+            registrar_historico_situacao(
+                dados_formatados
+            )
+
             supabase.table(
                 "rel_solicitacao_compras"
             ).upsert(

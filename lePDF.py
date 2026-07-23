@@ -3,6 +3,7 @@ import re
 import json
 import hashlib
 from datetime import datetime
+import shutil
 
 import pdfplumber
 import streamlit as st
@@ -14,6 +15,14 @@ PASTA_PDFS = os.path.join(
     "ECOPARQUE BAIRROS INTEGRADOS LTDA",
     "ECOPARQUE MATRIZ - 10_MEGA",
     "PDF"
+)
+
+PASTA_LIDOS = os.path.join(
+    os.path.expanduser("~"),
+    "ECOPARQUE BAIRROS INTEGRADOS LTDA",
+    "ECOPARQUE MATRIZ - 10_MEGA",
+    "PDF",
+    "lidos"
 )
 
 ARQUIVO_HISTORICO = "historico_pedidos.json"
@@ -194,8 +203,9 @@ def processar_pdfs():
             }
 
             salvar_historico(historico)
-
+            
             print(f"💾 Histórico atualizado para {arquivo}")
+            mover_para_lidos(caminho_pdf)
 
         except Exception as erro:
 
@@ -214,6 +224,22 @@ def processar_pdfs():
     print(f"❌ Erros              : {total_erros}")
     print("========================================")
     
+
+def mover_para_lidos(caminho_pdf):
+
+    os.makedirs(PASTA_LIDOS, exist_ok=True)
+
+    destino = os.path.join(
+        PASTA_LIDOS,
+        os.path.basename(caminho_pdf)
+    )
+
+    shutil.move(caminho_pdf, destino)
+
+    print(
+        f"📁 PDF movido para lidos: "
+        f"{os.path.basename(caminho_pdf)}"
+    )
 
 if __name__ == "__main__":
     processar_pdfs()
