@@ -6,12 +6,13 @@ from datetime import datetime, timedelta
 from supabase import create_client
 
 config = toml.load(".streamlit/secrets.toml")
-print(config)
+#print(config)
 
 SUPABASE_URL = config["SUPABASE_URL"]
 SUPABASE_KEY = config["SUPABASE_KEY"]
 
-APPROVO_COOKIE = config["APPROVO"]["COOKIE"]
+#APPROVO_COOKIE = config["APPROVO"]["COOKIE"]
+APPROVO_COOKIE = config["APPROVO"]["APPROVO_COOKIE"]
 
 COOKIES = {
     "Approvo": APPROVO_COOKIE
