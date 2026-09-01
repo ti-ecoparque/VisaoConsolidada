@@ -7,6 +7,21 @@ def conectar_supabase() -> Client:
     key = st.secrets["API_KEY"]
     return create_client(url, key)
 
+# APENAS UMA VERSÃO: Otimizada com cache e apontando para a View Materializada leve
+@st.cache_data(ttl=3600)  # Mantém em cache no Streamlit por 1 hora
+def buscar_usuarios_unicos() -> list:
+    try:
+        supabase = conectar_supabase()
+        # Lemos da View Materializada que possui pouquíssimas linhas indexadas
+        resposta = supabase.from_("mv_usuarios_unicos").select("rm_usuario_solicitante").execute()
+        
+        if resposta.data:
+            return sorted([registro["rm_usuario_solicitante"] for registro in resposta.data if registro.get("rm_usuario_solicitante")])
+        return []
+    except Exception as e:
+        print(f"Erro ao buscar usuários: {e}")
+        return []
+
 def buscar_dados_view(filtros: dict) -> list:
     supabase = conectar_supabase()
     query = supabase.from_("vw_visao_consolidada").select("*")
@@ -23,12 +38,24 @@ def buscar_dados_view(filtros: dict) -> list:
             f"%{filtros['pc_comprador']}%"
         )
 
-    #if filtros.get("rm_usuario_solicitante"):
-        #query = query.ilike("rm_usuario_solicitante", f"%{filtros['rm_usuario_solicitante']}%")
-    
-    if filtros.get("rm_usuario_solicitante"):
-        query = query.in_("rm_usuario_solicitante", filtros["rm_usuario_solicitante"])    
+    # Otimização: Só aplica a condição se houver usuários explicitamente selecionados
+    if filtros.get("rm_usuario_solicitante") and isinstance(filtros["rm_usuario_solicitante"], list):
+        query = query.in_("rm_usuario_solicitante", filtros["rm_usuario_solicitante"])
         
+    if filtros.get("rm_especificacao"):
+        query = query.ilike(
+            "rm_especificacao",
+            f"%{filtros['rm_especificacao']}%"
+        )    
+    
+    if (
+        filtros.get("rm_retroativo")
+        and filtros["rm_retroativo"] != "Todos"
+    ):
+        query = query.eq(
+            "rm_retroativo",
+            filtros["rm_retroativo"]
+        )
         
     if filtros.get("pc_status_descricao") and filtros["pc_status_descricao"] != "Todos":
         query = query.eq(
@@ -54,19 +81,15 @@ def buscar_dados_view(filtros: dict) -> list:
         )
     
     if filtros.get("possui_pc") == "Sim":
-
         query = query.not_.is_(
             "pc_numero",
             None
         )
-
     elif filtros.get("possui_pc") == "Não":
-
         query = query.is_(
             "pc_numero",
             None
         )
-
         
     if filtros.get("data_inicio"):
         query = query.gte("rm_data_emissao", filtros["data_inicio"].isoformat())
@@ -78,7 +101,6 @@ def buscar_dados_view(filtros: dict) -> list:
     offset = 0
     tamanho_lote = 1000
 
-    
     while True:
         resposta = query.range(offset, offset + tamanho_lote - 1).execute()
 
@@ -92,9 +114,4 @@ def buscar_dados_view(filtros: dict) -> list:
 
         offset += tamanho_lote
 
-
-    #for registro in todos_dados[:3]:
-        #print(registro)
-
     return todos_dados
-
