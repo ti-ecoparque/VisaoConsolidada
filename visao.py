@@ -1,197 +1,143 @@
 import streamlit as st
-import datetime
-from src.config import configurar_layout, checar_autenticacao
-from src.database import buscar_dados_view
-from src.processing import processar_dataframe_compras
-from src.components.grid import criar_multiindex_compras, destacar_rm
-from src.components.styles import aplicar_estilo_grid
+from supabase import create_client, Client
 
-# Inicialização e Proteção de Rota
-configurar_layout()
-checar_autenticacao()
-
-# Barra lateral de controle
-if st.sidebar.button("Sair / Logout"):
-    st.session_state.autenticado = False
-    st.rerun()
-
-# Cabeçalhos do painel
-st.subheader("🛒 Filtros de Monitoramento")
-
-# --- 1. BUSCA DA LISTA DE USUÁRIOS PARA O MULTISELECT ---
-# Buscamos a base sem filtros para extrair todos os usuários únicos disponíveis
-with st.spinner("Carregando lista de usuários..."):
+@st.cache_data(ttl=3600)  # Mantém em cache no Streamlit por 1 hora
+def buscar_usuarios_unicos() -> list:
     try:
-        # Passamos um dicionário vazio ou filtros de data padrão para trazer os usuários cadastrados
-        dados_totais = buscar_dados_view({"data_inicio": None, "data_fim": None})
-        df_usuarios = processar_dataframe_compras(dados_totais)
+        supabase = conectar_supabase()
+        # Lemos da View Materializada que possui pouquíssimas linhas indexadas
+        resposta = supabase.from_("mv_usuarios_unicos").select("rm_usuario_solicitante").execute()
         
-        # Mapeie aqui o nome exato da coluna onde ficam os usernames/nomes (Ex: 'Requisitante')
-        # Ajuste o termo 'Requisitante' se na tabela o nome da coluna for diferente
-        lista_usuarios = sorted(df_usuarios['Requisitante'].dropna().unique().tolist())
-    except Exception:
-        # Fallback de segurança caso a tabela esteja vazia ou falhe
-        lista_usuarios = []
-
-# Definição das datas padrão
-data_hoje = datetime.date.today()
-trinta_dias_atras = data_hoje - datetime.timedelta(days=30)
-
-# LIMITES DINÂMICOS: Menos 12 meses e Mais 12 meses automaticamente
-limite_retroativo_12m = data_hoje - datetime.timedelta(days=365)
-limite_futuro_12m = data_hoje + datetime.timedelta(days=365)
-
-# Bloco Visual 1: Construção dos Inputs na Interface
-c1, c2, c3, c4 = st.columns(4)
-
-filtro_rm = c1.text_input(
-    "Número da RM:",
-    key="filtro_rm"
-)
-
-filtro_pc = c2.text_input(
-    "Número do Pedido (PC):",
-    key="filtro_pc"
-)
-
-filtro_comprador = c3.text_input(
-    "Comprador (Pedido):",
-    key="filtro_comprador"
-)
-
-# ALTERADO: Mudança de text_input para multiselect
-filtro_req = c4.multiselect(
-    "Requisitante do Material:",
-    options=lista_usuarios,
-    default=[],
-    key="filtro_req",
-    placeholder="Selecione os usuários..."
-)
-
-c5, c6, c7, c8 = st.columns(4)
-c9, c10, c11 = st.columns([3, 3, 1])
-
-data_ini = c7.date_input(
-    "Data Emissão RM (Início):",
-    value=trinta_dias_atras,
-    min_value=limite_retroativo_12m,  # sysdate - 12 meses
-    max_value=limite_futuro_12m,       # sysdate + 12 meses
-    format="DD/MM/YYYY",
-    key="data_ini"
-)
-
-data_fim = c8.date_input(
-    "Data Emissão RM (Fim):",
-    value=data_hoje,
-    min_value=limite_retroativo_12m,  # sysdate - 12 meses
-    max_value=limite_futuro_12m,       # sysdate + 12 meses
-    format="DD/MM/YYYY",
-    key="data_fim"
-)
-
-filtro_sit = c5.selectbox(
-    "Situação do Pedido:",
-    ["Todos", "Pendente", "Aprovado", "Reprovado"],
-    key="filtro_sit"
-)
-
-filtro_status = c6.selectbox(
-    "Status do Documento (App):",
-    ["Todos", "Aprovado", "Reprovado", "Pendente"],
-    key="filtro_status"
-)
-
-filtro_baixa = c9.selectbox(
-    "Status da Baixa:",
-    ["Todos", "Aberto", "Baixado", "Pendente", "Aprovar Estoque"],
-    key="filtro_baixa"
-)
-
-filtro_possui_pc = c10.selectbox(
-    "Possui Pedido de Compra?",
-    ["Todos", "Sim", "Não"],
-    key="filtro_possui_pc"
-)
-
-c11.markdown(
-    "<div style='height:26px'></div>",
-    unsafe_allow_html=True
-)
-
-limpar_filtros = c11.button(
-    "🧹 Limpar",
-    use_container_width=True
-)
-
-if limpar_filtros:
-    for chave in [
-        "filtro_rm",
-        "filtro_pc",
-        "filtro_comprador",
-        "filtro_req",
-        "filtro_sit",
-        "filtro_status",
-        "filtro_baixa",
-        "filtro_possui_pc",
-        "data_ini",
-        "data_fim"
-    ]:
-        if chave in st.session_state:
-            del st.session_state[chave]
-    st.rerun()
-
-# Validação do filtro numérico do Pedido de Compra
-if filtro_pc and not filtro_pc.isdigit():
-    st.warning("Por favor, digite apenas números no campo de Pedido (PC).")
-    st.stop()
-
-# Junta os valores capturados em um dicionário de filtros estruturado
-dicionario_filtros = {
-    "rm_numero": filtro_rm,
-    "pc_numero": int(filtro_pc) if filtro_pc else None,
-    "pc_comprador": filtro_comprador,
-    "rm_usuario_solicitante": filtro_req,  # Agora repassa uma LISTA de strings selecionadas
-
-    "pc_status_descricao": filtro_sit,
-    "rm_status_aprovacao": filtro_status,
-    "rm_situacao_item": filtro_baixa,
-    "possui_pc": filtro_possui_pc,
-    "data_inicio": data_ini,
-    "data_fim": data_fim
-}
-
-# Bloco 2: Execução das Regras e Consulta
-with st.spinner("Buscando dados na View consolidada..."):
-    try:
-        dados_banco = buscar_dados_view(dicionario_filtros)
-        df_final = processar_dataframe_compras(dados_banco)
+        if resposta.data:
+            return sorted([registro["rm_usuario_solicitante"] for registro in resposta.data])
+        return []
     except Exception as e:
-        st.error("Erro no processamento de dados do aplicativo:")
-        st.code(str(e))
-        st.stop()
+        print(f"Erro ao buscar usuários: {e}")
+        return []
 
-# Bloco Visual 3: Renderização da Tabela de Resultados Estilizada
-if not df_final.empty:
-    st.write(f"**{len(df_final)}** registros encontrados.")
 
-    st.markdown(
-        aplicar_estilo_grid(),
-        unsafe_allow_html=True
-    )
+@st.cache_resource
+def conectar_supabase() -> Client:
+    url = st.secrets["SUPABASE_URL"]
+    key = st.secrets["API_KEY"]
+    return create_client(url, key)
 
-    df_exibicao = criar_multiindex_compras(df_final)
+def buscar_usuarios_unicos() -> list:
+    try:
+        supabase = conectar_supabase()
+        # Seleciona apenas a coluna do requisitante para economizar memória e banda
+        resposta = supabase.from_("vw_visao_consolidada").select("rm_usuario_solicitante").execute()
+        
+        if resposta.data:
+            # Extrai os nomes da lista de dicionários e remove duplicados usando set()
+            usuarios = {registro["rm_usuario_solicitante"] for registro in resposta.data if registro.get("rm_usuario_solicitante")}
+            return sorted(list(usuarios))
+        return []
+    except Exception as e:
+        print(f"Erro ao buscar usuários: {e}")
+        return []
 
-    df_estilizado = (
-        df_exibicao.style
-        .apply(destacar_rm, axis=None)
-    )
 
-    st.dataframe(
-        df_estilizado,
-        width="stretch",
-        hide_index=True
-    )
-else:
-    st.warning(
-        "Nenhum dado encontrado para os filtros selecionados."
-    )
+def buscar_dados_view(filtros: dict) -> list:
+    supabase = conectar_supabase()
+    query = supabase.from_("vw_visao_consolidada").select("*")
+
+    # Aplicação de filtros direto na API
+    if filtros.get("rm_numero"):
+        query = query.eq("rm_numero", filtros["rm_numero"])
+    if filtros.get("pc_numero"):
+        query = query.eq("pc_numero", filtros["pc_numero"])
+    
+    if filtros.get("pc_comprador"):
+        query = query.ilike(
+            "pc_comprador",
+            f"%{filtros['pc_comprador']}%"
+        )
+
+    # Otimização: Só aplica a condição se houver usuários explicitamente selecionados
+    if filtros.get("rm_usuario_solicitante") and isinstance(filtros["rm_usuario_solicitante"], list):
+        query = query.in_("rm_usuario_solicitante", filtros["rm_usuario_solicitante"])
+        
+    if filtros.get("rm_especificacao"):
+        query = query.ilike(
+            "rm_especificacao",
+            f"%{filtros['rm_especificacao']}%"
+        )    
+    
+    if (
+        filtros.get("rm_retroativo")
+        and filtros["rm_retroativo"] != "Todos"
+    ):
+        query = query.eq(
+            "rm_retroativo",
+            filtros["rm_retroativo"]
+        )
+        
+    if filtros.get("pc_status_descricao") and filtros["pc_status_descricao"] != "Todos":
+        query = query.eq(
+            "pc_status_descricao",
+            filtros["pc_status_descricao"]
+        )
+        
+    if filtros.get("rm_status_aprovacao") and filtros["rm_status_aprovacao"] != "Todos":
+        status_map = {
+            "Aprovado": "A",
+            "Reprovado": "R",
+            "Pendente": "P"
+        }
+        query = query.eq(
+            "rm_status_aprovacao",
+            status_map[filtros["rm_status_aprovacao"]]
+        )
+    
+    if (filtros.get("rm_situacao_item") and filtros["rm_situacao_item"] != "Todos"):
+        query = query.eq(
+            "rm_situacao_item",
+            filtros["rm_situacao_item"]
+        )
+    
+    if filtros.get("possui_pc") == "Sim":
+
+        query = query.not_.is_(
+            "pc_numero",
+            None
+        )
+
+    elif filtros.get("possui_pc") == "Não":
+
+        query = query.is_(
+            "pc_numero",
+            None
+        )
+
+        
+    if filtros.get("data_inicio"):
+        query = query.gte("rm_data_emissao", filtros["data_inicio"].isoformat())
+    if filtros.get("data_fim"):
+        query = query.lte("rm_data_emissao", filtros["data_fim"].isoformat())
+
+    # Paginação em lotes para superar o teto de 1000 registros do PostgREST
+    todos_dados = []
+    offset = 0
+    tamanho_lote = 1000
+
+    
+    while True:
+        resposta = query.range(offset, offset + tamanho_lote - 1).execute()
+
+        if not resposta.data:
+            break
+
+        todos_dados.extend(resposta.data)
+
+        if len(resposta.data) < tamanho_lote:
+            break
+
+        offset += tamanho_lote
+
+
+    #for registro in todos_dados[:3]:
+        #print(registro)
+
+    return todos_dados
+
