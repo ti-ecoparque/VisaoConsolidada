@@ -199,7 +199,9 @@ def processar_rms():
                 "Usuário solicitante": "usuario_solicitante",
                 "Status da necessidade": "status_necessidade",
                 "Código da cotação": "cod_cotacao",
-                "Data de necessidade": "data_necessidade"
+                "Data de necessidade": "data_necessidade",
+                "Especificação" : "especificacao",
+                "Motivo" : "motivo"
             }
 
             colunas_faltantes = [
@@ -241,7 +243,9 @@ def processar_rms():
                 "unidade_medida",
                 "usuario_solicitante",
                 "status_necessidade",
-                "cod_cotacao"
+                "cod_cotacao",
+                "especificacao",
+                "motivo"
             ]
 
             for coluna in colunas_texto:

@@ -119,7 +119,8 @@ def processar_pedidos():
                 "Total Pedido Compra": "total_pedido",
                 "Item Pedido": "item_pedido",
                 "Descrição do Item": "desc_item",
-                "Quantidade": "quantidade"
+                "Quantidade": "quantidade",
+                "Dt.Emissão": "dt_emissao"
             }
 
             colunas_faltantes = [
@@ -190,6 +191,14 @@ def processar_pedidos():
                 .fillna(0)
             )
 
+            df_filtrado["dt_emissao"] = (
+                pd.to_datetime(
+                    df_filtrado["dt_emissao"],
+                    errors="coerce"
+                )
+                .dt.strftime("%Y-%m-%d")
+            )
+            
             total_antes = len(
                 df_filtrado
             )
