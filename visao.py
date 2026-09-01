@@ -37,6 +37,10 @@ with st.spinner("Carregando lista de usuários..."):
 data_hoje = datetime.date.today()
 trinta_dias_atras = data_hoje - datetime.timedelta(days=30)
 
+# LIMITES DINÂMICOS: Menos 12 meses e Mais 12 meses automaticamente
+limite_retroativo_12m = data_hoje - datetime.timedelta(days=365)
+limite_futuro_12m = data_hoje + datetime.timedelta(days=365)
+
 # Bloco Visual 1: Construção dos Inputs na Interface
 c1, c2, c3, c4 = st.columns(4)
 
@@ -70,6 +74,8 @@ c9, c10, c11 = st.columns([3, 3, 1])
 data_ini = c7.date_input(
     "Data Emissão RM (Início):",
     value=trinta_dias_atras,
+    min_value=limite_retroativo_12m,  # sysdate - 12 meses
+    max_value=limite_futuro_12m,       # sysdate + 12 meses
     format="DD/MM/YYYY",
     key="data_ini"
 )
@@ -77,6 +83,8 @@ data_ini = c7.date_input(
 data_fim = c8.date_input(
     "Data Emissão RM (Fim):",
     value=data_hoje,
+    min_value=limite_retroativo_12m,  # sysdate - 12 meses
+    max_value=limite_futuro_12m,       # sysdate + 12 meses
     format="DD/MM/YYYY",
     key="data_fim"
 )
