@@ -6,8 +6,27 @@ from datetime import datetime
 import shutil
 
 import pdfplumber
-import streamlit as st
 from supabase import create_client
+
+
+import os
+import toml
+from supabase import create_client
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+SECRETS_FILE = os.path.join(BASE_DIR, ".streamlit", "secrets.toml")
+
+config = toml.load(SECRETS_FILE)
+
+
+print("Arquivo secrets:", SECRETS_FILE)
+print("Existe:", os.path.exists(SECRETS_FILE))
+print("Chaves encontradas:", config.keys())
+
+SUPABASE_URL = config["SUPABASE_URL"]
+SUPABASE_KEY = config["SUPABASE_KEY"]
+
+supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 
 PASTA_PDFS = os.path.join(
@@ -27,8 +46,7 @@ PASTA_LIDOS = os.path.join(
 
 ARQUIVO_HISTORICO = "historico_pedidos.json"
 
-SUPABASE_URL = st.secrets["SUPABASE_URL"]
-SUPABASE_KEY = st.secrets["SUPABASE_KEY"]
+
 
 supabase = create_client(SUPABASE_URL,SUPABASE_KEY)
 

@@ -1,11 +1,16 @@
 import json
 import toml
 import requests
+import os
 import pandas as pd
 from datetime import datetime, timedelta
 from supabase import create_client
 
-config = toml.load(".streamlit/secrets.toml")
+#config = toml.load(".streamlit/secrets.toml")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+SECRETS = os.path.join(BASE_DIR, ".streamlit", "secrets.toml")
+
+config = toml.load(SECRETS)
 #print(config)
 
 SUPABASE_URL = config["SUPABASE_URL"]

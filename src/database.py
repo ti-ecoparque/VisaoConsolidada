@@ -1,10 +1,19 @@
 import streamlit as st
 from supabase import create_client, Client
 
+import os
+import toml
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+SECRETS_FILE = os.path.join(BASE_DIR, ".streamlit", "secrets.toml")
+
+config = toml.load(SECRETS_FILE)
+
 @st.cache_resource
 def conectar_supabase() -> Client:
-    url = st.secrets["SUPABASE_URL"]
-    key = st.secrets["API_KEY"]
+    #url = st.secrets["SUPABASE_URL"]
+    #key = st.secrets["API_KEY"]
+    url = config["SUPABASE_URL"]
+    key = config["API_KEY"]
     return create_client(url, key)
 
 # APENAS UMA VERSÃO: Otimizada com cache e apontando para a View Materializada leve

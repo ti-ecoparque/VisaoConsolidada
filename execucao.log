@@ -1,20 +1,2522 @@
-[31/08/2026 17:02:19] Iniciando processamento de RMs
-[31/08/2026 17:02:26] Iniciando processamento de Pedidos
-[31/08/2026 17:02:30] Iniciando processamento de PDFs
-[31/08/2026 17:02:41] Iniciando processamento dos Relatorios do Approval
-[31/08/2026 17:03:01] Processamento concluído
-[31/08/2026 20:59:03] Iniciando processamento de RMs
-[31/08/2026 20:59:12] Iniciando processamento de Pedidos
-[31/08/2026 20:59:17] Iniciando processamento de PDFs
-[31/08/2026 20:59:17] Iniciando processamento dos Relatorios do Approval
-[31/08/2026 20:59:43] Processamento concluído
-[01/09/2026 02:59:04] Iniciando processamento de RMs
-[01/09/2026 02:59:12] Iniciando processamento de Pedidos
-[01/09/2026 02:59:17] Iniciando processamento de PDFs
-[01/09/2026 02:59:17] Iniciando processamento dos Relatorios do Approval
-[01/09/2026 02:59:43] Processamento concluído
-[01/09/2026 08:59:03] Iniciando processamento de RMs
-[01/09/2026 08:59:11] Iniciando processamento de Pedidos
-[01/09/2026 08:59:18] Iniciando processamento de PDFs
-[01/09/2026 08:59:18] Iniciando processamento dos Relatorios do Approval
-[01/09/2026 08:59:40] Processamento concluído
+[01/09/2026 14:37:57] Iniciando processamento de RMs
+[01/09/2026 14:38:04] Iniciando processamento de Pedidos
+[01/09/2026 14:38:08] Iniciando processamento de PDFs
+[01/09/2026 14:38:08] Iniciando processamento dos Relatorios do Approval
+[01/09/2026 14:38:32] Processamento concluído
+[01/09/2026 14:59:03] Iniciando processamento de RMs
+[01/09/2026 14:59:11] Iniciando processamento de Pedidos
+[01/09/2026 14:59:15] Iniciando processamento de PDFs
+[01/09/2026 14:59:20] Iniciando processamento dos Relatorios do Approval
+[01/09/2026 14:59:43] Processamento concluído
+[01/09/2026 20:59:04] Iniciando processamento de RMs
+[01/09/2026 20:59:13] Iniciando processamento de Pedidos
+[01/09/2026 20:59:18] Iniciando processamento de PDFs
+[01/09/2026 20:59:24] Iniciando processamento dos Relatorios do Approval
+[01/09/2026 20:59:48] Processamento concluído
+[02/09/2026 02:59:03] Iniciando processamento de RMs
+[02/09/2026 02:59:12] Iniciando processamento de Pedidos
+[02/09/2026 02:59:17] Iniciando processamento de PDFs
+[02/09/2026 02:59:17] Iniciando processamento dos Relatorios do Approval
+[02/09/2026 02:59:42] Processamento concluído
+[02/09/2026 07:41:35] Iniciando processamento de RMs
+[02/09/2026 07:41:42] Iniciando processamento de Pedidos
+[02/09/2026 07:41:46] Iniciando processamento de PDFs
+[02/09/2026 07:41:46] Iniciando processamento dos Relatorios do Approval
+[02/09/2026 07:42:10] Processamento concluído
+[02/09/2026 08:47:08] Iniciando processamento de RMs
+[02/09/2026 08:47:23] Iniciando processamento de Pedidos
+[02/09/2026 08:47:30] Iniciando processamento de PDFs
+[02/09/2026 08:47:36] Iniciando processamento dos Relatorios do Approval
+[02/09/2026 08:48:00] Processamento concluído
+[02/09/2026 08:59:03] Iniciando processamento de RMs
+[02/09/2026 08:59:15] Iniciando processamento de Pedidos
+[02/09/2026 08:59:19] Iniciando processamento de PDFs
+[02/09/2026 08:59:19] Iniciando processamento dos Relatorios do Approval
+[02/09/2026 08:59:41] Processamento concluído
+[02/09/2026 14:59:04] Iniciando processamento de RMs
+[02/09/2026 14:59:17] Iniciando processamento de Pedidos
+[02/09/2026 14:59:22] Iniciando processamento de PDFs
+[02/09/2026 14:59:26] Iniciando processamento dos Relatorios do Approval
+[02/09/2026 14:59:51] Processamento concluído
+[02/09/2026 20:59:04] Iniciando processamento de RMs
+[02/09/2026 20:59:12] Iniciando processamento de Pedidos
+[02/09/2026 20:59:17] Iniciando processamento de PDFs
+[02/09/2026 20:59:25] Iniciando processamento dos Relatorios do Approval
+[02/09/2026 20:59:52] Processamento concluído
+[03/09/2026 02:59:04] Iniciando processamento de RMs
+[03/09/2026 02:59:12] Iniciando processamento de Pedidos
+[03/09/2026 02:59:16] Iniciando processamento de PDFs
+[03/09/2026 02:59:16] Iniciando processamento dos Relatorios do Approval
+[03/09/2026 02:59:43] Processamento concluído
+[03/09/2026 08:59:03] Iniciando processamento de RMs
+[03/09/2026 08:59:22] Iniciando processamento de Pedidos
+[03/09/2026 08:59:31] Iniciando processamento de PDFs
+[03/09/2026 08:59:33] Iniciando processamento dos Relatorios do Approval
+[03/09/2026 08:59:56] Processamento concluído
+[03/09/2026 14:59:04] Iniciando processamento de RMs
+[03/09/2026 14:59:12] Iniciando processamento de Pedidos
+[03/09/2026 14:59:17] Iniciando processamento de PDFs
+[03/09/2026 14:59:20] Iniciando processamento dos Relatorios do Approval
+[03/09/2026 14:59:43] Processamento concluído
+[03/09/2026 20:59:04] Iniciando processamento de RMs
+[03/09/2026 20:59:12] Iniciando processamento de Pedidos
+[03/09/2026 20:59:15] Iniciando processamento de PDFs
+[03/09/2026 20:59:18] Iniciando processamento dos Relatorios do Approval
+[03/09/2026 20:59:42] Processamento concluído
+[04/09/2026 02:59:04] Iniciando processamento de RMs
+[04/09/2026 02:59:12] Iniciando processamento de Pedidos
+[04/09/2026 02:59:16] Iniciando processamento de PDFs
+[04/09/2026 02:59:16] Iniciando processamento dos Relatorios do Approval
+[04/09/2026 02:59:40] Processamento concluído
+[04/09/2026 08:59:03] Iniciando processamento de RMs
+[04/09/2026 08:59:10] Iniciando processamento de Pedidos
+[04/09/2026 08:59:15] Iniciando processamento de PDFs
+[04/09/2026 08:59:15] Iniciando processamento dos Relatorios do Approval
+[04/09/2026 08:59:37] Processamento concluído
+[04/09/2026 14:59:03] Iniciando processamento de RMs
+[04/09/2026 14:59:11] Iniciando processamento de Pedidos
+[04/09/2026 14:59:16] Iniciando processamento de PDFs
+[04/09/2026 14:59:27] Iniciando processamento dos Relatorios do Approval
+[04/09/2026 14:59:49] Processamento concluído
+[04/09/2026 20:59:03] Iniciando processamento de RMs
+[04/09/2026 20:59:12] Iniciando processamento de Pedidos
+[04/09/2026 20:59:16] Iniciando processamento de PDFs
+[04/09/2026 20:59:16] Iniciando processamento dos Relatorios do Approval
+[04/09/2026 20:59:44] Processamento concluído
+[05/09/2026 02:59:03] Iniciando processamento de RMs
+[05/09/2026 02:59:12] Iniciando processamento de Pedidos
+[05/09/2026 02:59:17] Iniciando processamento de PDFs
+[05/09/2026 02:59:17] Iniciando processamento dos Relatorios do Approval
+[05/09/2026 02:59:43] Processamento concluído
+[05/09/2026 08:59:04] Iniciando processamento de RMs
+[05/09/2026 08:59:11] Iniciando processamento de Pedidos
+[05/09/2026 08:59:16] Iniciando processamento de PDFs
+[05/09/2026 08:59:16] Iniciando processamento dos Relatorios do Approval
+[05/09/2026 08:59:42] Processamento concluído
+[07/09/2026 08:59:03] Iniciando processamento de RMs
+[07/09/2026 08:59:11] Iniciando processamento de Pedidos
+[07/09/2026 08:59:16] Iniciando processamento de PDFs
+[07/09/2026 08:59:16] Iniciando processamento dos Relatorios do Approval
+[07/09/2026 08:59:43] Processamento concluído
+[07/09/2026 14:59:04] Iniciando processamento de RMs
+[07/09/2026 14:59:12] Iniciando processamento de Pedidos
+[07/09/2026 14:59:16] Iniciando processamento de PDFs
+[07/09/2026 14:59:16] Iniciando processamento dos Relatorios do Approval
+[07/09/2026 14:59:40] Processamento concluído
+[07/09/2026 20:59:04] Iniciando processamento de RMs
+[07/09/2026 20:59:12] Iniciando processamento de Pedidos
+[07/09/2026 20:59:18] Iniciando processamento de PDFs
+[07/09/2026 20:59:18] Iniciando processamento dos Relatorios do Approval
+[07/09/2026 20:59:43] Processamento concluído
+[08/09/2026 02:59:04] Iniciando processamento de RMs
+[08/09/2026 02:59:12] Iniciando processamento de Pedidos
+[08/09/2026 02:59:17] Iniciando processamento de PDFs
+[08/09/2026 02:59:17] Iniciando processamento dos Relatorios do Approval
+[08/09/2026 02:59:42] Processamento concluído
+[08/09/2026 08:59:03] Iniciando processamento de RMs
+[08/09/2026 08:59:11] Iniciando processamento de Pedidos
+[08/09/2026 08:59:22] Iniciando processamento de PDFs
+[08/09/2026 08:59:22] Iniciando processamento dos Relatorios do Approval
+[08/09/2026 08:59:44] Processamento concluído
+[08/09/2026 12:56:59] Iniciando processamento de RMs
+[08/09/2026 12:57:08] Iniciando processamento de Pedidos
+[08/09/2026 12:57:13] Iniciando processamento de PDFs
+[08/09/2026 12:57:15] Iniciando processamento dos Relatorios do Approval
+[08/09/2026 12:57:35] Processamento concluído
+[08/09/2026 14:59:04] Iniciando processamento de RMs
+[08/09/2026 14:59:12] Iniciando processamento de Pedidos
+[08/09/2026 14:59:17] Iniciando processamento de PDFs
+[08/09/2026 14:59:22] Iniciando processamento dos Relatorios do Approval
+[08/09/2026 14:59:43] Processamento concluído
+[08/09/2026 20:59:03] Iniciando processamento de RMs
+[08/09/2026 20:59:12] Iniciando processamento de Pedidos
+[08/09/2026 20:59:18] Iniciando processamento de PDFs
+[08/09/2026 20:59:18] Iniciando processamento dos Relatorios do Approval
+[08/09/2026 20:59:43] Processamento concluído
+[09/09/2026 08:59:11] Iniciando processamento de RMs
+[09/09/2026 08:59:20] Iniciando processamento de Pedidos
+[09/09/2026 08:59:27] Iniciando processamento de PDFs
+[09/09/2026 08:59:27] Iniciando processamento dos Relatorios do Approval
+[09/09/2026 08:59:47] Processamento concluído
+[09/09/2026 14:59:03] Iniciando processamento de RMs
+[09/09/2026 14:59:11] Iniciando processamento de Pedidos
+[09/09/2026 14:59:16] Iniciando processamento de PDFs
+[09/09/2026 14:59:33] Iniciando processamento dos Relatorios do Approval
+[09/09/2026 14:59:55] Processamento concluído
+[09/09/2026 20:59:03] Iniciando processamento de RMs
+[09/09/2026 20:59:12] Iniciando processamento de Pedidos
+[09/09/2026 20:59:17] Iniciando processamento de PDFs
+[09/09/2026 20:59:17] Iniciando processamento dos Relatorios do Approval
+[09/09/2026 20:59:42] Processamento concluído
+[10/09/2026 02:59:03] Iniciando processamento de RMs
+[10/09/2026 02:59:11] Iniciando processamento de Pedidos
+[10/09/2026 02:59:17] Iniciando processamento de PDFs
+[10/09/2026 02:59:17] Iniciando processamento dos Relatorios do Approval
+[10/09/2026 02:59:42] Processamento concluído
+[10/09/2026 08:59:03] Iniciando processamento de RMs
+[10/09/2026 08:59:13] Iniciando processamento de Pedidos
+[10/09/2026 08:59:19] Iniciando processamento de PDFs
+[10/09/2026 08:59:19] Iniciando processamento dos Relatorios do Approval
+[10/09/2026 08:59:40] Processamento concluído
+[10/09/2026 14:59:03] Iniciando processamento de RMs
+[10/09/2026 14:59:11] Iniciando processamento de Pedidos
+[10/09/2026 14:59:17] Iniciando processamento de PDFs
+[10/09/2026 14:59:28] Iniciando processamento dos Relatorios do Approval
+[10/09/2026 14:59:50] Processamento concluído
+[10/09/2026 20:59:03] Iniciando processamento de RMs
+[10/09/2026 20:59:11] Iniciando processamento de Pedidos
+[10/09/2026 20:59:15] Iniciando processamento de PDFs
+[10/09/2026 20:59:15] Iniciando processamento dos Relatorios do Approval
+[10/09/2026 20:59:41] Processamento concluído
+[11/09/2026 02:59:03] Iniciando processamento de RMs
+[11/09/2026 02:59:12] Iniciando processamento de Pedidos
+[11/09/2026 02:59:17] Iniciando processamento de PDFs
+[11/09/2026 02:59:17] Iniciando processamento dos Relatorios do Approval
+[11/09/2026 02:59:43] Processamento concluído
+[11/09/2026 08:59:03] Iniciando processamento de RMs
+[11/09/2026 08:59:10] Iniciando processamento de Pedidos
+[11/09/2026 08:59:15] Iniciando processamento de PDFs
+[11/09/2026 08:59:15] Iniciando processamento dos Relatorios do Approval
+[11/09/2026 08:59:36] Processamento concluído
+[11/09/2026 14:59:03] Iniciando processamento de RMs
+[11/09/2026 14:59:13] Iniciando processamento de Pedidos
+[11/09/2026 14:59:19] Iniciando processamento de PDFs
+[11/09/2026 14:59:21] Iniciando processamento dos Relatorios do Approval
+[11/09/2026 14:59:43] Processamento concluído
+[11/09/2026 20:59:03] Iniciando processamento de RMs
+[11/09/2026 20:59:12] Iniciando processamento de Pedidos
+[11/09/2026 20:59:17] Iniciando processamento de PDFs
+[11/09/2026 20:59:17] Iniciando processamento dos Relatorios do Approval
+[11/09/2026 20:59:42] Processamento concluído
+[12/09/2026 02:59:03] Iniciando processamento de RMs
+[12/09/2026 02:59:11] Iniciando processamento de Pedidos
+[12/09/2026 02:59:18] Iniciando processamento de PDFs
+[12/09/2026 02:59:18] Iniciando processamento dos Relatorios do Approval
+[12/09/2026 02:59:43] Processamento concluído
+[12/09/2026 08:59:03] Iniciando processamento de RMs
+[12/09/2026 08:59:12] Iniciando processamento de Pedidos
+[12/09/2026 08:59:16] Iniciando processamento de PDFs
+[12/09/2026 08:59:16] Iniciando processamento dos Relatorios do Approval
+[12/09/2026 08:59:36] Processamento concluído
+[14/09/2026 08:59:03] Iniciando processamento de RMs
+[14/09/2026 08:59:13] Iniciando processamento de Pedidos
+[14/09/2026 08:59:20] Iniciando processamento de PDFs
+[14/09/2026 08:59:20] Iniciando processamento dos Relatorios do Approval
+[14/09/2026 08:59:38] Processamento concluído
+[14/09/2026 14:59:03] Iniciando processamento de RMs
+[14/09/2026 14:59:13] Iniciando processamento de Pedidos
+[14/09/2026 14:59:18] Iniciando processamento de PDFs
+[14/09/2026 14:59:32] Iniciando processamento dos Relatorios do Approval
+[14/09/2026 14:59:50] Processamento concluído
+[14/09/2026 16:19:09] Iniciando processamento de RMs
+[14/09/2026 16:19:17] Iniciando processamento de Pedidos
+[14/09/2026 16:19:22] Iniciando processamento de PDFs
+[14/09/2026 16:19:36] Iniciando processamento dos Relatorios do Approval
+[14/09/2026 16:19:54] Processamento concluído
+[14/09/2026 16:26:22] Iniciando processamento de RMs
+[14/09/2026 16:26:28] Iniciando processamento de Pedidos
+[14/09/2026 16:26:32] Iniciando processamento de PDFs
+[14/09/2026 16:26:32] Iniciando processamento dos Relatorios do Approval
+[14/09/2026 16:26:49] Processamento concluído
+[14/09/2026 16:42:41] Iniciando processamento de RMs
+[14/09/2026 16:42:49] Iniciando processamento de Pedidos
+[14/09/2026 16:42:54] Iniciando processamento de PDFs
+[14/09/2026 16:42:54] Iniciando processamento dos Relatorios do Approval
+[14/09/2026 16:43:12] Processamento concluído
+[14/09/2026 17:00:02] Iniciando processamento de RMs
+[14/09/2026 17:00:10] Iniciando processamento de Pedidos
+[14/09/2026 17:00:15] Iniciando processamento de PDFs
+[14/09/2026 17:00:16] Iniciando processamento dos Relatorios do Approval
+[14/09/2026 17:00:32] Processamento concluído
+[14/09/2026 21:00:03] Iniciando processamento de RMs
+[14/09/2026 21:00:15] Iniciando processamento de Pedidos
+[14/09/2026 21:00:20] Iniciando processamento de PDFs
+[14/09/2026 21:00:20] Iniciando processamento dos Relatorios do Approval
+[14/09/2026 21:00:43] Processamento concluído
+[15/09/2026 10:40:17] Iniciando processamento de RMs
+[15/09/2026 10:40:27] Iniciando processamento de Pedidos
+[15/09/2026 10:40:32] Iniciando processamento de PDFs
+[15/09/2026 10:40:43] Iniciando processamento dos Relatorios do Approval
+[15/09/2026 10:41:02] Processamento concluído
+[15/09/2026 10:42:06] Iniciando processamento de RMs
+[15/09/2026 10:42:12] Iniciando processamento de Pedidos
+[15/09/2026 10:42:16] Iniciando processamento de PDFs
+[15/09/2026 10:42:16] Iniciando processamento dos Relatorios do Approval
+[15/09/2026 10:42:33] Processamento concluído
+[15/09/2026 10:54:33] Iniciando processamento de RMs
+[15/09/2026 10:54:41] Iniciando processamento de Pedidos
+[15/09/2026 10:54:46] Iniciando processamento de PDFs
+[15/09/2026 10:54:49] Iniciando processamento dos Relatorios do Approval
+[15/09/2026 10:55:11] Processamento concluído
+[15/09/2026 13:00:03] Iniciando processamento de RMs
+[15/09/2026 13:00:11] Iniciando processamento de Pedidos
+[15/09/2026 13:00:17] Iniciando processamento de PDFs
+[15/09/2026 13:00:17] Iniciando processamento dos Relatorios do Approval
+[15/09/2026 13:00:43] Processamento concluído
+[15/09/2026 17:00:03] Iniciando processamento de RMs
+[15/09/2026 17:00:11] Iniciando processamento de Pedidos
+[15/09/2026 17:00:16] Iniciando processamento de PDFs
+[15/09/2026 17:00:27] Iniciando processamento dos Relatorios do Approval
+[15/09/2026 17:00:47] Processamento concluído
+[15/09/2026 21:00:03] Iniciando processamento de RMs
+[15/09/2026 21:00:11] Iniciando processamento de Pedidos
+[15/09/2026 21:00:15] Iniciando processamento de PDFs
+[15/09/2026 21:00:15] Iniciando processamento dos Relatorios do Approval
+[15/09/2026 21:00:51] Processamento concluído
+[16/09/2026 01:00:03] Iniciando processamento de RMs
+[16/09/2026 01:00:12] Iniciando processamento de Pedidos
+[16/09/2026 01:00:17] Iniciando processamento de PDFs
+[16/09/2026 01:00:17] Iniciando processamento dos Relatorios do Approval
+[16/09/2026 01:00:49] Processamento concluído
+[16/09/2026 05:00:03] Iniciando processamento de RMs
+[16/09/2026 05:00:11] Iniciando processamento de Pedidos
+[16/09/2026 05:00:15] Iniciando processamento de PDFs
+[16/09/2026 05:00:15] Iniciando processamento dos Relatorios do Approval
+[16/09/2026 05:00:44] Processamento concluído
+[16/09/2026 09:00:03] Iniciando processamento de RMs
+[16/09/2026 09:00:12] Iniciando processamento de Pedidos
+[16/09/2026 09:00:18] Iniciando processamento de PDFs
+[16/09/2026 09:00:18] Iniciando processamento dos Relatorios do Approval
+[16/09/2026 09:00:46] Processamento concluído
+[16/09/2026 13:00:03] Iniciando processamento de RMs
+[16/09/2026 13:00:12] Iniciando processamento de Pedidos
+[16/09/2026 13:00:17] Iniciando processamento de PDFs
+[16/09/2026 13:00:17] Iniciando processamento dos Relatorios do Approval
+[16/09/2026 13:00:48] Processamento concluído
+[16/09/2026 17:00:03] Iniciando processamento de RMs
+[16/09/2026 17:00:12] Iniciando processamento de Pedidos
+[16/09/2026 17:00:16] Iniciando processamento de PDFs
+[16/09/2026 17:00:16] Iniciando processamento dos Relatorios do Approval
+[16/09/2026 17:00:47] Processamento concluído
+[16/09/2026 21:00:04] Iniciando processamento de RMs
+[16/09/2026 21:00:13] Iniciando processamento de Pedidos
+[16/09/2026 21:00:19] Iniciando processamento de PDFs
+[16/09/2026 21:00:27] Iniciando processamento dos Relatorios do Approval
+[16/09/2026 21:00:58] Processamento concluído
+[17/09/2026 01:00:03] Iniciando processamento de RMs
+[17/09/2026 01:00:14] Iniciando processamento de Pedidos
+[17/09/2026 01:00:19] Iniciando processamento de PDFs
+[17/09/2026 01:00:19] Iniciando processamento dos Relatorios do Approval
+[17/09/2026 01:00:51] Processamento concluído
+[17/09/2026 05:00:03] Iniciando processamento de RMs
+[17/09/2026 05:00:12] Iniciando processamento de Pedidos
+[17/09/2026 05:00:17] Iniciando processamento de PDFs
+[17/09/2026 05:00:17] Iniciando processamento dos Relatorios do Approval
+[17/09/2026 05:00:44] Processamento concluído
+[17/09/2026 09:00:03] Iniciando processamento de RMs
+[17/09/2026 09:00:12] Iniciando processamento de Pedidos
+[17/09/2026 09:00:18] Iniciando processamento de PDFs
+[17/09/2026 09:00:18] Iniciando processamento dos Relatorios do Approval
+[17/09/2026 09:00:47] Processamento concluído
+[17/09/2026 13:00:04] Iniciando processamento de RMs
+[17/09/2026 13:00:13] Iniciando processamento de Pedidos
+[17/09/2026 13:00:18] Iniciando processamento de PDFs
+[17/09/2026 13:00:20] Iniciando processamento dos Relatorios do Approval
+[17/09/2026 13:00:50] Processamento concluído
+[17/09/2026 17:00:04] Iniciando processamento de RMs
+[17/09/2026 17:00:11] Iniciando processamento de Pedidos
+[17/09/2026 17:00:16] Iniciando processamento de PDFs
+[17/09/2026 17:00:18] Iniciando processamento dos Relatorios do Approval
+[17/09/2026 17:00:50] Processamento concluído
+[17/09/2026 21:00:03] Iniciando processamento de RMs
+[17/09/2026 21:00:12] Iniciando processamento de Pedidos
+[17/09/2026 21:00:17] Iniciando processamento de PDFs
+[17/09/2026 21:00:17] Iniciando processamento dos Relatorios do Approval
+[17/09/2026 21:00:51] Processamento concluído
+[18/09/2026 01:00:04] Iniciando processamento de RMs
+[18/09/2026 01:00:12] Iniciando processamento de Pedidos
+[18/09/2026 01:00:17] Iniciando processamento de PDFs
+[18/09/2026 01:00:17] Iniciando processamento dos Relatorios do Approval
+[18/09/2026 01:00:48] Processamento concluído
+[18/09/2026 05:00:03] Iniciando processamento de RMs
+[18/09/2026 05:00:11] Iniciando processamento de Pedidos
+[18/09/2026 05:00:17] Iniciando processamento de PDFs
+[18/09/2026 05:00:17] Iniciando processamento dos Relatorios do Approval
+[18/09/2026 05:00:48] Processamento concluído
+[18/09/2026 09:00:03] Iniciando processamento de RMs
+[18/09/2026 09:00:14] Iniciando processamento de Pedidos
+[18/09/2026 09:00:19] Iniciando processamento de PDFs
+[18/09/2026 09:00:19] Iniciando processamento dos Relatorios do Approval
+[18/09/2026 09:00:50] Processamento concluído
+[18/09/2026 13:00:03] Iniciando processamento de RMs
+[18/09/2026 13:00:11] Iniciando processamento de Pedidos
+[18/09/2026 13:00:16] Iniciando processamento de PDFs
+[18/09/2026 13:00:21] Iniciando processamento dos Relatorios do Approval
+[18/09/2026 13:00:50] Processamento concluído
+[18/09/2026 17:00:03] Iniciando processamento de RMs
+[18/09/2026 17:00:11] Iniciando processamento de Pedidos
+[18/09/2026 17:00:17] Iniciando processamento de PDFs
+[18/09/2026 17:00:23] Iniciando processamento dos Relatorios do Approval
+[18/09/2026 17:00:53] Processamento concluído
+[18/09/2026 21:00:04] Iniciando processamento de RMs
+[18/09/2026 21:00:12] Iniciando processamento de Pedidos
+[18/09/2026 21:00:18] Iniciando processamento de PDFs
+[18/09/2026 21:00:18] Iniciando processamento dos Relatorios do Approval
+[18/09/2026 21:00:55] Processamento concluído
+[19/09/2026 01:00:04] Iniciando processamento de RMs
+[19/09/2026 01:00:12] Iniciando processamento de Pedidos
+[19/09/2026 01:00:17] Iniciando processamento de PDFs
+[19/09/2026 01:00:17] Iniciando processamento dos Relatorios do Approval
+[19/09/2026 01:00:48] Processamento concluído
+[19/09/2026 05:00:03] Iniciando processamento de RMs
+[19/09/2026 05:00:11] Iniciando processamento de Pedidos
+[19/09/2026 05:00:16] Iniciando processamento de PDFs
+[19/09/2026 05:00:16] Iniciando processamento dos Relatorios do Approval
+[19/09/2026 05:00:47] Processamento concluído
+[19/09/2026 09:00:04] Iniciando processamento de RMs
+[19/09/2026 09:00:12] Iniciando processamento de Pedidos
+[19/09/2026 09:00:17] Iniciando processamento de PDFs
+[19/09/2026 09:00:18] Iniciando processamento dos Relatorios do Approval
+[19/09/2026 09:00:49] Processamento concluído
+[19/09/2026 13:00:03] Iniciando processamento de RMs
+[19/09/2026 13:00:11] Iniciando processamento de Pedidos
+[19/09/2026 13:00:16] Iniciando processamento de PDFs
+[19/09/2026 13:00:16] Iniciando processamento dos Relatorios do Approval
+[19/09/2026 13:00:46] Processamento concluído
+[19/09/2026 17:00:03] Iniciando processamento de RMs
+[19/09/2026 17:00:12] Iniciando processamento de Pedidos
+[19/09/2026 17:00:16] Iniciando processamento de PDFs
+[19/09/2026 17:00:16] Iniciando processamento dos Relatorios do Approval
+[19/09/2026 17:00:47] Processamento concluído
+[19/09/2026 21:00:03] Iniciando processamento de RMs
+[19/09/2026 21:00:11] Iniciando processamento de Pedidos
+[19/09/2026 21:00:17] Iniciando processamento de PDFs
+[19/09/2026 21:00:17] Iniciando processamento dos Relatorios do Approval
+[19/09/2026 21:00:53] Processamento concluído
+[20/09/2026 01:00:03] Iniciando processamento de RMs
+[20/09/2026 01:00:11] Iniciando processamento de Pedidos
+[20/09/2026 01:00:16] Iniciando processamento de PDFs
+[20/09/2026 01:00:16] Iniciando processamento dos Relatorios do Approval
+[20/09/2026 01:00:46] Processamento concluído
+[20/09/2026 05:00:03] Iniciando processamento de RMs
+[20/09/2026 05:00:10] Iniciando processamento de Pedidos
+[20/09/2026 05:00:15] Iniciando processamento de PDFs
+[20/09/2026 05:00:15] Iniciando processamento dos Relatorios do Approval
+[20/09/2026 05:00:45] Processamento concluído
+[21/09/2026 05:00:03] Iniciando processamento de RMs
+[21/09/2026 05:00:12] Iniciando processamento de Pedidos
+[21/09/2026 05:00:18] Iniciando processamento de PDFs
+[21/09/2026 05:00:18] Iniciando processamento dos Relatorios do Approval
+[21/09/2026 05:00:50] Processamento concluído
+[21/09/2026 09:00:04] Iniciando processamento de RMs
+[21/09/2026 09:00:12] Iniciando processamento de Pedidos
+[21/09/2026 09:00:20] Iniciando processamento de PDFs
+[21/09/2026 09:00:20] Iniciando processamento dos Relatorios do Approval
+[21/09/2026 09:00:44] Processamento concluído
+[21/09/2026 13:00:04] Iniciando processamento de RMs
+[21/09/2026 13:00:13] Iniciando processamento de Pedidos
+[21/09/2026 13:00:18] Iniciando processamento de PDFs
+[21/09/2026 13:00:18] Iniciando processamento dos Relatorios do Approval
+[21/09/2026 13:00:45] Processamento concluído
+[21/09/2026 17:00:03] Iniciando processamento de RMs
+[21/09/2026 17:00:12] Iniciando processamento de Pedidos
+[21/09/2026 17:00:16] Iniciando processamento de PDFs
+[21/09/2026 17:00:21] Iniciando processamento dos Relatorios do Approval
+[21/09/2026 17:00:47] Processamento concluído
+[21/09/2026 21:00:04] Iniciando processamento de RMs
+[21/09/2026 21:00:13] Iniciando processamento de Pedidos
+[21/09/2026 21:00:18] Iniciando processamento de PDFs
+[21/09/2026 21:00:18] Iniciando processamento dos Relatorios do Approval
+[21/09/2026 21:00:51] Processamento concluído
+[22/09/2026 01:00:04] Iniciando processamento de RMs
+[22/09/2026 01:00:13] Iniciando processamento de Pedidos
+[22/09/2026 01:00:17] Iniciando processamento de PDFs
+[22/09/2026 01:00:17] Iniciando processamento dos Relatorios do Approval
+[22/09/2026 01:00:47] Processamento concluído
+[22/09/2026 05:00:03] Iniciando processamento de RMs
+[22/09/2026 05:00:11] Iniciando processamento de Pedidos
+[22/09/2026 05:00:17] Iniciando processamento de PDFs
+[22/09/2026 05:00:17] Iniciando processamento dos Relatorios do Approval
+[22/09/2026 05:00:42] Processamento concluído
+[22/09/2026 09:00:04] Iniciando processamento de RMs
+[22/09/2026 09:00:12] Iniciando processamento de Pedidos
+[22/09/2026 09:00:18] Iniciando processamento de PDFs
+[22/09/2026 09:00:18] Iniciando processamento dos Relatorios do Approval
+[22/09/2026 09:00:43] Processamento concluído
+[22/09/2026 13:00:04] Iniciando processamento de RMs
+[22/09/2026 13:00:16] Iniciando processamento de Pedidos
+[22/09/2026 13:00:21] Iniciando processamento de PDFs
+[22/09/2026 13:00:38] Iniciando processamento dos Relatorios do Approval
+[22/09/2026 13:01:03] Processamento concluído
+[22/09/2026 17:00:04] Iniciando processamento de RMs
+[22/09/2026 17:00:12] Iniciando processamento de Pedidos
+[22/09/2026 17:00:18] Iniciando processamento de PDFs
+[22/09/2026 17:00:18] Iniciando processamento dos Relatorios do Approval
+[22/09/2026 17:00:46] Processamento concluído
+[22/09/2026 21:00:04] Iniciando processamento de RMs
+[22/09/2026 21:00:12] Iniciando processamento de Pedidos
+[22/09/2026 21:00:17] Iniciando processamento de PDFs
+[22/09/2026 21:00:17] Iniciando processamento dos Relatorios do Approval
+[22/09/2026 21:00:52] Processamento concluído
+[23/09/2026 01:00:04] Iniciando processamento de RMs
+[23/09/2026 01:00:12] Iniciando processamento de Pedidos
+[23/09/2026 01:00:17] Iniciando processamento de PDFs
+[23/09/2026 01:00:17] Iniciando processamento dos Relatorios do Approval
+[23/09/2026 01:00:45] Processamento concluído
+[23/09/2026 05:00:03] Iniciando processamento de RMs
+[23/09/2026 05:00:11] Iniciando processamento de Pedidos
+[23/09/2026 05:00:16] Iniciando processamento de PDFs
+[23/09/2026 05:00:16] Iniciando processamento dos Relatorios do Approval
+[23/09/2026 05:00:43] Processamento concluído
+[23/09/2026 09:00:04] Iniciando processamento de RMs
+[23/09/2026 09:00:11] Iniciando processamento de Pedidos
+[23/09/2026 09:00:19] Iniciando processamento de PDFs
+[23/09/2026 09:00:29] Iniciando processamento dos Relatorios do Approval
+[23/09/2026 09:00:58] Processamento concluído
+[23/09/2026 13:00:04] Iniciando processamento de RMs
+[23/09/2026 13:00:12] Iniciando processamento de Pedidos
+[23/09/2026 13:00:17] Iniciando processamento de PDFs
+[23/09/2026 13:00:20] Iniciando processamento dos Relatorios do Approval
+[23/09/2026 13:00:48] Processamento concluído
+[23/09/2026 17:00:03] Iniciando processamento de RMs
+[23/09/2026 17:00:12] Iniciando processamento de Pedidos
+[23/09/2026 17:00:17] Iniciando processamento de PDFs
+[23/09/2026 17:00:18] Iniciando processamento dos Relatorios do Approval
+[23/09/2026 17:00:46] Processamento concluído
+[23/09/2026 21:00:04] Iniciando processamento de RMs
+[23/09/2026 21:00:12] Iniciando processamento de Pedidos
+[23/09/2026 21:00:17] Iniciando processamento de PDFs
+[23/09/2026 21:00:17] Iniciando processamento dos Relatorios do Approval
+[23/09/2026 21:00:46] Processamento concluído
+[24/09/2026 01:00:04] Iniciando processamento de RMs
+[24/09/2026 01:00:12] Iniciando processamento de Pedidos
+[24/09/2026 01:00:17] Iniciando processamento de PDFs
+[24/09/2026 01:00:17] Iniciando processamento dos Relatorios do Approval
+[24/09/2026 01:00:46] Processamento concluído
+[24/09/2026 05:00:03] Iniciando processamento de RMs
+[24/09/2026 05:00:11] Iniciando processamento de Pedidos
+[24/09/2026 05:00:19] Iniciando processamento de PDFs
+[24/09/2026 05:00:19] Iniciando processamento dos Relatorios do Approval
+[24/09/2026 05:00:46] Processamento concluído
+[24/09/2026 09:00:03] Iniciando processamento de RMs
+[24/09/2026 09:00:12] Iniciando processamento de Pedidos
+[24/09/2026 09:00:18] Iniciando processamento de PDFs
+[24/09/2026 09:00:18] Iniciando processamento dos Relatorios do Approval
+[24/09/2026 09:00:45] Processamento concluído
+[24/09/2026 13:00:04] Iniciando processamento de RMs
+[24/09/2026 13:00:14] Iniciando processamento de Pedidos
+[24/09/2026 13:00:18] Iniciando processamento de PDFs
+[24/09/2026 13:00:18] Iniciando processamento dos Relatorios do Approval
+[24/09/2026 13:00:46] Processamento concluído
+[24/09/2026 17:00:03] Iniciando processamento de RMs
+[24/09/2026 17:00:19] Iniciando processamento de Pedidos
+[24/09/2026 17:00:28] Iniciando processamento de PDFs
+[24/09/2026 17:00:28] Iniciando processamento dos Relatorios do Approval
+[24/09/2026 17:00:55] Processamento concluído
+[24/09/2026 21:00:03] Iniciando processamento de RMs
+[24/09/2026 21:00:12] Iniciando processamento de Pedidos
+[24/09/2026 21:00:17] Iniciando processamento de PDFs
+[24/09/2026 21:00:17] Iniciando processamento dos Relatorios do Approval
+[24/09/2026 21:00:52] Processamento concluído
+[25/09/2026 01:00:04] Iniciando processamento de RMs
+[25/09/2026 01:00:16] Iniciando processamento de Pedidos
+[25/09/2026 01:00:22] Iniciando processamento de PDFs
+[25/09/2026 01:00:22] Iniciando processamento dos Relatorios do Approval
+[25/09/2026 01:00:51] Processamento concluído
+[25/09/2026 05:00:03] Iniciando processamento de RMs
+[25/09/2026 05:00:13] Iniciando processamento de Pedidos
+[25/09/2026 05:00:18] Iniciando processamento de PDFs
+[25/09/2026 05:00:18] Iniciando processamento dos Relatorios do Approval
+[25/09/2026 05:00:45] Processamento concluído
+[25/09/2026 09:00:04] Iniciando processamento de RMs
+[25/09/2026 09:00:12] Iniciando processamento de Pedidos
+[25/09/2026 09:00:16] Iniciando processamento de PDFs
+[25/09/2026 09:00:16] Iniciando processamento dos Relatorios do Approval
+[25/09/2026 09:00:44] Processamento concluído
+[25/09/2026 13:00:03] Iniciando processamento de RMs
+[25/09/2026 13:00:11] Iniciando processamento de Pedidos
+[25/09/2026 13:00:16] Iniciando processamento de PDFs
+[25/09/2026 13:00:16] Iniciando processamento dos Relatorios do Approval
+[25/09/2026 13:00:43] Processamento concluído
+[25/09/2026 17:00:03] Iniciando processamento de RMs
+[25/09/2026 17:00:15] Iniciando processamento de Pedidos
+[25/09/2026 17:00:21] Iniciando processamento de PDFs
+[25/09/2026 17:00:21] Iniciando processamento dos Relatorios do Approval
+[25/09/2026 17:00:48] Processamento concluído
+[25/09/2026 21:00:03] Iniciando processamento de RMs
+[25/09/2026 21:00:12] Iniciando processamento de Pedidos
+[25/09/2026 21:00:16] Iniciando processamento de PDFs
+[25/09/2026 21:00:16] Iniciando processamento dos Relatorios do Approval
+[25/09/2026 21:00:51] Processamento concluído
+[26/09/2026 01:00:04] Iniciando processamento de RMs
+[26/09/2026 01:00:12] Iniciando processamento de Pedidos
+[26/09/2026 01:00:17] Iniciando processamento de PDFs
+[26/09/2026 01:00:17] Iniciando processamento dos Relatorios do Approval
+[26/09/2026 01:00:46] Processamento concluído
+[26/09/2026 05:00:03] Iniciando processamento de RMs
+[26/09/2026 05:00:12] Iniciando processamento de Pedidos
+[26/09/2026 05:00:17] Iniciando processamento de PDFs
+[26/09/2026 05:00:17] Iniciando processamento dos Relatorios do Approval
+[26/09/2026 05:00:42] Processamento concluído
+[26/09/2026 09:00:03] Iniciando processamento de RMs
+[26/09/2026 09:00:12] Iniciando processamento de Pedidos
+[26/09/2026 09:00:17] Iniciando processamento de PDFs
+[26/09/2026 09:00:17] Iniciando processamento dos Relatorios do Approval
+[26/09/2026 09:00:45] Processamento concluído
+[26/09/2026 13:00:03] Iniciando processamento de RMs
+[26/09/2026 13:00:14] Iniciando processamento de Pedidos
+[26/09/2026 13:00:19] Iniciando processamento de PDFs
+[26/09/2026 13:00:19] Iniciando processamento dos Relatorios do Approval
+[26/09/2026 13:00:45] Processamento concluído
+[26/09/2026 17:00:03] Iniciando processamento de RMs
+[26/09/2026 17:00:12] Iniciando processamento de Pedidos
+[26/09/2026 17:00:17] Iniciando processamento de PDFs
+[26/09/2026 17:00:17] Iniciando processamento dos Relatorios do Approval
+[26/09/2026 17:00:46] Processamento concluído
+[26/09/2026 21:00:03] Iniciando processamento de RMs
+[26/09/2026 21:00:11] Iniciando processamento de Pedidos
+[26/09/2026 21:00:17] Iniciando processamento de PDFs
+[26/09/2026 21:00:17] Iniciando processamento dos Relatorios do Approval
+[26/09/2026 21:00:52] Processamento concluído
+[27/09/2026 01:00:03] Iniciando processamento de RMs
+[27/09/2026 01:00:16] Iniciando processamento de Pedidos
+[27/09/2026 01:00:20] Iniciando processamento de PDFs
+[27/09/2026 01:00:20] Iniciando processamento dos Relatorios do Approval
+[27/09/2026 01:00:57] Processamento concluído
+[27/09/2026 05:00:03] Iniciando processamento de RMs
+[27/09/2026 05:00:11] Iniciando processamento de Pedidos
+[27/09/2026 05:00:16] Iniciando processamento de PDFs
+[27/09/2026 05:00:16] Iniciando processamento dos Relatorios do Approval
+[27/09/2026 05:00:44] Processamento concluído
+[28/09/2026 05:00:03] Iniciando processamento de RMs
+[28/09/2026 05:00:13] Iniciando processamento de Pedidos
+[28/09/2026 05:00:18] Iniciando processamento de PDFs
+[28/09/2026 05:00:18] Iniciando processamento dos Relatorios do Approval
+[28/09/2026 05:00:44] Processamento concluído
+[28/09/2026 09:00:03] Iniciando processamento de RMs
+[28/09/2026 09:00:11] Iniciando processamento de Pedidos
+[28/09/2026 09:00:19] Iniciando processamento de PDFs
+[28/09/2026 09:00:19] Iniciando processamento dos Relatorios do Approval
+[28/09/2026 09:00:44] Processamento concluído
+[28/09/2026 13:00:04] Iniciando processamento de RMs
+[28/09/2026 13:00:31] Iniciando processamento de Pedidos
+[28/09/2026 13:00:36] Iniciando processamento de PDFs
+[28/09/2026 13:00:37] Iniciando processamento dos Relatorios do Approval
+[28/09/2026 13:01:01] Processamento concluído
+[28/09/2026 17:00:03] Iniciando processamento de RMs
+[28/09/2026 17:00:16] Iniciando processamento de Pedidos
+[28/09/2026 17:00:31] Iniciando processamento de PDFs
+[28/09/2026 17:00:43] Iniciando processamento dos Relatorios do Approval
+[28/09/2026 17:01:07] Processamento concluído
+[28/09/2026 21:00:03] Iniciando processamento de RMs
+[28/09/2026 21:00:17] Iniciando processamento de Pedidos
+[28/09/2026 21:00:25] Iniciando processamento de PDFs
+[28/09/2026 21:00:25] Iniciando processamento dos Relatorios do Approval
+[28/09/2026 21:00:58] Processamento concluído
+[29/09/2026 01:00:03] Iniciando processamento de RMs
+[29/09/2026 01:00:18] Iniciando processamento de Pedidos
+[29/09/2026 01:00:22] Iniciando processamento de PDFs
+[29/09/2026 01:00:22] Iniciando processamento dos Relatorios do Approval
+[29/09/2026 01:00:48] Processamento concluído
+[29/09/2026 05:00:03] Iniciando processamento de RMs
+[29/09/2026 05:00:13] Iniciando processamento de Pedidos
+[29/09/2026 05:00:18] Iniciando processamento de PDFs
+[29/09/2026 05:00:18] Iniciando processamento dos Relatorios do Approval
+[29/09/2026 05:00:42] Processamento concluído
+[29/09/2026 09:00:03] Iniciando processamento de RMs
+[29/09/2026 09:00:18] Iniciando processamento de Pedidos
+[29/09/2026 09:00:35] Iniciando processamento de PDFs
+[29/09/2026 09:00:35] Iniciando processamento dos Relatorios do Approval
+[29/09/2026 09:01:00] Processamento concluído
+[29/09/2026 09:48:59] Iniciando processamento de RMs
+[29/09/2026 09:49:52] Iniciando processamento de Pedidos
+[29/09/2026 09:49:58] Iniciando processamento de PDFs
+[29/09/2026 09:51:48] Iniciando processamento dos Relatorios do Approval
+[29/09/2026 09:52:00] Processamento concluído
+[29/09/2026 09:53:12] Iniciando processamento de RMs
+[29/09/2026 09:53:20] Iniciando processamento de Pedidos
+[29/09/2026 09:53:25] Iniciando processamento de PDFs
+[29/09/2026 09:53:31] Iniciando processamento dos Relatorios do Approval
+[29/09/2026 09:53:54] Processamento concluído
+[29/09/2026 13:00:03] Iniciando processamento de RMs
+[29/09/2026 13:00:12] Iniciando processamento de Pedidos
+[29/09/2026 13:00:17] Iniciando processamento de PDFs
+[29/09/2026 13:00:22] Iniciando processamento dos Relatorios do Approval
+[29/09/2026 13:00:48] Processamento concluído
+[29/09/2026 17:00:04] Iniciando processamento de RMs
+[29/09/2026 17:00:12] Iniciando processamento de Pedidos
+[29/09/2026 17:00:18] Iniciando processamento de PDFs
+[29/09/2026 17:00:18] Iniciando processamento dos Relatorios do Approval
+[29/09/2026 17:00:45] Processamento concluído
+[29/09/2026 21:00:03] Iniciando processamento de RMs
+[29/09/2026 21:00:12] Iniciando processamento de Pedidos
+[29/09/2026 21:00:16] Iniciando processamento de PDFs
+[29/09/2026 21:00:16] Iniciando processamento dos Relatorios do Approval
+[29/09/2026 21:00:44] Processamento concluído
+[30/09/2026 01:00:03] Iniciando processamento de RMs
+[30/09/2026 01:00:12] Iniciando processamento de Pedidos
+[30/09/2026 01:00:17] Iniciando processamento de PDFs
+[30/09/2026 01:00:17] Iniciando processamento dos Relatorios do Approval
+[30/09/2026 01:00:46] Processamento concluído
+[30/09/2026 05:00:03] Iniciando processamento de RMs
+[30/09/2026 05:00:12] Iniciando processamento de Pedidos
+[30/09/2026 05:00:19] Iniciando processamento de PDFs
+[30/09/2026 05:00:19] Iniciando processamento dos Relatorios do Approval
+[30/09/2026 05:00:46] Processamento concluído
+[30/09/2026 09:00:03] Iniciando processamento de RMs
+[30/09/2026 09:00:12] Iniciando processamento de Pedidos
+[30/09/2026 09:00:19] Iniciando processamento de PDFs
+[30/09/2026 09:00:19] Iniciando processamento dos Relatorios do Approval
+[30/09/2026 09:00:48] Processamento concluído
+[30/09/2026 13:00:03] Iniciando processamento de RMs
+[30/09/2026 13:00:12] Iniciando processamento de Pedidos
+[30/09/2026 13:00:17] Iniciando processamento de PDFs
+[30/09/2026 13:00:19] Iniciando processamento dos Relatorios do Approval
+[30/09/2026 13:00:47] Processamento concluído
+[30/09/2026 17:00:03] Iniciando processamento de RMs
+[30/09/2026 17:00:13] Iniciando processamento de Pedidos
+[30/09/2026 17:00:18] Iniciando processamento de PDFs
+[30/09/2026 17:00:20] Iniciando processamento dos Relatorios do Approval
+[30/09/2026 17:00:48] Processamento concluído
+[30/09/2026 21:00:03] Iniciando processamento de RMs
+[30/09/2026 21:00:14] Iniciando processamento de Pedidos
+[30/09/2026 21:00:21] Iniciando processamento de PDFs
+[30/09/2026 21:00:21] Iniciando processamento dos Relatorios do Approval
+[30/09/2026 21:00:54] Processamento concluído
+[01/10/2026 01:00:14] Iniciando processamento de RMs
+[01/10/2026 01:00:22] Iniciando processamento de Pedidos
+[01/10/2026 01:00:27] Iniciando processamento de PDFs
+[01/10/2026 01:00:27] Iniciando processamento dos Relatorios do Approval
+[01/10/2026 01:00:57] Processamento concluído
+[01/10/2026 05:00:03] Iniciando processamento de RMs
+[01/10/2026 05:00:11] Iniciando processamento de Pedidos
+[01/10/2026 05:00:16] Iniciando processamento de PDFs
+[01/10/2026 05:00:16] Iniciando processamento dos Relatorios do Approval
+[01/10/2026 05:00:44] Processamento concluído
+[01/10/2026 09:00:03] Iniciando processamento de RMs
+[01/10/2026 09:00:12] Iniciando processamento de Pedidos
+[01/10/2026 09:00:17] Iniciando processamento de PDFs
+[01/10/2026 09:00:17] Iniciando processamento dos Relatorios do Approval
+[01/10/2026 09:00:45] Processamento concluído
+[01/10/2026 13:00:04] Iniciando processamento de RMs
+[01/10/2026 13:00:13] Iniciando processamento de Pedidos
+[01/10/2026 13:00:18] Iniciando processamento de PDFs
+[01/10/2026 13:00:18] Iniciando processamento dos Relatorios do Approval
+[01/10/2026 13:00:46] Processamento concluído
+[01/10/2026 17:00:04] Iniciando processamento de RMs
+[01/10/2026 17:00:16] Iniciando processamento de Pedidos
+[01/10/2026 17:00:21] Iniciando processamento de PDFs
+[01/10/2026 17:00:21] Iniciando processamento dos Relatorios do Approval
+[01/10/2026 17:00:53] Processamento concluído
+[01/10/2026 21:00:04] Iniciando processamento de RMs
+[01/10/2026 21:00:12] Iniciando processamento de Pedidos
+[01/10/2026 21:00:18] Iniciando processamento de PDFs
+[01/10/2026 21:00:18] Iniciando processamento dos Relatorios do Approval
+[01/10/2026 21:00:45] Processamento concluído
+[02/10/2026 01:00:04] Iniciando processamento de RMs
+[02/10/2026 01:00:12] Iniciando processamento de Pedidos
+[02/10/2026 01:00:17] Iniciando processamento de PDFs
+[02/10/2026 01:00:17] Iniciando processamento dos Relatorios do Approval
+[02/10/2026 01:00:46] Processamento concluído
+[02/10/2026 05:00:03] Iniciando processamento de RMs
+[02/10/2026 05:00:12] Iniciando processamento de Pedidos
+[02/10/2026 05:00:18] Iniciando processamento de PDFs
+[02/10/2026 05:00:18] Iniciando processamento dos Relatorios do Approval
+[02/10/2026 05:00:44] Processamento concluído
+[02/10/2026 09:00:04] Iniciando processamento de RMs
+[02/10/2026 09:00:13] Iniciando processamento de Pedidos
+[02/10/2026 09:00:18] Iniciando processamento de PDFs
+[02/10/2026 09:00:18] Iniciando processamento dos Relatorios do Approval
+[02/10/2026 09:00:46] Processamento concluído
+[02/10/2026 13:00:04] Iniciando processamento de RMs
+[02/10/2026 13:00:13] Iniciando processamento de Pedidos
+[02/10/2026 13:00:18] Iniciando processamento de PDFs
+[02/10/2026 13:00:18] Iniciando processamento dos Relatorios do Approval
+[02/10/2026 13:00:45] Processamento concluído
+[02/10/2026 17:00:04] Iniciando processamento de RMs
+[02/10/2026 17:00:13] Iniciando processamento de Pedidos
+[02/10/2026 17:00:18] Iniciando processamento de PDFs
+[02/10/2026 17:00:18] Iniciando processamento dos Relatorios do Approval
+[02/10/2026 17:00:47] Processamento concluído
+[02/10/2026 21:00:04] Iniciando processamento de RMs
+[02/10/2026 21:00:13] Iniciando processamento de Pedidos
+[02/10/2026 21:00:18] Iniciando processamento de PDFs
+[02/10/2026 21:00:18] Iniciando processamento dos Relatorios do Approval
+[02/10/2026 21:00:50] Processamento concluído
+[03/10/2026 01:00:04] Iniciando processamento de RMs
+[03/10/2026 01:00:12] Iniciando processamento de Pedidos
+[03/10/2026 01:00:18] Iniciando processamento de PDFs
+[03/10/2026 01:00:18] Iniciando processamento dos Relatorios do Approval
+[03/10/2026 01:00:46] Processamento concluído
+[03/10/2026 05:00:03] Iniciando processamento de RMs
+[03/10/2026 05:00:12] Iniciando processamento de Pedidos
+[03/10/2026 05:00:17] Iniciando processamento de PDFs
+[03/10/2026 05:00:17] Iniciando processamento dos Relatorios do Approval
+[03/10/2026 05:00:42] Processamento concluído
+[03/10/2026 09:00:04] Iniciando processamento de RMs
+[03/10/2026 09:00:12] Iniciando processamento de Pedidos
+[03/10/2026 09:00:18] Iniciando processamento de PDFs
+[03/10/2026 09:00:18] Iniciando processamento dos Relatorios do Approval
+[03/10/2026 09:00:44] Processamento concluído
+[03/10/2026 13:00:04] Iniciando processamento de RMs
+[03/10/2026 13:00:12] Iniciando processamento de Pedidos
+[03/10/2026 13:00:16] Iniciando processamento de PDFs
+[03/10/2026 13:00:16] Iniciando processamento dos Relatorios do Approval
+[03/10/2026 13:00:41] Processamento concluído
+[03/10/2026 17:00:04] Iniciando processamento de RMs
+[03/10/2026 17:00:12] Iniciando processamento de Pedidos
+[03/10/2026 17:00:17] Iniciando processamento de PDFs
+[03/10/2026 17:00:17] Iniciando processamento dos Relatorios do Approval
+[03/10/2026 17:00:42] Processamento concluído
+[03/10/2026 21:00:04] Iniciando processamento de RMs
+[03/10/2026 21:00:12] Iniciando processamento de Pedidos
+[03/10/2026 21:00:17] Iniciando processamento de PDFs
+[03/10/2026 21:00:17] Iniciando processamento dos Relatorios do Approval
+[03/10/2026 21:00:48] Processamento concluído
+[04/10/2026 01:00:04] Iniciando processamento de RMs
+[04/10/2026 01:00:12] Iniciando processamento de Pedidos
+[04/10/2026 01:00:18] Iniciando processamento de PDFs
+[04/10/2026 01:00:18] Iniciando processamento dos Relatorios do Approval
+[04/10/2026 01:00:44] Processamento concluído
+[04/10/2026 05:00:04] Iniciando processamento de RMs
+[04/10/2026 05:00:14] Iniciando processamento de Pedidos
+[04/10/2026 05:00:20] Iniciando processamento de PDFs
+[04/10/2026 05:00:20] Iniciando processamento dos Relatorios do Approval
+[04/10/2026 05:00:45] Processamento concluído
+[05/10/2026 05:00:03] Iniciando processamento de RMs
+[05/10/2026 05:00:12] Iniciando processamento de Pedidos
+[05/10/2026 05:00:18] Iniciando processamento de PDFs
+[05/10/2026 05:00:18] Iniciando processamento dos Relatorios do Approval
+[05/10/2026 05:00:43] Processamento concluído
+[05/10/2026 09:00:04] Iniciando processamento de RMs
+[05/10/2026 09:00:13] Iniciando processamento de Pedidos
+[05/10/2026 09:00:18] Iniciando processamento de PDFs
+[05/10/2026 09:00:18] Iniciando processamento dos Relatorios do Approval
+[05/10/2026 09:00:42] Processamento concluído
+[05/10/2026 13:00:04] Iniciando processamento de RMs
+[05/10/2026 13:00:13] Iniciando processamento de Pedidos
+[05/10/2026 13:00:19] Iniciando processamento de PDFs
+[05/10/2026 13:00:19] Iniciando processamento dos Relatorios do Approval
+[05/10/2026 13:00:43] Processamento concluído
+[05/10/2026 17:00:03] Iniciando processamento de RMs
+[05/10/2026 17:00:13] Iniciando processamento de Pedidos
+[05/10/2026 17:00:20] Iniciando processamento de PDFs
+[05/10/2026 17:00:20] Iniciando processamento dos Relatorios do Approval
+[05/10/2026 17:00:46] Processamento concluído
+[05/10/2026 21:00:03] Iniciando processamento de RMs
+[05/10/2026 21:00:12] Iniciando processamento de Pedidos
+[05/10/2026 21:00:17] Iniciando processamento de PDFs
+[05/10/2026 21:00:17] Iniciando processamento dos Relatorios do Approval
+[05/10/2026 21:00:45] Processamento concluído
+[06/10/2026 01:00:03] Iniciando processamento de RMs
+[06/10/2026 01:00:12] Iniciando processamento de Pedidos
+[06/10/2026 01:00:17] Iniciando processamento de PDFs
+[06/10/2026 01:00:17] Iniciando processamento dos Relatorios do Approval
+[06/10/2026 01:00:43] Processamento concluído
+[06/10/2026 05:00:03] Iniciando processamento de RMs
+[06/10/2026 05:00:11] Iniciando processamento de Pedidos
+[06/10/2026 05:00:17] Iniciando processamento de PDFs
+[06/10/2026 05:00:17] Iniciando processamento dos Relatorios do Approval
+[06/10/2026 05:00:43] Processamento concluído
+[06/10/2026 09:00:03] Iniciando processamento de RMs
+[06/10/2026 09:00:12] Iniciando processamento de Pedidos
+[06/10/2026 09:00:17] Iniciando processamento de PDFs
+[06/10/2026 09:00:17] Iniciando processamento dos Relatorios do Approval
+[06/10/2026 09:00:44] Processamento concluído
+[06/10/2026 09:55:38] Iniciando processamento de RMs
+[06/10/2026 09:55:46] Iniciando processamento de Pedidos
+[06/10/2026 09:55:51] Iniciando processamento de PDFs
+[06/10/2026 09:55:51] Iniciando processamento dos Relatorios do Approval
+[06/10/2026 09:56:17] Processamento concluído
+[06/10/2026 09:59:37] Iniciando processamento de RMs
+[06/10/2026 09:59:43] Iniciando processamento de Pedidos
+[06/10/2026 09:59:48] Iniciando processamento de PDFs
+[06/10/2026 09:59:48] Iniciando processamento dos Relatorios do Approval
+[06/10/2026 10:00:13] Processamento concluído
+[06/10/2026 10:01:34] Iniciando processamento de RMs
+[06/10/2026 10:01:41] Iniciando processamento de Pedidos
+[06/10/2026 10:01:47] Iniciando processamento de PDFs
+[06/10/2026 10:01:47] Iniciando processamento dos Relatorios do Approval
+[06/10/2026 10:02:11] Processamento concluído
+[06/10/2026 10:03:02] Iniciando processamento de RMs
+[06/10/2026 10:03:09] Iniciando processamento de Pedidos
+[06/10/2026 10:03:14] Iniciando processamento de PDFs
+[06/10/2026 10:03:14] Iniciando processamento dos Relatorios do Approval
+[06/10/2026 10:04:11] Iniciando processamento de RMs
+[06/10/2026 10:04:21] Iniciando processamento de Pedidos
+[06/10/2026 10:04:29] Iniciando processamento de PDFs
+[06/10/2026 10:04:41] Iniciando processamento dos Relatorios do Approval
+[06/10/2026 10:05:06] Processamento concluído
+[06/10/2026 10:05:58] Iniciando processamento de RMs
+[06/10/2026 10:06:05] Iniciando processamento de Pedidos
+[06/10/2026 10:06:11] Iniciando processamento de PDFs
+[06/10/2026 10:06:12] Iniciando processamento dos Relatorios do Approval
+[06/10/2026 10:06:38] Processamento concluído
+[06/10/2026 11:00:28] Iniciando processamento de RMs
+[06/10/2026 11:00:37] Iniciando processamento de Pedidos
+[06/10/2026 11:00:43] Iniciando processamento de PDFs
+[06/10/2026 11:00:48] Iniciando processamento dos Relatorios do Approval
+[06/10/2026 11:01:14] Processamento concluído
+[06/10/2026 11:02:11] Iniciando processamento de RMs
+[06/10/2026 11:02:18] Iniciando processamento de Pedidos
+[06/10/2026 11:02:23] Iniciando processamento de PDFs
+[06/10/2026 11:02:23] Iniciando processamento dos Relatorios do Approval
+[06/10/2026 11:02:47] Processamento concluído
+[06/10/2026 13:00:04] Iniciando processamento de RMs
+[06/10/2026 13:00:12] Iniciando processamento de Pedidos
+[06/10/2026 13:00:18] Iniciando processamento de PDFs
+[06/10/2026 13:00:18] Iniciando processamento dos Relatorios do Approval
+[06/10/2026 13:00:43] Processamento concluído
+[06/10/2026 17:00:06] Iniciando processamento de RMs
+[06/10/2026 17:00:17] Iniciando processamento de Pedidos
+[06/10/2026 17:00:22] Iniciando processamento de PDFs
+[06/10/2026 17:00:37] Iniciando processamento dos Relatorios do Approval
+[06/10/2026 17:01:11] Processamento concluído
+[06/10/2026 21:00:11] Iniciando processamento de RMs
+[06/10/2026 21:00:20] Iniciando processamento de Pedidos
+[06/10/2026 21:00:25] Iniciando processamento de PDFs
+[06/10/2026 21:00:25] Iniciando processamento dos Relatorios do Approval
+[06/10/2026 21:00:51] Processamento concluído
+[07/10/2026 01:00:03] Iniciando processamento de RMs
+[07/10/2026 01:00:13] Iniciando processamento de Pedidos
+[07/10/2026 01:00:18] Iniciando processamento de PDFs
+[07/10/2026 01:00:18] Iniciando processamento dos Relatorios do Approval
+[07/10/2026 01:00:45] Processamento concluído
+[07/10/2026 05:00:02] Iniciando processamento de RMs
+[07/10/2026 05:00:12] Iniciando processamento de Pedidos
+[07/10/2026 05:00:18] Iniciando processamento de PDFs
+[07/10/2026 05:00:18] Iniciando processamento dos Relatorios do Approval
+[07/10/2026 05:00:42] Processamento concluído
+[07/10/2026 09:00:03] Iniciando processamento de RMs
+[07/10/2026 09:00:12] Iniciando processamento de Pedidos
+[07/10/2026 09:00:20] Iniciando processamento de PDFs
+[07/10/2026 09:00:20] Iniciando processamento dos Relatorios do Approval
+[07/10/2026 09:00:46] Processamento concluído
+[07/10/2026 13:00:03] Iniciando processamento de RMs
+[07/10/2026 13:00:12] Iniciando processamento de Pedidos
+[07/10/2026 13:00:17] Iniciando processamento de PDFs
+[07/10/2026 13:00:17] Iniciando processamento dos Relatorios do Approval
+[07/10/2026 13:00:43] Processamento concluído
+[07/10/2026 17:00:03] Iniciando processamento de RMs
+[07/10/2026 17:00:12] Iniciando processamento de Pedidos
+[07/10/2026 17:00:17] Iniciando processamento de PDFs
+[07/10/2026 17:00:22] Iniciando processamento dos Relatorios do Approval
+[07/10/2026 17:00:49] Processamento concluído
+[07/10/2026 21:00:03] Iniciando processamento de RMs
+[07/10/2026 21:00:12] Iniciando processamento de Pedidos
+[07/10/2026 21:00:17] Iniciando processamento de PDFs
+[07/10/2026 21:00:17] Iniciando processamento dos Relatorios do Approval
+[07/10/2026 21:00:53] Processamento concluído
+[08/10/2026 01:00:03] Iniciando processamento de RMs
+[08/10/2026 01:00:12] Iniciando processamento de Pedidos
+[08/10/2026 01:00:18] Iniciando processamento de PDFs
+[08/10/2026 01:00:18] Iniciando processamento dos Relatorios do Approval
+[08/10/2026 01:00:46] Processamento concluído
+[08/10/2026 05:00:02] Iniciando processamento de RMs
+[08/10/2026 05:00:11] Iniciando processamento de Pedidos
+[08/10/2026 05:00:16] Iniciando processamento de PDFs
+[08/10/2026 05:00:16] Iniciando processamento dos Relatorios do Approval
+[08/10/2026 05:00:43] Processamento concluído
+[08/10/2026 09:00:03] Iniciando processamento de RMs
+[08/10/2026 09:00:12] Iniciando processamento de Pedidos
+[08/10/2026 09:00:17] Iniciando processamento de PDFs
+[08/10/2026 09:00:17] Iniciando processamento dos Relatorios do Approval
+[08/10/2026 09:00:44] Processamento concluído
+[08/10/2026 13:00:03] Iniciando processamento de RMs
+[08/10/2026 13:00:12] Iniciando processamento de Pedidos
+[08/10/2026 13:00:19] Iniciando processamento de PDFs
+[08/10/2026 13:00:19] Iniciando processamento dos Relatorios do Approval
+[08/10/2026 13:00:48] Processamento concluído
+[08/10/2026 17:00:03] Iniciando processamento de RMs
+[08/10/2026 17:00:12] Iniciando processamento de Pedidos
+[08/10/2026 17:00:21] Iniciando processamento de PDFs
+[08/10/2026 17:00:21] Iniciando processamento dos Relatorios do Approval
+[08/10/2026 17:00:48] Processamento concluído
+[08/10/2026 21:00:03] Iniciando processamento de RMs
+[08/10/2026 21:00:11] Iniciando processamento de Pedidos
+[08/10/2026 21:00:17] Iniciando processamento de PDFs
+[08/10/2026 21:00:17] Iniciando processamento dos Relatorios do Approval
+[08/10/2026 21:00:52] Processamento concluído
+[09/10/2026 01:00:03] Iniciando processamento de RMs
+[09/10/2026 01:00:10] Iniciando processamento de Pedidos
+[09/10/2026 01:00:16] Iniciando processamento de PDFs
+[09/10/2026 01:00:16] Iniciando processamento dos Relatorios do Approval
+[09/10/2026 01:00:48] Processamento concluído
+[09/10/2026 05:00:02] Iniciando processamento de RMs
+[09/10/2026 05:00:11] Iniciando processamento de Pedidos
+[09/10/2026 05:00:16] Iniciando processamento de PDFs
+[09/10/2026 05:00:16] Iniciando processamento dos Relatorios do Approval
+[09/10/2026 05:00:43] Processamento concluído
+[09/10/2026 09:00:03] Iniciando processamento de RMs
+[09/10/2026 09:00:11] Iniciando processamento de Pedidos
+[09/10/2026 09:00:16] Iniciando processamento de PDFs
+[09/10/2026 09:00:16] Iniciando processamento dos Relatorios do Approval
+[09/10/2026 09:00:45] Processamento concluído
+[09/10/2026 13:00:03] Iniciando processamento de RMs
+[09/10/2026 13:00:11] Iniciando processamento de Pedidos
+[09/10/2026 13:00:16] Iniciando processamento de PDFs
+[09/10/2026 13:00:16] Iniciando processamento dos Relatorios do Approval
+[09/10/2026 13:00:46] Processamento concluído
+[09/10/2026 17:00:03] Iniciando processamento de RMs
+[09/10/2026 17:00:11] Iniciando processamento de Pedidos
+[09/10/2026 17:00:16] Iniciando processamento de PDFs
+[09/10/2026 17:00:16] Iniciando processamento dos Relatorios do Approval
+[09/10/2026 17:00:46] Processamento concluído
+[09/10/2026 21:00:03] Iniciando processamento de RMs
+[09/10/2026 21:00:11] Iniciando processamento de Pedidos
+[09/10/2026 21:00:16] Iniciando processamento de PDFs
+[09/10/2026 21:00:16] Iniciando processamento dos Relatorios do Approval
+[09/10/2026 21:00:50] Processamento concluído
+[10/10/2026 01:00:03] Iniciando processamento de RMs
+[10/10/2026 01:00:11] Iniciando processamento de Pedidos
+[10/10/2026 01:00:16] Iniciando processamento de PDFs
+[10/10/2026 01:00:16] Iniciando processamento dos Relatorios do Approval
+[10/10/2026 01:00:55] Processamento concluído
+[10/10/2026 05:00:02] Iniciando processamento de RMs
+[10/10/2026 05:00:10] Iniciando processamento de Pedidos
+[10/10/2026 05:00:15] Iniciando processamento de PDFs
+[10/10/2026 05:00:15] Iniciando processamento dos Relatorios do Approval
+[10/10/2026 05:00:47] Processamento concluído
+[10/10/2026 09:00:03] Iniciando processamento de RMs
+[10/10/2026 09:00:11] Iniciando processamento de Pedidos
+[10/10/2026 09:00:18] Iniciando processamento de PDFs
+[10/10/2026 09:00:18] Iniciando processamento dos Relatorios do Approval
+[10/10/2026 09:00:51] Processamento concluído
+[10/10/2026 13:00:03] Iniciando processamento de RMs
+[10/10/2026 13:00:11] Iniciando processamento de Pedidos
+[10/10/2026 13:00:17] Iniciando processamento de PDFs
+[10/10/2026 13:00:17] Iniciando processamento dos Relatorios do Approval
+[10/10/2026 13:00:50] Processamento concluído
+[10/10/2026 17:00:03] Iniciando processamento de RMs
+[10/10/2026 17:00:11] Iniciando processamento de Pedidos
+[10/10/2026 17:00:16] Iniciando processamento de PDFs
+[10/10/2026 17:00:16] Iniciando processamento dos Relatorios do Approval
+[10/10/2026 17:00:49] Processamento concluído
+[10/10/2026 21:00:03] Iniciando processamento de RMs
+[10/10/2026 21:00:11] Iniciando processamento de Pedidos
+[10/10/2026 21:00:18] Iniciando processamento de PDFs
+[10/10/2026 21:00:18] Iniciando processamento dos Relatorios do Approval
+[10/10/2026 21:00:53] Processamento concluído
+[11/10/2026 01:00:03] Iniciando processamento de RMs
+[11/10/2026 01:00:11] Iniciando processamento de Pedidos
+[11/10/2026 01:00:17] Iniciando processamento de PDFs
+[11/10/2026 01:00:17] Iniciando processamento dos Relatorios do Approval
+[11/10/2026 01:00:49] Processamento concluído
+[11/10/2026 05:00:03] Iniciando processamento de RMs
+[11/10/2026 05:00:11] Iniciando processamento de Pedidos
+[11/10/2026 05:00:16] Iniciando processamento de PDFs
+[11/10/2026 05:00:16] Iniciando processamento dos Relatorios do Approval
+[11/10/2026 05:00:48] Processamento concluído
+[12/10/2026 05:00:02] Iniciando processamento de RMs
+[12/10/2026 05:00:10] Iniciando processamento de Pedidos
+[12/10/2026 05:00:15] Iniciando processamento de PDFs
+[12/10/2026 05:00:15] Iniciando processamento dos Relatorios do Approval
+[12/10/2026 05:00:44] Processamento concluído
+[12/10/2026 09:00:03] Iniciando processamento de RMs
+[12/10/2026 09:00:11] Iniciando processamento de Pedidos
+[12/10/2026 09:00:15] Iniciando processamento de PDFs
+[12/10/2026 09:00:15] Iniciando processamento dos Relatorios do Approval
+[12/10/2026 09:00:46] Processamento concluído
+[12/10/2026 13:00:03] Iniciando processamento de RMs
+[12/10/2026 13:00:11] Iniciando processamento de Pedidos
+[12/10/2026 13:00:17] Iniciando processamento de PDFs
+[12/10/2026 13:00:17] Iniciando processamento dos Relatorios do Approval
+[12/10/2026 13:00:46] Processamento concluído
+[12/10/2026 17:00:03] Iniciando processamento de RMs
+[12/10/2026 17:00:11] Iniciando processamento de Pedidos
+[12/10/2026 17:00:16] Iniciando processamento de PDFs
+[12/10/2026 17:00:16] Iniciando processamento dos Relatorios do Approval
+[12/10/2026 17:00:45] Processamento concluído
+[12/10/2026 21:00:03] Iniciando processamento de RMs
+[12/10/2026 21:00:11] Iniciando processamento de Pedidos
+[12/10/2026 21:00:16] Iniciando processamento de PDFs
+[12/10/2026 21:00:16] Iniciando processamento dos Relatorios do Approval
+[12/10/2026 21:00:47] Processamento concluído
+[13/10/2026 01:00:03] Iniciando processamento de RMs
+[13/10/2026 01:00:11] Iniciando processamento de Pedidos
+[13/10/2026 01:00:16] Iniciando processamento de PDFs
+[13/10/2026 01:00:16] Iniciando processamento dos Relatorios do Approval
+[13/10/2026 01:00:53] Processamento concluído
+[13/10/2026 05:00:02] Iniciando processamento de RMs
+[13/10/2026 05:00:10] Iniciando processamento de Pedidos
+[13/10/2026 05:00:14] Iniciando processamento de PDFs
+[13/10/2026 05:00:14] Iniciando processamento dos Relatorios do Approval
+[13/10/2026 05:00:44] Processamento concluído
+[13/10/2026 09:00:03] Iniciando processamento de RMs
+[13/10/2026 09:00:12] Iniciando processamento de Pedidos
+[13/10/2026 09:00:18] Iniciando processamento de PDFs
+[13/10/2026 09:00:23] Iniciando processamento dos Relatorios do Approval
+[13/10/2026 09:00:55] Processamento concluído
+[13/10/2026 10:51:17] Iniciando processamento de RMs
+[13/10/2026 10:51:27] Iniciando processamento de Pedidos
+[13/10/2026 10:51:32] Iniciando processamento de PDFs
+[13/10/2026 10:51:58] Iniciando processamento dos Relatorios do Approval
+[13/10/2026 10:52:27] Processamento concluído
+[13/10/2026 11:14:05] Iniciando processamento de RMs
+[13/10/2026 11:14:13] Iniciando processamento de Pedidos
+[13/10/2026 11:14:17] Iniciando processamento de PDFs
+[13/10/2026 11:14:17] Iniciando processamento dos Relatorios do Approval
+[13/10/2026 11:14:43] Processamento concluído
+[13/10/2026 13:00:03] Iniciando processamento de RMs
+[13/10/2026 13:00:12] Iniciando processamento de Pedidos
+[13/10/2026 13:00:17] Iniciando processamento de PDFs
+[13/10/2026 13:00:17] Iniciando processamento dos Relatorios do Approval
+[13/10/2026 13:00:45] Processamento concluído
+[13/10/2026 17:00:03] Iniciando processamento de RMs
+[13/10/2026 17:00:12] Iniciando processamento de Pedidos
+[13/10/2026 17:00:22] Iniciando processamento de PDFs
+[13/10/2026 17:00:22] Iniciando processamento dos Relatorios do Approval
+[13/10/2026 17:00:50] Processamento concluído
+[13/10/2026 21:00:03] Iniciando processamento de RMs
+[13/10/2026 21:00:12] Iniciando processamento de Pedidos
+[13/10/2026 21:00:18] Iniciando processamento de PDFs
+[13/10/2026 21:00:18] Iniciando processamento dos Relatorios do Approval
+[13/10/2026 21:00:51] Processamento concluído
+[14/10/2026 01:00:03] Iniciando processamento de RMs
+[14/10/2026 01:00:12] Iniciando processamento de Pedidos
+[14/10/2026 01:00:18] Iniciando processamento de PDFs
+[14/10/2026 01:00:18] Iniciando processamento dos Relatorios do Approval
+[14/10/2026 01:00:47] Processamento concluído
+[14/10/2026 09:00:04] Iniciando processamento de RMs
+[14/10/2026 09:00:18] Iniciando processamento de Pedidos
+[14/10/2026 09:00:24] Iniciando processamento de PDFs
+[14/10/2026 09:00:24] Iniciando processamento dos Relatorios do Approval
+[14/10/2026 09:00:51] Processamento concluído
+[14/10/2026 13:00:03] Iniciando processamento de RMs
+[14/10/2026 13:00:17] Iniciando processamento de Pedidos
+[14/10/2026 13:00:22] Iniciando processamento de PDFs
+[14/10/2026 13:00:30] Iniciando processamento dos Relatorios do Approval
+[14/10/2026 13:00:58] Processamento concluído
+[14/10/2026 17:00:03] Iniciando processamento de RMs
+[14/10/2026 17:00:11] Iniciando processamento de Pedidos
+[14/10/2026 17:00:16] Iniciando processamento de PDFs
+[14/10/2026 17:00:16] Iniciando processamento dos Relatorios do Approval
+[14/10/2026 17:00:48] Processamento concluído
+[14/10/2026 21:00:03] Iniciando processamento de RMs
+[14/10/2026 21:00:16] Iniciando processamento de Pedidos
+[14/10/2026 21:00:21] Iniciando processamento de PDFs
+[14/10/2026 21:00:21] Iniciando processamento dos Relatorios do Approval
+[14/10/2026 21:00:53] Processamento concluído
+[15/10/2026 01:00:03] Iniciando processamento de RMs
+[15/10/2026 01:00:11] Iniciando processamento de Pedidos
+[15/10/2026 01:00:16] Iniciando processamento de PDFs
+[15/10/2026 01:00:16] Iniciando processamento dos Relatorios do Approval
+[15/10/2026 01:00:44] Processamento concluído
+[15/10/2026 05:00:03] Iniciando processamento de RMs
+[15/10/2026 05:00:11] Iniciando processamento de Pedidos
+[15/10/2026 05:00:16] Iniciando processamento de PDFs
+[15/10/2026 05:00:16] Iniciando processamento dos Relatorios do Approval
+[15/10/2026 05:00:44] Processamento concluído
+[15/10/2026 09:00:03] Iniciando processamento de RMs
+[15/10/2026 09:00:09] Iniciando processamento de Pedidos
+[15/10/2026 09:00:17] Iniciando processamento de PDFs
+[15/10/2026 09:00:17] Iniciando processamento dos Relatorios do Approval
+[15/10/2026 09:00:43] Processamento concluído
+[15/10/2026 13:00:03] Iniciando processamento de RMs
+[15/10/2026 13:00:12] Iniciando processamento de Pedidos
+[15/10/2026 13:00:17] Iniciando processamento de PDFs
+[15/10/2026 13:00:18] Iniciando processamento dos Relatorios do Approval
+[15/10/2026 13:00:51] Processamento concluído
+[15/10/2026 17:00:03] Iniciando processamento de RMs
+[15/10/2026 17:00:18] Iniciando processamento de Pedidos
+[15/10/2026 17:00:23] Iniciando processamento de PDFs
+[15/10/2026 17:00:23] Iniciando processamento dos Relatorios do Approval
+[15/10/2026 17:00:51] Processamento concluído
+[15/10/2026 21:00:03] Iniciando processamento de RMs
+[15/10/2026 21:00:16] Iniciando processamento de Pedidos
+[15/10/2026 21:00:22] Iniciando processamento de PDFs
+[15/10/2026 21:00:22] Iniciando processamento dos Relatorios do Approval
+[15/10/2026 21:00:52] Processamento concluído
+[16/10/2026 01:00:03] Iniciando processamento de RMs
+[16/10/2026 01:00:12] Iniciando processamento de Pedidos
+[16/10/2026 01:00:16] Iniciando processamento de PDFs
+[16/10/2026 01:00:16] Iniciando processamento dos Relatorios do Approval
+[16/10/2026 01:00:45] Processamento concluído
+[16/10/2026 05:00:03] Iniciando processamento de RMs
+[16/10/2026 05:00:10] Iniciando processamento de Pedidos
+[16/10/2026 05:00:16] Iniciando processamento de PDFs
+[16/10/2026 05:00:16] Iniciando processamento dos Relatorios do Approval
+[16/10/2026 05:00:43] Processamento concluído
+[16/10/2026 09:00:03] Iniciando processamento de RMs
+[16/10/2026 09:00:11] Iniciando processamento de Pedidos
+[16/10/2026 09:00:17] Iniciando processamento de PDFs
+[16/10/2026 09:00:17] Iniciando processamento dos Relatorios do Approval
+[16/10/2026 09:00:43] Processamento concluído
+[16/10/2026 13:00:03] Iniciando processamento de RMs
+[16/10/2026 13:00:04] Iniciando processamento de Pedidos
+[16/10/2026 13:00:11] Iniciando processamento de PDFs
+[16/10/2026 13:00:11] Iniciando processamento dos Relatorios do Approval
+[16/10/2026 13:00:42] Processamento concluído
+[16/10/2026 17:00:03] Iniciando processamento de RMs
+[16/10/2026 17:00:03] Iniciando processamento de Pedidos
+[16/10/2026 17:00:18] Iniciando processamento de PDFs
+[16/10/2026 17:00:18] Iniciando processamento dos Relatorios do Approval
+[16/10/2026 17:00:47] Processamento concluído
+[16/10/2026 21:00:03] Iniciando processamento de RMs
+[16/10/2026 21:00:03] Iniciando processamento de Pedidos
+[16/10/2026 21:00:10] Iniciando processamento de PDFs
+[16/10/2026 21:00:10] Iniciando processamento dos Relatorios do Approval
+[16/10/2026 21:00:43] Processamento concluído
+[17/10/2026 01:00:03] Iniciando processamento de RMs
+[17/10/2026 01:00:03] Iniciando processamento de Pedidos
+[17/10/2026 01:00:09] Iniciando processamento de PDFs
+[17/10/2026 01:00:09] Iniciando processamento dos Relatorios do Approval
+[17/10/2026 01:00:41] Processamento concluído
+[17/10/2026 05:00:03] Iniciando processamento de RMs
+[17/10/2026 05:00:03] Iniciando processamento de Pedidos
+[17/10/2026 05:00:09] Iniciando processamento de PDFs
+[17/10/2026 05:00:09] Iniciando processamento dos Relatorios do Approval
+[17/10/2026 05:00:35] Processamento concluído
+[17/10/2026 09:00:03] Iniciando processamento de RMs
+[17/10/2026 09:00:03] Iniciando processamento de Pedidos
+[17/10/2026 09:00:09] Iniciando processamento de PDFs
+[17/10/2026 09:00:09] Iniciando processamento dos Relatorios do Approval
+[17/10/2026 09:00:39] Processamento concluído
+[17/10/2026 13:00:03] Iniciando processamento de RMs
+[17/10/2026 13:00:03] Iniciando processamento de Pedidos
+[17/10/2026 13:00:09] Iniciando processamento de PDFs
+[17/10/2026 13:00:09] Iniciando processamento dos Relatorios do Approval
+[17/10/2026 13:00:37] Processamento concluído
+[17/10/2026 17:00:03] Iniciando processamento de RMs
+[17/10/2026 17:00:03] Iniciando processamento de Pedidos
+[17/10/2026 17:00:13] Iniciando processamento de PDFs
+[17/10/2026 17:00:13] Iniciando processamento dos Relatorios do Approval
+[17/10/2026 17:00:39] Processamento concluído
+[17/10/2026 21:00:03] Iniciando processamento de RMs
+[17/10/2026 21:00:03] Iniciando processamento de Pedidos
+[17/10/2026 21:00:09] Iniciando processamento de PDFs
+[17/10/2026 21:00:09] Iniciando processamento dos Relatorios do Approval
+[17/10/2026 21:00:40] Processamento concluído
+[18/10/2026 01:00:03] Iniciando processamento de RMs
+[18/10/2026 01:00:03] Iniciando processamento de Pedidos
+[18/10/2026 01:00:10] Iniciando processamento de PDFs
+[18/10/2026 01:00:10] Iniciando processamento dos Relatorios do Approval
+[18/10/2026 01:00:39] Processamento concluído
+[18/10/2026 05:00:03] Iniciando processamento de RMs
+[18/10/2026 05:00:03] Iniciando processamento de Pedidos
+[18/10/2026 05:00:09] Iniciando processamento de PDFs
+[18/10/2026 05:00:09] Iniciando processamento dos Relatorios do Approval
+[18/10/2026 05:00:34] Processamento concluído
+[19/10/2026 05:00:03] Iniciando processamento de RMs
+[19/10/2026 05:00:03] Iniciando processamento de Pedidos
+[19/10/2026 05:00:09] Iniciando processamento de PDFs
+[19/10/2026 05:00:09] Iniciando processamento dos Relatorios do Approval
+[19/10/2026 05:00:39] Processamento concluído
+[19/10/2026 09:00:04] Iniciando processamento de RMs
+[19/10/2026 09:00:04] Iniciando processamento de Pedidos
+[19/10/2026 09:00:18] Iniciando processamento de PDFs
+[19/10/2026 09:00:18] Iniciando processamento dos Relatorios do Approval
+[19/10/2026 09:00:43] Processamento concluído
+[19/10/2026 13:00:03] Iniciando processamento de RMs
+[19/10/2026 13:00:03] Iniciando processamento de Pedidos
+[19/10/2026 13:00:16] Iniciando processamento de PDFs
+[19/10/2026 13:00:25] Iniciando processamento dos Relatorios do Approval
+[19/10/2026 13:00:52] Processamento concluído
+[19/10/2026 17:00:04] Iniciando processamento de RMs
+[19/10/2026 17:00:29] Iniciando processamento de Pedidos
+[19/10/2026 17:00:36] Iniciando processamento de PDFs
+[19/10/2026 17:00:36] Iniciando processamento dos Relatorios do Approval
+[19/10/2026 17:01:03] Processamento concluído
+[19/10/2026 21:00:04] Iniciando processamento de RMs
+[19/10/2026 21:00:22] Iniciando processamento de Pedidos
+[19/10/2026 21:00:27] Iniciando processamento de PDFs
+[19/10/2026 21:00:27] Iniciando processamento dos Relatorios do Approval
+[19/10/2026 21:00:56] Processamento concluído
+[20/10/2026 01:00:04] Iniciando processamento de RMs
+[20/10/2026 01:00:11] Iniciando processamento de Pedidos
+[20/10/2026 01:00:20] Iniciando processamento de PDFs
+[20/10/2026 01:00:20] Iniciando processamento dos Relatorios do Approval
+[20/10/2026 01:00:48] Processamento concluído
+[20/10/2026 05:00:03] Iniciando processamento de RMs
+[20/10/2026 05:00:19] Iniciando processamento de Pedidos
+[20/10/2026 05:00:24] Iniciando processamento de PDFs
+[20/10/2026 05:00:24] Iniciando processamento dos Relatorios do Approval
+[20/10/2026 05:00:51] Processamento concluído
+[20/10/2026 09:00:04] Iniciando processamento de RMs
+[20/10/2026 09:00:12] Iniciando processamento de Pedidos
+[20/10/2026 09:00:58] Iniciando processamento de PDFs
+[20/10/2026 09:00:58] Iniciando processamento dos Relatorios do Approval
+[20/10/2026 09:01:24] Processamento concluído
+[20/10/2026 10:10:05] Iniciando processamento de RMs
+[20/10/2026 10:10:12] Iniciando processamento de Pedidos
+[20/10/2026 10:10:15] Iniciando processamento de PDFs
+[20/10/2026 10:10:15] Iniciando processamento dos Relatorios do Approval
+[20/10/2026 10:10:41] Processamento concluído
+[20/10/2026 10:19:11] Iniciando processamento de RMs
+[20/10/2026 10:19:17] Iniciando processamento de Pedidos
+[20/10/2026 10:19:21] Iniciando processamento de PDFs
+[20/10/2026 10:19:21] Iniciando processamento dos Relatorios do Approval
+[20/10/2026 10:19:45] Processamento concluído
+[20/10/2026 10:46:20] Iniciando processamento de RMs
+[20/10/2026 10:46:21] Iniciando processamento de Pedidos
+[20/10/2026 10:46:31] Iniciando processamento de PDFs
+[20/10/2026 10:47:10] Iniciando processamento dos Relatorios do Approval
+[20/10/2026 10:47:25] Processamento concluído
+[20/10/2026 13:00:04] Iniciando processamento de RMs
+[20/10/2026 13:00:04] Iniciando processamento de Pedidos
+[20/10/2026 13:00:37] Iniciando processamento de PDFs
+[20/10/2026 13:00:37] Iniciando processamento dos Relatorios do Approval
+[20/10/2026 13:00:58] Processamento concluído
+[20/10/2026 17:00:04] Iniciando processamento de RMs
+[20/10/2026 17:00:04] Iniciando processamento de Pedidos
+[20/10/2026 17:00:10] Iniciando processamento de PDFs
+[20/10/2026 17:00:17] Iniciando processamento dos Relatorios do Approval
+[20/10/2026 17:00:47] Processamento concluído
+[20/10/2026 21:00:04] Iniciando processamento de RMs
+[20/10/2026 21:00:04] Iniciando processamento de Pedidos
+[20/10/2026 21:00:12] Iniciando processamento de PDFs
+[20/10/2026 21:00:12] Iniciando processamento dos Relatorios do Approval
+[20/10/2026 21:00:51] Processamento concluído
+[21/10/2026 01:00:04] Iniciando processamento de RMs
+[21/10/2026 01:00:04] Iniciando processamento de Pedidos
+[21/10/2026 01:00:10] Iniciando processamento de PDFs
+[21/10/2026 01:00:10] Iniciando processamento dos Relatorios do Approval
+[21/10/2026 01:00:45] Processamento concluído
+[21/10/2026 05:00:03] Iniciando processamento de RMs
+[21/10/2026 05:00:03] Iniciando processamento de Pedidos
+[21/10/2026 05:00:19] Iniciando processamento de PDFs
+[21/10/2026 05:00:19] Iniciando processamento dos Relatorios do Approval
+[21/10/2026 05:00:52] Processamento concluído
+[21/10/2026 09:00:04] Iniciando processamento de RMs
+[21/10/2026 09:00:04] Iniciando processamento de Pedidos
+[21/10/2026 09:01:01] Iniciando processamento de PDFs
+[21/10/2026 09:01:01] Iniciando processamento dos Relatorios do Approval
+[21/10/2026 09:01:29] Processamento concluído
+[21/10/2026 13:00:03] Iniciando processamento de RMs
+[21/10/2026 13:00:03] Iniciando processamento de Pedidos
+[21/10/2026 13:00:09] Iniciando processamento de PDFs
+[21/10/2026 13:00:39] Iniciando processamento dos Relatorios do Approval
+[21/10/2026 13:01:06] Processamento concluído
+[21/10/2026 13:50:40] Iniciando processamento de RMs
+[21/10/2026 13:50:40] Iniciando processamento de Pedidos
+[21/10/2026 13:50:44] Iniciando processamento de PDFs
+[21/10/2026 13:50:44] Iniciando processamento dos Relatorios do Approval
+[21/10/2026 13:51:15] Processamento concluído
+[21/10/2026 14:29:24] Iniciando processamento de RMs
+[21/10/2026 14:29:24] Iniciando processamento de Pedidos
+[21/10/2026 14:29:32] Iniciando processamento de PDFs
+[21/10/2026 14:29:32] Iniciando processamento dos Relatorios do Approval
+[21/10/2026 14:29:58] Processamento concluído
+[22/10/2026 09:08:59] -----------Iniciando processamento de RMs-----------
+[22/10/2026 09:09:08] -----------Fim processamento de RMs-----------
+[22/10/2026 09:09:08] -----------Iniciando processamento de Pedidos-----------
+[22/10/2026 09:09:14] -----------Fim processamento de Pedidos-----------
+[22/10/2026 09:09:14] -----------Iniciando processamento de PDFs-----------
+[22/10/2026 09:09:14] -----------Fim processamento de PDFs-----------
+[22/10/2026 09:09:14] Iniciando processamento dos Relatorios do Approval
+[22/10/2026 09:09:48] -----------Fim processamento dos Relatorios do Approval-----------
+[22/10/2026 09:09:48] **********Processamento concluído************
+[22/10/2026 13:00:02] -----------Iniciando processamento de RMs-----------
+[22/10/2026 13:00:32] -----------Fim processamento de RMs-----------
+[22/10/2026 13:00:32] -----------Iniciando processamento de Pedidos-----------
+[22/10/2026 13:00:39] -----------Fim processamento de Pedidos-----------
+[22/10/2026 13:00:39] -----------Iniciando processamento de PDFs-----------
+[22/10/2026 13:00:39] -----------Fim processamento de PDFs-----------
+[22/10/2026 13:00:39] Iniciando processamento dos Relatorios do Approval
+[22/10/2026 13:01:07] -----------Fim processamento dos Relatorios do Approval-----------
+[22/10/2026 13:01:07] **********Processamento concluído************
+[22/10/2026 17:00:02] -----------Iniciando processamento de RMs-----------
+[22/10/2026 17:00:13] -----------Fim processamento de RMs-----------
+[22/10/2026 17:00:13] -----------Iniciando processamento de Pedidos-----------
+[22/10/2026 17:00:35] -----------Fim processamento de Pedidos-----------
+[22/10/2026 17:00:35] -----------Iniciando processamento de PDFs-----------
+[22/10/2026 17:00:35] -----------Fim processamento de PDFs-----------
+[22/10/2026 17:00:35] Iniciando processamento dos Relatorios do Approval
+[22/10/2026 17:01:03] -----------Fim processamento dos Relatorios do Approval-----------
+[22/10/2026 17:01:03] **********Processamento concluído************
+[22/10/2026 21:00:02] -----------Iniciando processamento de RMs-----------
+[22/10/2026 21:00:12] -----------Fim processamento de RMs-----------
+[22/10/2026 21:00:12] -----------Iniciando processamento de Pedidos-----------
+[22/10/2026 21:00:41] -----------Fim processamento de Pedidos-----------
+[22/10/2026 21:00:41] -----------Iniciando processamento de PDFs-----------
+[22/10/2026 21:00:41] -----------Fim processamento de PDFs-----------
+[22/10/2026 21:00:41] Iniciando processamento dos Relatorios do Approval
+[22/10/2026 21:01:14] -----------Fim processamento dos Relatorios do Approval-----------
+[22/10/2026 21:01:14] **********Processamento concluído************
+[23/10/2026 01:00:02] -----------Iniciando processamento de RMs-----------
+[23/10/2026 01:00:11] -----------Fim processamento de RMs-----------
+[23/10/2026 01:00:11] -----------Iniciando processamento de Pedidos-----------
+[23/10/2026 01:00:16] -----------Fim processamento de Pedidos-----------
+[23/10/2026 01:00:16] -----------Iniciando processamento de PDFs-----------
+[23/10/2026 01:00:16] -----------Fim processamento de PDFs-----------
+[23/10/2026 01:00:16] Iniciando processamento dos Relatorios do Approval
+[23/10/2026 01:00:42] -----------Fim processamento dos Relatorios do Approval-----------
+[23/10/2026 01:00:42] **********Processamento concluído************
+[23/10/2026 05:00:02] -----------Iniciando processamento de RMs-----------
+[23/10/2026 05:00:28] -----------Fim processamento de RMs-----------
+[23/10/2026 05:00:28] -----------Iniciando processamento de Pedidos-----------
+[23/10/2026 05:00:34] -----------Fim processamento de Pedidos-----------
+[23/10/2026 05:00:34] -----------Iniciando processamento de PDFs-----------
+[23/10/2026 05:00:34] -----------Fim processamento de PDFs-----------
+[23/10/2026 05:00:34] Iniciando processamento dos Relatorios do Approval
+[23/10/2026 05:00:58] -----------Fim processamento dos Relatorios do Approval-----------
+[23/10/2026 05:00:58] **********Processamento concluído************
+[23/10/2026 09:00:03] -----------Iniciando processamento de RMs-----------
+[23/10/2026 09:02:06] -----------Fim processamento de RMs-----------
+[23/10/2026 09:02:06] -----------Iniciando processamento de Pedidos-----------
+[23/10/2026 09:02:13] -----------Fim processamento de Pedidos-----------
+[23/10/2026 09:02:13] -----------Iniciando processamento de PDFs-----------
+[23/10/2026 09:02:13] -----------Fim processamento de PDFs-----------
+[23/10/2026 09:02:13] Iniciando processamento dos Relatorios do Approval
+[23/10/2026 09:02:39] -----------Fim processamento dos Relatorios do Approval-----------
+[23/10/2026 09:02:39] **********Processamento concluído************
+[23/10/2026 13:00:03] -----------Iniciando processamento de RMs-----------
+[23/10/2026 13:00:13] -----------Fim processamento de RMs-----------
+[23/10/2026 13:00:13] -----------Iniciando processamento de Pedidos-----------
+[23/10/2026 13:00:20] -----------Fim processamento de Pedidos-----------
+[23/10/2026 13:00:20] -----------Iniciando processamento de PDFs-----------
+[23/10/2026 13:00:20] -----------Fim processamento de PDFs-----------
+[23/10/2026 13:00:20] Iniciando processamento dos Relatorios do Approval
+[23/10/2026 13:00:44] -----------Fim processamento dos Relatorios do Approval-----------
+[23/10/2026 13:00:44] **********Processamento concluído************
+[23/10/2026 17:00:03] -----------Iniciando processamento de RMs-----------
+[23/10/2026 17:00:15] -----------Fim processamento de RMs-----------
+[23/10/2026 17:00:15] -----------Iniciando processamento de Pedidos-----------
+[23/10/2026 17:00:20] -----------Fim processamento de Pedidos-----------
+[23/10/2026 17:00:20] -----------Iniciando processamento de PDFs-----------
+[23/10/2026 17:00:21] -----------Fim processamento de PDFs-----------
+[23/10/2026 17:00:21] Iniciando processamento dos Relatorios do Approval
+[23/10/2026 17:00:48] -----------Fim processamento dos Relatorios do Approval-----------
+[23/10/2026 17:00:48] **********Processamento concluído************
+[23/10/2026 21:00:03] -----------Iniciando processamento de RMs-----------
+[23/10/2026 21:00:12] -----------Fim processamento de RMs-----------
+[23/10/2026 21:00:12] -----------Iniciando processamento de Pedidos-----------
+[23/10/2026 21:00:17] -----------Fim processamento de Pedidos-----------
+[23/10/2026 21:00:17] -----------Iniciando processamento de PDFs-----------
+[23/10/2026 21:00:17] -----------Fim processamento de PDFs-----------
+[23/10/2026 21:00:17] Iniciando processamento dos Relatorios do Approval
+[23/10/2026 21:00:52] -----------Fim processamento dos Relatorios do Approval-----------
+[23/10/2026 21:00:52] **********Processamento concluído************
+[24/10/2026 01:00:03] -----------Iniciando processamento de RMs-----------
+[24/10/2026 01:00:11] -----------Fim processamento de RMs-----------
+[24/10/2026 01:00:11] -----------Iniciando processamento de Pedidos-----------
+[24/10/2026 01:00:16] -----------Fim processamento de Pedidos-----------
+[24/10/2026 01:00:16] -----------Iniciando processamento de PDFs-----------
+[24/10/2026 01:00:16] -----------Fim processamento de PDFs-----------
+[24/10/2026 01:00:16] Iniciando processamento dos Relatorios do Approval
+[24/10/2026 01:00:44] -----------Fim processamento dos Relatorios do Approval-----------
+[24/10/2026 01:00:44] **********Processamento concluído************
+[24/10/2026 05:00:02] -----------Iniciando processamento de RMs-----------
+[24/10/2026 05:00:11] -----------Fim processamento de RMs-----------
+[24/10/2026 05:00:11] -----------Iniciando processamento de Pedidos-----------
+[24/10/2026 05:00:17] -----------Fim processamento de Pedidos-----------
+[24/10/2026 05:00:17] -----------Iniciando processamento de PDFs-----------
+[24/10/2026 05:00:17] -----------Fim processamento de PDFs-----------
+[24/10/2026 05:00:17] Iniciando processamento dos Relatorios do Approval
+[24/10/2026 05:00:44] -----------Fim processamento dos Relatorios do Approval-----------
+[24/10/2026 05:00:44] **********Processamento concluído************
+[24/10/2026 09:00:03] -----------Iniciando processamento de RMs-----------
+[24/10/2026 09:00:12] -----------Fim processamento de RMs-----------
+[24/10/2026 09:00:12] -----------Iniciando processamento de Pedidos-----------
+[24/10/2026 09:00:17] -----------Fim processamento de Pedidos-----------
+[24/10/2026 09:00:17] -----------Iniciando processamento de PDFs-----------
+[24/10/2026 09:00:17] -----------Fim processamento de PDFs-----------
+[24/10/2026 09:00:17] Iniciando processamento dos Relatorios do Approval
+[24/10/2026 09:00:46] -----------Fim processamento dos Relatorios do Approval-----------
+[24/10/2026 09:00:46] **********Processamento concluído************
+[24/10/2026 13:00:03] -----------Iniciando processamento de RMs-----------
+[24/10/2026 13:00:12] -----------Fim processamento de RMs-----------
+[24/10/2026 13:00:12] -----------Iniciando processamento de Pedidos-----------
+[24/10/2026 13:00:17] -----------Fim processamento de Pedidos-----------
+[24/10/2026 13:00:17] -----------Iniciando processamento de PDFs-----------
+[24/10/2026 13:00:17] -----------Fim processamento de PDFs-----------
+[24/10/2026 13:00:17] Iniciando processamento dos Relatorios do Approval
+[24/10/2026 13:00:44] -----------Fim processamento dos Relatorios do Approval-----------
+[24/10/2026 13:00:44] **********Processamento concluído************
+[24/10/2026 17:00:03] -----------Iniciando processamento de RMs-----------
+[24/10/2026 17:00:13] -----------Fim processamento de RMs-----------
+[24/10/2026 17:00:13] -----------Iniciando processamento de Pedidos-----------
+[24/10/2026 17:00:18] -----------Fim processamento de Pedidos-----------
+[24/10/2026 17:00:18] -----------Iniciando processamento de PDFs-----------
+[24/10/2026 17:00:18] -----------Fim processamento de PDFs-----------
+[24/10/2026 17:00:18] Iniciando processamento dos Relatorios do Approval
+[24/10/2026 17:00:44] -----------Fim processamento dos Relatorios do Approval-----------
+[24/10/2026 17:00:44] **********Processamento concluído************
+[24/10/2026 21:00:03] -----------Iniciando processamento de RMs-----------
+[24/10/2026 21:00:14] -----------Fim processamento de RMs-----------
+[24/10/2026 21:00:14] -----------Iniciando processamento de Pedidos-----------
+[24/10/2026 21:00:21] -----------Fim processamento de Pedidos-----------
+[24/10/2026 21:00:21] -----------Iniciando processamento de PDFs-----------
+[24/10/2026 21:00:21] -----------Fim processamento de PDFs-----------
+[24/10/2026 21:00:21] Iniciando processamento dos Relatorios do Approval
+[24/10/2026 21:00:54] -----------Fim processamento dos Relatorios do Approval-----------
+[24/10/2026 21:00:54] **********Processamento concluído************
+[25/10/2026 01:00:03] -----------Iniciando processamento de RMs-----------
+[25/10/2026 01:00:14] -----------Fim processamento de RMs-----------
+[25/10/2026 01:00:14] -----------Iniciando processamento de Pedidos-----------
+[25/10/2026 01:00:19] -----------Fim processamento de Pedidos-----------
+[25/10/2026 01:00:19] -----------Iniciando processamento de PDFs-----------
+[25/10/2026 01:00:19] -----------Fim processamento de PDFs-----------
+[25/10/2026 01:00:19] Iniciando processamento dos Relatorios do Approval
+[25/10/2026 01:00:46] -----------Fim processamento dos Relatorios do Approval-----------
+[25/10/2026 01:00:46] **********Processamento concluído************
+[25/10/2026 05:00:03] -----------Iniciando processamento de RMs-----------
+[25/10/2026 05:00:12] -----------Fim processamento de RMs-----------
+[25/10/2026 05:00:12] -----------Iniciando processamento de Pedidos-----------
+[25/10/2026 05:00:21] -----------Fim processamento de Pedidos-----------
+[25/10/2026 05:00:21] -----------Iniciando processamento de PDFs-----------
+[25/10/2026 05:00:21] -----------Fim processamento de PDFs-----------
+[25/10/2026 05:00:21] Iniciando processamento dos Relatorios do Approval
+[25/10/2026 05:00:55] -----------Fim processamento dos Relatorios do Approval-----------
+[25/10/2026 05:00:55] **********Processamento concluído************
+[26/10/2026 05:00:02] -----------Iniciando processamento de RMs-----------
+[26/10/2026 05:00:12] -----------Fim processamento de RMs-----------
+[26/10/2026 05:00:12] -----------Iniciando processamento de Pedidos-----------
+[26/10/2026 05:00:17] -----------Fim processamento de Pedidos-----------
+[26/10/2026 05:00:17] -----------Iniciando processamento de PDFs-----------
+[26/10/2026 05:00:17] -----------Fim processamento de PDFs-----------
+[26/10/2026 05:00:17] Iniciando processamento dos Relatorios do Approval
+[26/10/2026 05:00:43] -----------Fim processamento dos Relatorios do Approval-----------
+[26/10/2026 05:00:43] **********Processamento concluído************
+[26/10/2026 09:00:04] -----------Iniciando processamento de RMs-----------
+[26/10/2026 09:00:14] -----------Fim processamento de RMs-----------
+[26/10/2026 09:00:14] -----------Iniciando processamento de Pedidos-----------
+[26/10/2026 09:00:19] -----------Fim processamento de Pedidos-----------
+[26/10/2026 09:00:19] -----------Iniciando processamento de PDFs-----------
+[26/10/2026 09:00:19] -----------Fim processamento de PDFs-----------
+[26/10/2026 09:00:19] Iniciando processamento dos Relatorios do Approval
+[26/10/2026 09:00:45] -----------Fim processamento dos Relatorios do Approval-----------
+[26/10/2026 09:00:45] **********Processamento concluído************
+[26/10/2026 13:00:04] -----------Iniciando processamento de RMs-----------
+[26/10/2026 13:00:15] -----------Fim processamento de RMs-----------
+[26/10/2026 13:00:15] -----------Iniciando processamento de Pedidos-----------
+[26/10/2026 13:00:20] -----------Fim processamento de Pedidos-----------
+[26/10/2026 13:00:20] -----------Iniciando processamento de PDFs-----------
+[26/10/2026 13:00:20] -----------Fim processamento de PDFs-----------
+[26/10/2026 13:00:20] Iniciando processamento dos Relatorios do Approval
+[26/10/2026 13:00:46] -----------Fim processamento dos Relatorios do Approval-----------
+[26/10/2026 13:00:46] **********Processamento concluído************
+[26/10/2026 17:00:03] -----------Iniciando processamento de RMs-----------
+[26/10/2026 17:00:12] -----------Fim processamento de RMs-----------
+[26/10/2026 17:00:12] -----------Iniciando processamento de Pedidos-----------
+[26/10/2026 17:00:18] -----------Fim processamento de Pedidos-----------
+[26/10/2026 17:00:18] -----------Iniciando processamento de PDFs-----------
+[26/10/2026 17:00:18] -----------Fim processamento de PDFs-----------
+[26/10/2026 17:00:18] Iniciando processamento dos Relatorios do Approval
+[26/10/2026 17:00:45] -----------Fim processamento dos Relatorios do Approval-----------
+[26/10/2026 17:00:45] **********Processamento concluído************
+[26/10/2026 21:00:03] -----------Iniciando processamento de RMs-----------
+[26/10/2026 21:00:13] -----------Fim processamento de RMs-----------
+[26/10/2026 21:00:13] -----------Iniciando processamento de Pedidos-----------
+[26/10/2026 21:00:19] -----------Fim processamento de Pedidos-----------
+[26/10/2026 21:00:19] -----------Iniciando processamento de PDFs-----------
+[26/10/2026 21:00:19] -----------Fim processamento de PDFs-----------
+[26/10/2026 21:00:19] Iniciando processamento dos Relatorios do Approval
+[26/10/2026 21:00:50] -----------Fim processamento dos Relatorios do Approval-----------
+[26/10/2026 21:00:50] **********Processamento concluído************
+[27/10/2026 01:00:04] -----------Iniciando processamento de RMs-----------
+[27/10/2026 01:00:12] -----------Fim processamento de RMs-----------
+[27/10/2026 01:00:13] -----------Iniciando processamento de Pedidos-----------
+[27/10/2026 01:00:18] -----------Fim processamento de Pedidos-----------
+[27/10/2026 01:00:18] -----------Iniciando processamento de PDFs-----------
+[27/10/2026 01:00:18] -----------Fim processamento de PDFs-----------
+[27/10/2026 01:00:18] Iniciando processamento dos Relatorios do Approval
+[27/10/2026 01:00:45] -----------Fim processamento dos Relatorios do Approval-----------
+[27/10/2026 01:00:45] **********Processamento concluído************
+[27/10/2026 05:00:03] -----------Iniciando processamento de RMs-----------
+[27/10/2026 05:00:12] -----------Fim processamento de RMs-----------
+[27/10/2026 05:00:12] -----------Iniciando processamento de Pedidos-----------
+[27/10/2026 05:00:17] -----------Fim processamento de Pedidos-----------
+[27/10/2026 05:00:17] -----------Iniciando processamento de PDFs-----------
+[27/10/2026 05:00:17] -----------Fim processamento de PDFs-----------
+[27/10/2026 05:00:17] Iniciando processamento dos Relatorios do Approval
+[27/10/2026 05:00:42] -----------Fim processamento dos Relatorios do Approval-----------
+[27/10/2026 05:00:42] **********Processamento concluído************
+[27/10/2026 09:00:04] -----------Iniciando processamento de RMs-----------
+[27/10/2026 09:00:20] -----------Fim processamento de RMs-----------
+[27/10/2026 09:00:20] -----------Iniciando processamento de Pedidos-----------
+[27/10/2026 09:00:27] -----------Fim processamento de Pedidos-----------
+[27/10/2026 09:00:27] -----------Iniciando processamento de PDFs-----------
+[27/10/2026 09:00:27] -----------Fim processamento de PDFs-----------
+[27/10/2026 09:00:27] Iniciando processamento dos Relatorios do Approval
+[27/10/2026 09:00:53] -----------Fim processamento dos Relatorios do Approval-----------
+[27/10/2026 09:00:53] **********Processamento concluído************
+[27/10/2026 13:00:03] -----------Iniciando processamento de RMs-----------
+[27/10/2026 13:00:12] -----------Fim processamento de RMs-----------
+[27/10/2026 13:00:12] -----------Iniciando processamento de Pedidos-----------
+[27/10/2026 13:00:17] -----------Fim processamento de Pedidos-----------
+[27/10/2026 13:00:17] -----------Iniciando processamento de PDFs-----------
+[27/10/2026 13:00:19] -----------Fim processamento de PDFs-----------
+[27/10/2026 13:00:19] Iniciando processamento dos Relatorios do Approval
+[27/10/2026 13:00:43] -----------Fim processamento dos Relatorios do Approval-----------
+[27/10/2026 13:00:43] **********Processamento concluído************
+[27/10/2026 17:00:03] -----------Iniciando processamento de RMs-----------
+[27/10/2026 17:00:11] -----------Fim processamento de RMs-----------
+[27/10/2026 17:00:11] -----------Iniciando processamento de Pedidos-----------
+[27/10/2026 17:00:16] -----------Fim processamento de Pedidos-----------
+[27/10/2026 17:00:16] -----------Iniciando processamento de PDFs-----------
+[27/10/2026 17:00:16] -----------Fim processamento de PDFs-----------
+[27/10/2026 17:00:16] Iniciando processamento dos Relatorios do Approval
+[27/10/2026 17:00:44] -----------Fim processamento dos Relatorios do Approval-----------
+[27/10/2026 17:00:44] **********Processamento concluído************
+[27/10/2026 21:00:03] -----------Iniciando processamento de RMs-----------
+[27/10/2026 21:00:13] -----------Fim processamento de RMs-----------
+[27/10/2026 21:00:13] -----------Iniciando processamento de Pedidos-----------
+[27/10/2026 21:00:18] -----------Fim processamento de Pedidos-----------
+[27/10/2026 21:00:18] -----------Iniciando processamento de PDFs-----------
+[27/10/2026 21:00:18] -----------Fim processamento de PDFs-----------
+[27/10/2026 21:00:18] Iniciando processamento dos Relatorios do Approval
+[27/10/2026 21:00:46] -----------Fim processamento dos Relatorios do Approval-----------
+[27/10/2026 21:00:46] **********Processamento concluído************
+[28/10/2026 01:00:04] -----------Iniciando processamento de RMs-----------
+[28/10/2026 01:00:12] -----------Fim processamento de RMs-----------
+[28/10/2026 01:00:12] -----------Iniciando processamento de Pedidos-----------
+[28/10/2026 01:00:19] -----------Fim processamento de Pedidos-----------
+[28/10/2026 01:00:19] -----------Iniciando processamento de PDFs-----------
+[28/10/2026 01:00:19] -----------Fim processamento de PDFs-----------
+[28/10/2026 01:00:19] Iniciando processamento dos Relatorios do Approval
+[28/10/2026 01:00:46] -----------Fim processamento dos Relatorios do Approval-----------
+[28/10/2026 01:00:46] **********Processamento concluído************
+[28/10/2026 05:00:03] -----------Iniciando processamento de RMs-----------
+[28/10/2026 05:00:12] -----------Fim processamento de RMs-----------
+[28/10/2026 05:00:12] -----------Iniciando processamento de Pedidos-----------
+[28/10/2026 05:00:18] -----------Fim processamento de Pedidos-----------
+[28/10/2026 05:00:18] -----------Iniciando processamento de PDFs-----------
+[28/10/2026 05:00:18] -----------Fim processamento de PDFs-----------
+[28/10/2026 05:00:18] Iniciando processamento dos Relatorios do Approval
+[28/10/2026 05:00:42] -----------Fim processamento dos Relatorios do Approval-----------
+[28/10/2026 05:00:42] **********Processamento concluído************
+[28/10/2026 09:00:03] -----------Iniciando processamento de RMs-----------
+[28/10/2026 09:00:12] -----------Fim processamento de RMs-----------
+[28/10/2026 09:00:12] -----------Iniciando processamento de Pedidos-----------
+[28/10/2026 09:00:17] -----------Fim processamento de Pedidos-----------
+[28/10/2026 09:00:17] -----------Iniciando processamento de PDFs-----------
+[28/10/2026 09:00:17] -----------Fim processamento de PDFs-----------
+[28/10/2026 09:00:17] Iniciando processamento dos Relatorios do Approval
+[28/10/2026 09:00:43] -----------Fim processamento dos Relatorios do Approval-----------
+[28/10/2026 09:00:43] **********Processamento concluído************
+[28/10/2026 13:00:03] -----------Iniciando processamento de RMs-----------
+[28/10/2026 13:00:14] -----------Fim processamento de RMs-----------
+[28/10/2026 13:00:14] -----------Iniciando processamento de Pedidos-----------
+[28/10/2026 13:00:20] -----------Fim processamento de Pedidos-----------
+[28/10/2026 13:00:20] -----------Iniciando processamento de PDFs-----------
+[28/10/2026 13:00:20] -----------Fim processamento de PDFs-----------
+[28/10/2026 13:00:20] Iniciando processamento dos Relatorios do Approval
+[28/10/2026 13:00:53] -----------Fim processamento dos Relatorios do Approval-----------
+[28/10/2026 13:00:53] **********Processamento concluído************
+[28/10/2026 17:00:03] -----------Iniciando processamento de RMs-----------
+[28/10/2026 17:00:13] -----------Fim processamento de RMs-----------
+[28/10/2026 17:00:13] -----------Iniciando processamento de Pedidos-----------
+[28/10/2026 17:00:21] -----------Fim processamento de Pedidos-----------
+[28/10/2026 17:00:21] -----------Iniciando processamento de PDFs-----------
+[28/10/2026 17:00:21] -----------Fim processamento de PDFs-----------
+[28/10/2026 17:00:21] Iniciando processamento dos Relatorios do Approval
+[28/10/2026 17:00:51] -----------Fim processamento dos Relatorios do Approval-----------
+[28/10/2026 17:00:51] **********Processamento concluído************
+[28/10/2026 21:00:03] -----------Iniciando processamento de RMs-----------
+[28/10/2026 21:00:16] -----------Fim processamento de RMs-----------
+[28/10/2026 21:00:16] -----------Iniciando processamento de Pedidos-----------
+[28/10/2026 21:00:23] -----------Fim processamento de Pedidos-----------
+[28/10/2026 21:00:23] -----------Iniciando processamento de PDFs-----------
+[28/10/2026 21:00:23] -----------Fim processamento de PDFs-----------
+[28/10/2026 21:00:23] Iniciando processamento dos Relatorios do Approval
+[28/10/2026 21:00:53] -----------Fim processamento dos Relatorios do Approval-----------
+[28/10/2026 21:00:53] **********Processamento concluído************
+[29/10/2026 01:00:04] -----------Iniciando processamento de RMs-----------
+[29/10/2026 01:00:12] -----------Fim processamento de RMs-----------
+[29/10/2026 01:00:12] -----------Iniciando processamento de Pedidos-----------
+[29/10/2026 01:00:23] -----------Fim processamento de Pedidos-----------
+[29/10/2026 01:00:23] -----------Iniciando processamento de PDFs-----------
+[29/10/2026 01:00:23] -----------Fim processamento de PDFs-----------
+[29/10/2026 01:00:23] Iniciando processamento dos Relatorios do Approval
+[29/10/2026 01:00:54] -----------Fim processamento dos Relatorios do Approval-----------
+[29/10/2026 01:00:54] **********Processamento concluído************
+[29/10/2026 05:00:03] -----------Iniciando processamento de RMs-----------
+[29/10/2026 05:00:12] -----------Fim processamento de RMs-----------
+[29/10/2026 05:00:12] -----------Iniciando processamento de Pedidos-----------
+[29/10/2026 05:00:19] -----------Fim processamento de Pedidos-----------
+[29/10/2026 05:00:19] -----------Iniciando processamento de PDFs-----------
+[29/10/2026 05:00:19] -----------Fim processamento de PDFs-----------
+[29/10/2026 05:00:19] Iniciando processamento dos Relatorios do Approval
+[29/10/2026 05:00:53] -----------Fim processamento dos Relatorios do Approval-----------
+[29/10/2026 05:00:53] **********Processamento concluído************
+[29/10/2026 09:00:03] -----------Iniciando processamento de RMs-----------
+[29/10/2026 09:00:15] -----------Fim processamento de RMs-----------
+[29/10/2026 09:00:15] -----------Iniciando processamento de Pedidos-----------
+[29/10/2026 09:00:22] -----------Fim processamento de Pedidos-----------
+[29/10/2026 09:00:22] -----------Iniciando processamento de PDFs-----------
+[29/10/2026 09:00:22] -----------Fim processamento de PDFs-----------
+[29/10/2026 09:00:22] Iniciando processamento dos Relatorios do Approval
+[29/10/2026 09:00:48] -----------Fim processamento dos Relatorios do Approval-----------
+[29/10/2026 09:00:48] **********Processamento concluído************
+[29/10/2026 13:00:04] -----------Iniciando processamento de RMs-----------
+[29/10/2026 13:00:13] -----------Fim processamento de RMs-----------
+[29/10/2026 13:00:13] -----------Iniciando processamento de Pedidos-----------
+[29/10/2026 13:00:18] -----------Fim processamento de Pedidos-----------
+[29/10/2026 13:00:18] -----------Iniciando processamento de PDFs-----------
+[29/10/2026 13:00:22] -----------Fim processamento de PDFs-----------
+[29/10/2026 13:00:22] Iniciando processamento dos Relatorios do Approval
+[29/10/2026 13:00:49] -----------Fim processamento dos Relatorios do Approval-----------
+[29/10/2026 13:00:49] **********Processamento concluído************
+[29/10/2026 17:00:03] -----------Iniciando processamento de RMs-----------
+[29/10/2026 17:00:12] -----------Fim processamento de RMs-----------
+[29/10/2026 17:00:12] -----------Iniciando processamento de Pedidos-----------
+[29/10/2026 17:00:18] -----------Fim processamento de Pedidos-----------
+[29/10/2026 17:00:18] -----------Iniciando processamento de PDFs-----------
+[29/10/2026 17:00:18] -----------Fim processamento de PDFs-----------
+[29/10/2026 17:00:18] Iniciando processamento dos Relatorios do Approval
+[29/10/2026 17:00:47] -----------Fim processamento dos Relatorios do Approval-----------
+[29/10/2026 17:00:47] **********Processamento concluído************
+[29/10/2026 21:00:03] -----------Iniciando processamento de RMs-----------
+[29/10/2026 21:00:13] -----------Fim processamento de RMs-----------
+[29/10/2026 21:00:13] -----------Iniciando processamento de Pedidos-----------
+[29/10/2026 21:00:18] -----------Fim processamento de Pedidos-----------
+[29/10/2026 21:00:18] -----------Iniciando processamento de PDFs-----------
+[29/10/2026 21:00:18] -----------Fim processamento de PDFs-----------
+[29/10/2026 21:00:18] Iniciando processamento dos Relatorios do Approval
+[29/10/2026 21:00:51] -----------Fim processamento dos Relatorios do Approval-----------
+[29/10/2026 21:00:52] **********Processamento concluído************
+[30/10/2026 01:00:03] -----------Iniciando processamento de RMs-----------
+[30/10/2026 01:00:12] -----------Fim processamento de RMs-----------
+[30/10/2026 01:00:12] -----------Iniciando processamento de Pedidos-----------
+[30/10/2026 01:00:18] -----------Fim processamento de Pedidos-----------
+[30/10/2026 01:00:18] -----------Iniciando processamento de PDFs-----------
+[30/10/2026 01:00:18] -----------Fim processamento de PDFs-----------
+[30/10/2026 01:00:18] Iniciando processamento dos Relatorios do Approval
+[30/10/2026 01:00:44] -----------Fim processamento dos Relatorios do Approval-----------
+[30/10/2026 01:00:44] **********Processamento concluído************
+[30/10/2026 05:00:03] -----------Iniciando processamento de RMs-----------
+[30/10/2026 05:00:11] -----------Fim processamento de RMs-----------
+[30/10/2026 05:00:11] -----------Iniciando processamento de Pedidos-----------
+[30/10/2026 05:00:17] -----------Fim processamento de Pedidos-----------
+[30/10/2026 05:00:17] -----------Iniciando processamento de PDFs-----------
+[30/10/2026 05:00:17] -----------Fim processamento de PDFs-----------
+[30/10/2026 05:00:17] Iniciando processamento dos Relatorios do Approval
+[30/10/2026 05:00:41] -----------Fim processamento dos Relatorios do Approval-----------
+[30/10/2026 05:00:41] **********Processamento concluído************
+[30/10/2026 09:00:03] -----------Iniciando processamento de RMs-----------
+[30/10/2026 09:00:12] -----------Fim processamento de RMs-----------
+[30/10/2026 09:00:12] -----------Iniciando processamento de Pedidos-----------
+[30/10/2026 09:00:17] -----------Fim processamento de Pedidos-----------
+[30/10/2026 09:00:17] -----------Iniciando processamento de PDFs-----------
+[30/10/2026 09:00:26] -----------Fim processamento de PDFs-----------
+[30/10/2026 09:00:26] Iniciando processamento dos Relatorios do Approval
+[30/10/2026 09:00:51] -----------Fim processamento dos Relatorios do Approval-----------
+[30/10/2026 09:00:51] **********Processamento concluído************
+[30/10/2026 13:00:03] -----------Iniciando processamento de RMs-----------
+[30/10/2026 13:00:13] -----------Fim processamento de RMs-----------
+[30/10/2026 13:00:13] -----------Iniciando processamento de Pedidos-----------
+[30/10/2026 13:00:18] -----------Fim processamento de Pedidos-----------
+[30/10/2026 13:00:18] -----------Iniciando processamento de PDFs-----------
+[30/10/2026 13:00:18] -----------Fim processamento de PDFs-----------
+[30/10/2026 13:00:18] Iniciando processamento dos Relatorios do Approval
+[30/10/2026 13:00:45] -----------Fim processamento dos Relatorios do Approval-----------
+[30/10/2026 13:00:45] **********Processamento concluído************
+[30/10/2026 17:00:04] -----------Iniciando processamento de RMs-----------
+[30/10/2026 17:00:17] -----------Fim processamento de RMs-----------
+[30/10/2026 17:00:17] -----------Iniciando processamento de Pedidos-----------
+[30/10/2026 17:00:23] -----------Fim processamento de Pedidos-----------
+[30/10/2026 17:00:23] -----------Iniciando processamento de PDFs-----------
+[30/10/2026 17:00:23] -----------Fim processamento de PDFs-----------
+[30/10/2026 17:00:23] Iniciando processamento dos Relatorios do Approval
+[30/10/2026 17:00:50] -----------Fim processamento dos Relatorios do Approval-----------
+[30/10/2026 17:00:50] **********Processamento concluído************
+[30/10/2026 21:00:04] -----------Iniciando processamento de RMs-----------
+[30/10/2026 21:00:13] -----------Fim processamento de RMs-----------
+[30/10/2026 21:00:13] -----------Iniciando processamento de Pedidos-----------
+[30/10/2026 21:00:18] -----------Fim processamento de Pedidos-----------
+[30/10/2026 21:00:18] -----------Iniciando processamento de PDFs-----------
+[30/10/2026 21:00:18] -----------Fim processamento de PDFs-----------
+[30/10/2026 21:00:18] Iniciando processamento dos Relatorios do Approval
+[30/10/2026 21:00:46] -----------Fim processamento dos Relatorios do Approval-----------
+[30/10/2026 21:00:46] **********Processamento concluído************
+[31/10/2026 01:00:04] -----------Iniciando processamento de RMs-----------
+[31/10/2026 01:00:12] -----------Fim processamento de RMs-----------
+[31/10/2026 01:00:12] -----------Iniciando processamento de Pedidos-----------
+[31/10/2026 01:00:17] -----------Fim processamento de Pedidos-----------
+[31/10/2026 01:00:17] -----------Iniciando processamento de PDFs-----------
+[31/10/2026 01:00:17] -----------Fim processamento de PDFs-----------
+[31/10/2026 01:00:17] Iniciando processamento dos Relatorios do Approval
+[31/10/2026 01:00:43] -----------Fim processamento dos Relatorios do Approval-----------
+[31/10/2026 01:00:43] **********Processamento concluído************
+[31/10/2026 05:00:03] -----------Iniciando processamento de RMs-----------
+[31/10/2026 05:00:11] -----------Fim processamento de RMs-----------
+[31/10/2026 05:00:11] -----------Iniciando processamento de Pedidos-----------
+[31/10/2026 05:00:20] -----------Fim processamento de Pedidos-----------
+[31/10/2026 05:00:20] -----------Iniciando processamento de PDFs-----------
+[31/10/2026 05:00:20] -----------Fim processamento de PDFs-----------
+[31/10/2026 05:00:20] Iniciando processamento dos Relatorios do Approval
+[31/10/2026 05:00:44] -----------Fim processamento dos Relatorios do Approval-----------
+[31/10/2026 05:00:44] **********Processamento concluído************
+[31/10/2026 09:00:03] -----------Iniciando processamento de RMs-----------
+[31/10/2026 09:00:12] -----------Fim processamento de RMs-----------
+[31/10/2026 09:00:12] -----------Iniciando processamento de Pedidos-----------
+[31/10/2026 09:00:19] -----------Fim processamento de Pedidos-----------
+[31/10/2026 09:00:19] -----------Iniciando processamento de PDFs-----------
+[31/10/2026 09:00:19] -----------Fim processamento de PDFs-----------
+[31/10/2026 09:00:19] Iniciando processamento dos Relatorios do Approval
+[31/10/2026 09:00:44] -----------Fim processamento dos Relatorios do Approval-----------
+[31/10/2026 09:00:44] **********Processamento concluído************
+[31/10/2026 13:00:03] -----------Iniciando processamento de RMs-----------
+[31/10/2026 13:00:13] -----------Fim processamento de RMs-----------
+[31/10/2026 13:00:13] -----------Iniciando processamento de Pedidos-----------
+[31/10/2026 13:00:18] -----------Fim processamento de Pedidos-----------
+[31/10/2026 13:00:18] -----------Iniciando processamento de PDFs-----------
+[31/10/2026 13:00:18] -----------Fim processamento de PDFs-----------
+[31/10/2026 13:00:18] Iniciando processamento dos Relatorios do Approval
+[31/10/2026 13:00:44] -----------Fim processamento dos Relatorios do Approval-----------
+[31/10/2026 13:00:44] **********Processamento concluído************
+[31/10/2026 17:00:03] -----------Iniciando processamento de RMs-----------
+[31/10/2026 17:00:12] -----------Fim processamento de RMs-----------
+[31/10/2026 17:00:12] -----------Iniciando processamento de Pedidos-----------
+[31/10/2026 17:00:18] -----------Fim processamento de Pedidos-----------
+[31/10/2026 17:00:18] -----------Iniciando processamento de PDFs-----------
+[31/10/2026 17:00:18] -----------Fim processamento de PDFs-----------
+[31/10/2026 17:00:18] Iniciando processamento dos Relatorios do Approval
+[31/10/2026 17:00:43] -----------Fim processamento dos Relatorios do Approval-----------
+[31/10/2026 17:00:43] **********Processamento concluído************
+[31/10/2026 21:00:04] -----------Iniciando processamento de RMs-----------
+[31/10/2026 21:00:14] -----------Fim processamento de RMs-----------
+[31/10/2026 21:00:14] -----------Iniciando processamento de Pedidos-----------
+[31/10/2026 21:00:19] -----------Fim processamento de Pedidos-----------
+[31/10/2026 21:00:19] -----------Iniciando processamento de PDFs-----------
+[31/10/2026 21:00:19] -----------Fim processamento de PDFs-----------
+[31/10/2026 21:00:19] Iniciando processamento dos Relatorios do Approval
+[31/10/2026 21:00:50] -----------Fim processamento dos Relatorios do Approval-----------
+[31/10/2026 21:00:50] **********Processamento concluído************
+[01/11/2026 01:00:03] -----------Iniciando processamento de RMs-----------
+[01/11/2026 01:00:13] -----------Fim processamento de RMs-----------
+[01/11/2026 01:00:13] -----------Iniciando processamento de Pedidos-----------
+[01/11/2026 01:00:18] -----------Fim processamento de Pedidos-----------
+[01/11/2026 01:00:18] -----------Iniciando processamento de PDFs-----------
+[01/11/2026 01:00:18] -----------Fim processamento de PDFs-----------
+[01/11/2026 01:00:18] Iniciando processamento dos Relatorios do Approval
+[01/11/2026 01:00:43] -----------Fim processamento dos Relatorios do Approval-----------
+[01/11/2026 01:00:43] **********Processamento concluído************
+[01/11/2026 05:00:03] -----------Iniciando processamento de RMs-----------
+[01/11/2026 05:00:13] -----------Fim processamento de RMs-----------
+[01/11/2026 05:00:13] -----------Iniciando processamento de Pedidos-----------
+[01/11/2026 05:00:18] -----------Fim processamento de Pedidos-----------
+[01/11/2026 05:00:18] -----------Iniciando processamento de PDFs-----------
+[01/11/2026 05:00:18] -----------Fim processamento de PDFs-----------
+[01/11/2026 05:00:18] Iniciando processamento dos Relatorios do Approval
+[01/11/2026 05:00:41] -----------Fim processamento dos Relatorios do Approval-----------
+[01/11/2026 05:00:41] **********Processamento concluído************
+[03/11/2026 09:00:04] -----------Iniciando processamento de RMs-----------
+[03/11/2026 09:00:12] -----------Fim processamento de RMs-----------
+[03/11/2026 09:00:12] -----------Iniciando processamento de Pedidos-----------
+[03/11/2026 09:00:18] -----------Fim processamento de Pedidos-----------
+[03/11/2026 09:00:18] -----------Iniciando processamento de PDFs-----------
+[03/11/2026 09:00:19] -----------Fim processamento de PDFs-----------
+[03/11/2026 09:00:19] Iniciando processamento dos Relatorios do Approval
+[03/11/2026 09:00:42] -----------Fim processamento dos Relatorios do Approval-----------
+[03/11/2026 09:00:42] **********Processamento concluído************
+[03/11/2026 13:00:02] -----------Iniciando processamento de RMs-----------
+[03/11/2026 13:00:16] -----------Fim processamento de RMs-----------
+[03/11/2026 13:00:16] -----------Iniciando processamento de Pedidos-----------
+[03/11/2026 13:00:22] -----------Fim processamento de Pedidos-----------
+[03/11/2026 13:00:22] -----------Iniciando processamento de PDFs-----------
+[03/11/2026 13:00:23] -----------Fim processamento de PDFs-----------
+[03/11/2026 13:00:23] Iniciando processamento dos Relatorios do Approval
+[03/11/2026 13:00:47] -----------Fim processamento dos Relatorios do Approval-----------
+[03/11/2026 13:00:47] **********Processamento concluído************
+[03/11/2026 17:00:02] -----------Iniciando processamento de RMs-----------
+[03/11/2026 17:00:12] -----------Fim processamento de RMs-----------
+[03/11/2026 17:00:12] -----------Iniciando processamento de Pedidos-----------
+[03/11/2026 17:00:17] -----------Fim processamento de Pedidos-----------
+[03/11/2026 17:00:17] -----------Iniciando processamento de PDFs-----------
+[03/11/2026 17:00:17] -----------Fim processamento de PDFs-----------
+[03/11/2026 17:00:17] Iniciando processamento dos Relatorios do Approval
+[03/11/2026 17:00:46] -----------Fim processamento dos Relatorios do Approval-----------
+[03/11/2026 17:00:46] **********Processamento concluído************
+[03/11/2026 21:00:03] -----------Iniciando processamento de RMs-----------
+[03/11/2026 21:00:11] -----------Fim processamento de RMs-----------
+[03/11/2026 21:00:11] -----------Iniciando processamento de Pedidos-----------
+[03/11/2026 21:00:17] -----------Fim processamento de Pedidos-----------
+[03/11/2026 21:00:17] -----------Iniciando processamento de PDFs-----------
+[03/11/2026 21:00:17] -----------Fim processamento de PDFs-----------
+[03/11/2026 21:00:17] Iniciando processamento dos Relatorios do Approval
+[03/11/2026 21:00:46] -----------Fim processamento dos Relatorios do Approval-----------
+[03/11/2026 21:00:46] **********Processamento concluído************
+[04/11/2026 01:00:02] -----------Iniciando processamento de RMs-----------
+[04/11/2026 01:00:10] -----------Fim processamento de RMs-----------
+[04/11/2026 01:00:10] -----------Iniciando processamento de Pedidos-----------
+[04/11/2026 01:00:16] -----------Fim processamento de Pedidos-----------
+[04/11/2026 01:00:16] -----------Iniciando processamento de PDFs-----------
+[04/11/2026 01:00:16] -----------Fim processamento de PDFs-----------
+[04/11/2026 01:00:16] Iniciando processamento dos Relatorios do Approval
+[04/11/2026 01:00:45] -----------Fim processamento dos Relatorios do Approval-----------
+[04/11/2026 01:00:45] **********Processamento concluído************
+[04/11/2026 05:00:02] -----------Iniciando processamento de RMs-----------
+[04/11/2026 05:00:11] -----------Fim processamento de RMs-----------
+[04/11/2026 05:00:11] -----------Iniciando processamento de Pedidos-----------
+[04/11/2026 05:00:16] -----------Fim processamento de Pedidos-----------
+[04/11/2026 05:00:16] -----------Iniciando processamento de PDFs-----------
+[04/11/2026 05:00:16] -----------Fim processamento de PDFs-----------
+[04/11/2026 05:00:16] Iniciando processamento dos Relatorios do Approval
+[04/11/2026 05:00:44] -----------Fim processamento dos Relatorios do Approval-----------
+[04/11/2026 05:00:44] **********Processamento concluído************
+[04/11/2026 09:00:03] -----------Iniciando processamento de RMs-----------
+[04/11/2026 09:00:11] -----------Fim processamento de RMs-----------
+[04/11/2026 09:00:11] -----------Iniciando processamento de Pedidos-----------
+[04/11/2026 09:00:17] -----------Fim processamento de Pedidos-----------
+[04/11/2026 09:00:17] -----------Iniciando processamento de PDFs-----------
+[04/11/2026 09:00:17] -----------Fim processamento de PDFs-----------
+[04/11/2026 09:00:17] Iniciando processamento dos Relatorios do Approval
+[04/11/2026 09:00:42] -----------Fim processamento dos Relatorios do Approval-----------
+[04/11/2026 09:00:42] **********Processamento concluído************
+[04/11/2026 13:00:03] -----------Iniciando processamento de RMs-----------
+[04/11/2026 13:00:11] -----------Fim processamento de RMs-----------
+[04/11/2026 13:00:11] -----------Iniciando processamento de Pedidos-----------
+[04/11/2026 13:00:19] -----------Fim processamento de Pedidos-----------
+[04/11/2026 13:00:19] -----------Iniciando processamento de PDFs-----------
+[04/11/2026 13:00:19] -----------Fim processamento de PDFs-----------
+[04/11/2026 13:00:19] Iniciando processamento dos Relatorios do Approval
+[04/11/2026 13:00:43] -----------Fim processamento dos Relatorios do Approval-----------
+[04/11/2026 13:00:43] **********Processamento concluído************
+[04/11/2026 17:00:03] -----------Iniciando processamento de RMs-----------
+[04/11/2026 17:00:11] -----------Fim processamento de RMs-----------
+[04/11/2026 17:00:11] -----------Iniciando processamento de Pedidos-----------
+[04/11/2026 17:00:18] -----------Fim processamento de Pedidos-----------
+[04/11/2026 17:00:18] -----------Iniciando processamento de PDFs-----------
+[04/11/2026 17:00:18] -----------Fim processamento de PDFs-----------
+[04/11/2026 17:00:18] Iniciando processamento dos Relatorios do Approval
+[04/11/2026 17:00:43] -----------Fim processamento dos Relatorios do Approval-----------
+[04/11/2026 17:00:43] **********Processamento concluído************
+[04/11/2026 21:00:03] -----------Iniciando processamento de RMs-----------
+[04/11/2026 21:00:13] -----------Fim processamento de RMs-----------
+[04/11/2026 21:00:13] -----------Iniciando processamento de Pedidos-----------
+[04/11/2026 21:00:18] -----------Fim processamento de Pedidos-----------
+[04/11/2026 21:00:18] -----------Iniciando processamento de PDFs-----------
+[04/11/2026 21:00:18] -----------Fim processamento de PDFs-----------
+[04/11/2026 21:00:18] Iniciando processamento dos Relatorios do Approval
+[04/11/2026 21:00:54] -----------Fim processamento dos Relatorios do Approval-----------
+[04/11/2026 21:00:54] **********Processamento concluído************
+[05/11/2026 01:00:03] -----------Iniciando processamento de RMs-----------
+[05/11/2026 01:00:11] -----------Fim processamento de RMs-----------
+[05/11/2026 01:00:11] -----------Iniciando processamento de Pedidos-----------
+[05/11/2026 01:00:16] -----------Fim processamento de Pedidos-----------
+[05/11/2026 01:00:16] -----------Iniciando processamento de PDFs-----------
+[05/11/2026 01:00:16] -----------Fim processamento de PDFs-----------
+[05/11/2026 01:00:16] Iniciando processamento dos Relatorios do Approval
+[05/11/2026 01:00:46] -----------Fim processamento dos Relatorios do Approval-----------
+[05/11/2026 01:00:46] **********Processamento concluído************
+[05/11/2026 05:00:02] -----------Iniciando processamento de RMs-----------
+[05/11/2026 05:00:10] -----------Fim processamento de RMs-----------
+[05/11/2026 05:00:10] -----------Iniciando processamento de Pedidos-----------
+[05/11/2026 05:00:15] -----------Fim processamento de Pedidos-----------
+[05/11/2026 05:00:15] -----------Iniciando processamento de PDFs-----------
+[05/11/2026 05:00:15] -----------Fim processamento de PDFs-----------
+[05/11/2026 05:00:15] Iniciando processamento dos Relatorios do Approval
+[05/11/2026 05:00:43] -----------Fim processamento dos Relatorios do Approval-----------
+[05/11/2026 05:00:43] **********Processamento concluído************
+[05/11/2026 09:00:03] -----------Iniciando processamento de RMs-----------
+[05/11/2026 09:00:11] -----------Fim processamento de RMs-----------
+[05/11/2026 09:00:11] -----------Iniciando processamento de Pedidos-----------
+[05/11/2026 09:00:18] -----------Fim processamento de Pedidos-----------
+[05/11/2026 09:00:18] -----------Iniciando processamento de PDFs-----------
+[05/11/2026 09:00:18] -----------Fim processamento de PDFs-----------
+[05/11/2026 09:00:18] Iniciando processamento dos Relatorios do Approval
+[05/11/2026 09:00:43] -----------Fim processamento dos Relatorios do Approval-----------
+[05/11/2026 09:00:43] **********Processamento concluído************
+[05/11/2026 13:00:03] -----------Iniciando processamento de RMs-----------
+[05/11/2026 13:00:11] -----------Fim processamento de RMs-----------
+[05/11/2026 13:00:11] -----------Iniciando processamento de Pedidos-----------
+[05/11/2026 13:00:17] -----------Fim processamento de Pedidos-----------
+[05/11/2026 13:00:17] -----------Iniciando processamento de PDFs-----------
+[05/11/2026 13:00:43] -----------Fim processamento de PDFs-----------
+[05/11/2026 13:00:43] Iniciando processamento dos Relatorios do Approval
+[05/11/2026 13:01:08] -----------Fim processamento dos Relatorios do Approval-----------
+[05/11/2026 13:01:08] **********Processamento concluído************
+[05/11/2026 17:00:03] -----------Iniciando processamento de RMs-----------
+[05/11/2026 17:00:10] -----------Fim processamento de RMs-----------
+[05/11/2026 17:00:10] -----------Iniciando processamento de Pedidos-----------
+[05/11/2026 17:00:15] -----------Fim processamento de Pedidos-----------
+[05/11/2026 17:00:15] -----------Iniciando processamento de PDFs-----------
+[05/11/2026 17:00:15] -----------Fim processamento de PDFs-----------
+[05/11/2026 17:00:15] Iniciando processamento dos Relatorios do Approval
+[05/11/2026 17:00:39] -----------Fim processamento dos Relatorios do Approval-----------
+[05/11/2026 17:00:39] **********Processamento concluído************
+[05/11/2026 21:00:03] -----------Iniciando processamento de RMs-----------
+[05/11/2026 21:00:10] -----------Fim processamento de RMs-----------
+[05/11/2026 21:00:10] -----------Iniciando processamento de Pedidos-----------
+[05/11/2026 21:00:16] -----------Fim processamento de Pedidos-----------
+[05/11/2026 21:00:16] -----------Iniciando processamento de PDFs-----------
+[05/11/2026 21:00:16] -----------Fim processamento de PDFs-----------
+[05/11/2026 21:00:16] Iniciando processamento dos Relatorios do Approval
+[05/11/2026 21:00:50] -----------Fim processamento dos Relatorios do Approval-----------
+[05/11/2026 21:00:50] **********Processamento concluído************
+[06/11/2026 01:00:03] -----------Iniciando processamento de RMs-----------
+[06/11/2026 01:00:12] -----------Fim processamento de RMs-----------
+[06/11/2026 01:00:12] -----------Iniciando processamento de Pedidos-----------
+[06/11/2026 01:00:17] -----------Fim processamento de Pedidos-----------
+[06/11/2026 01:00:17] -----------Iniciando processamento de PDFs-----------
+[06/11/2026 01:00:17] -----------Fim processamento de PDFs-----------
+[06/11/2026 01:00:17] Iniciando processamento dos Relatorios do Approval
+[06/11/2026 01:00:47] -----------Fim processamento dos Relatorios do Approval-----------
+[06/11/2026 01:00:47] **********Processamento concluído************
+[06/11/2026 05:00:02] -----------Iniciando processamento de RMs-----------
+[06/11/2026 05:00:11] -----------Fim processamento de RMs-----------
+[06/11/2026 05:00:11] -----------Iniciando processamento de Pedidos-----------
+[06/11/2026 05:00:16] -----------Fim processamento de Pedidos-----------
+[06/11/2026 05:00:16] -----------Iniciando processamento de PDFs-----------
+[06/11/2026 05:00:16] -----------Fim processamento de PDFs-----------
+[06/11/2026 05:00:16] Iniciando processamento dos Relatorios do Approval
+[06/11/2026 05:00:45] -----------Fim processamento dos Relatorios do Approval-----------
+[06/11/2026 05:00:45] **********Processamento concluído************
+[06/11/2026 09:00:03] -----------Iniciando processamento de RMs-----------
+[06/11/2026 09:00:11] -----------Fim processamento de RMs-----------
+[06/11/2026 09:00:11] -----------Iniciando processamento de Pedidos-----------
+[06/11/2026 09:00:22] -----------Fim processamento de Pedidos-----------
+[06/11/2026 09:00:22] -----------Iniciando processamento de PDFs-----------
+[06/11/2026 09:00:25] -----------Fim processamento de PDFs-----------
+[06/11/2026 09:00:25] Iniciando processamento dos Relatorios do Approval
+[06/11/2026 09:00:50] -----------Fim processamento dos Relatorios do Approval-----------
+[06/11/2026 09:00:50] **********Processamento concluído************
+[06/11/2026 13:00:03] -----------Iniciando processamento de RMs-----------
+[06/11/2026 13:00:15] -----------Fim processamento de RMs-----------
+[06/11/2026 13:00:15] -----------Iniciando processamento de Pedidos-----------
+[06/11/2026 13:00:20] -----------Fim processamento de Pedidos-----------
+[06/11/2026 13:00:20] -----------Iniciando processamento de PDFs-----------
+[06/11/2026 13:00:23] -----------Fim processamento de PDFs-----------
+[06/11/2026 13:00:23] Iniciando processamento dos Relatorios do Approval
+[06/11/2026 13:00:49] -----------Fim processamento dos Relatorios do Approval-----------
+[06/11/2026 13:00:49] **********Processamento concluído************
+[06/11/2026 17:00:03] -----------Iniciando processamento de RMs-----------
+[06/11/2026 17:00:11] -----------Fim processamento de RMs-----------
+[06/11/2026 17:00:11] -----------Iniciando processamento de Pedidos-----------
+[06/11/2026 17:00:17] -----------Fim processamento de Pedidos-----------
+[06/11/2026 17:00:17] -----------Iniciando processamento de PDFs-----------
+[06/11/2026 17:00:17] -----------Fim processamento de PDFs-----------
+[06/11/2026 17:00:17] Iniciando processamento dos Relatorios do Approval
+[06/11/2026 17:00:42] -----------Fim processamento dos Relatorios do Approval-----------
+[06/11/2026 17:00:42] **********Processamento concluído************
+[06/11/2026 21:00:03] -----------Iniciando processamento de RMs-----------
+[06/11/2026 21:00:12] -----------Fim processamento de RMs-----------
+[06/11/2026 21:00:12] -----------Iniciando processamento de Pedidos-----------
+[06/11/2026 21:00:22] -----------Fim processamento de Pedidos-----------
+[06/11/2026 21:00:22] -----------Iniciando processamento de PDFs-----------
+[06/11/2026 21:00:22] -----------Fim processamento de PDFs-----------
+[06/11/2026 21:00:22] Iniciando processamento dos Relatorios do Approval
+[06/11/2026 21:00:50] -----------Fim processamento dos Relatorios do Approval-----------
+[06/11/2026 21:00:50] **********Processamento concluído************
+[07/11/2026 01:00:03] -----------Iniciando processamento de RMs-----------
+[07/11/2026 01:00:12] -----------Fim processamento de RMs-----------
+[07/11/2026 01:00:12] -----------Iniciando processamento de Pedidos-----------
+[07/11/2026 01:00:17] -----------Fim processamento de Pedidos-----------
+[07/11/2026 01:00:17] -----------Iniciando processamento de PDFs-----------
+[07/11/2026 01:00:17] -----------Fim processamento de PDFs-----------
+[07/11/2026 01:00:17] Iniciando processamento dos Relatorios do Approval
+[07/11/2026 01:00:42] -----------Fim processamento dos Relatorios do Approval-----------
+[07/11/2026 01:00:42] **********Processamento concluído************
+[07/11/2026 05:00:02] -----------Iniciando processamento de RMs-----------
+[07/11/2026 05:00:12] -----------Fim processamento de RMs-----------
+[07/11/2026 05:00:12] -----------Iniciando processamento de Pedidos-----------
+[07/11/2026 05:00:18] -----------Fim processamento de Pedidos-----------
+[07/11/2026 05:00:18] -----------Iniciando processamento de PDFs-----------
+[07/11/2026 05:00:18] -----------Fim processamento de PDFs-----------
+[07/11/2026 05:00:18] Iniciando processamento dos Relatorios do Approval
+[07/11/2026 05:00:41] -----------Fim processamento dos Relatorios do Approval-----------
+[07/11/2026 05:00:41] **********Processamento concluído************
+[07/11/2026 09:00:03] -----------Iniciando processamento de RMs-----------
+[07/11/2026 09:00:11] -----------Fim processamento de RMs-----------
+[07/11/2026 09:00:11] -----------Iniciando processamento de Pedidos-----------
+[07/11/2026 09:00:17] -----------Fim processamento de Pedidos-----------
+[07/11/2026 09:00:17] -----------Iniciando processamento de PDFs-----------
+[07/11/2026 09:00:17] -----------Fim processamento de PDFs-----------
+[07/11/2026 09:00:17] Iniciando processamento dos Relatorios do Approval
+[07/11/2026 09:00:43] -----------Fim processamento dos Relatorios do Approval-----------
+[07/11/2026 09:00:43] **********Processamento concluído************
+[07/11/2026 13:00:03] -----------Iniciando processamento de RMs-----------
+[07/11/2026 13:00:11] -----------Fim processamento de RMs-----------
+[07/11/2026 13:00:11] -----------Iniciando processamento de Pedidos-----------
+[07/11/2026 13:00:16] -----------Fim processamento de Pedidos-----------
+[07/11/2026 13:00:16] -----------Iniciando processamento de PDFs-----------
+[07/11/2026 13:00:16] -----------Fim processamento de PDFs-----------
+[07/11/2026 13:00:16] Iniciando processamento dos Relatorios do Approval
+[07/11/2026 13:00:40] -----------Fim processamento dos Relatorios do Approval-----------
+[07/11/2026 13:00:40] **********Processamento concluído************
+[09/11/2026 09:00:03] -----------Iniciando processamento de RMs-----------
+[09/11/2026 09:00:12] -----------Fim processamento de RMs-----------
+[09/11/2026 09:00:12] -----------Iniciando processamento de Pedidos-----------
+[09/11/2026 09:00:19] -----------Fim processamento de Pedidos-----------
+[09/11/2026 09:00:19] -----------Iniciando processamento de PDFs-----------
+[09/11/2026 09:00:21] -----------Fim processamento de PDFs-----------
+[09/11/2026 09:00:21] Iniciando processamento dos Relatorios do Approval
+[09/11/2026 09:00:41] -----------Fim processamento dos Relatorios do Approval-----------
+[09/11/2026 09:00:41] **********Processamento concluído************
+[09/11/2026 13:00:02] -----------Iniciando processamento de RMs-----------
+[09/11/2026 13:00:13] -----------Fim processamento de RMs-----------
+[09/11/2026 13:00:13] -----------Iniciando processamento de Pedidos-----------
+[09/11/2026 13:00:19] -----------Fim processamento de Pedidos-----------
+[09/11/2026 13:00:19] -----------Iniciando processamento de PDFs-----------
+[09/11/2026 13:00:19] -----------Fim processamento de PDFs-----------
+[09/11/2026 13:00:19] Iniciando processamento dos Relatorios do Approval
+[09/11/2026 13:00:41] -----------Fim processamento dos Relatorios do Approval-----------
+[09/11/2026 13:00:41] **********Processamento concluído************
+[09/11/2026 17:00:03] -----------Iniciando processamento de RMs-----------
+[09/11/2026 17:00:11] -----------Fim processamento de RMs-----------
+[09/11/2026 17:00:11] -----------Iniciando processamento de Pedidos-----------
+[09/11/2026 17:00:17] -----------Fim processamento de Pedidos-----------
+[09/11/2026 17:00:17] -----------Iniciando processamento de PDFs-----------
+[09/11/2026 17:00:17] -----------Fim processamento de PDFs-----------
+[09/11/2026 17:00:17] Iniciando processamento dos Relatorios do Approval
+[09/11/2026 17:00:37] -----------Fim processamento dos Relatorios do Approval-----------
+[09/11/2026 17:00:37] **********Processamento concluído************
+[09/11/2026 21:00:02] -----------Iniciando processamento de RMs-----------
+[09/11/2026 21:00:10] -----------Fim processamento de RMs-----------
+[09/11/2026 21:00:10] -----------Iniciando processamento de Pedidos-----------
+[09/11/2026 21:00:16] -----------Fim processamento de Pedidos-----------
+[09/11/2026 21:00:16] -----------Iniciando processamento de PDFs-----------
+[09/11/2026 21:00:16] -----------Fim processamento de PDFs-----------
+[09/11/2026 21:00:16] Iniciando processamento dos Relatorios do Approval
+[09/11/2026 21:00:39] -----------Fim processamento dos Relatorios do Approval-----------
+[09/11/2026 21:00:39] **********Processamento concluído************
+[10/11/2026 01:00:02] -----------Iniciando processamento de RMs-----------
+[10/11/2026 01:00:11] -----------Fim processamento de RMs-----------
+[10/11/2026 01:00:11] -----------Iniciando processamento de Pedidos-----------
+[10/11/2026 01:00:16] -----------Fim processamento de Pedidos-----------
+[10/11/2026 01:00:16] -----------Iniciando processamento de PDFs-----------
+[10/11/2026 01:00:16] -----------Fim processamento de PDFs-----------
+[10/11/2026 01:00:16] Iniciando processamento dos Relatorios do Approval
+[10/11/2026 01:00:38] -----------Fim processamento dos Relatorios do Approval-----------
+[10/11/2026 01:00:38] **********Processamento concluído************
+[10/11/2026 05:00:02] -----------Iniciando processamento de RMs-----------
+[10/11/2026 05:00:11] -----------Fim processamento de RMs-----------
+[10/11/2026 05:00:11] -----------Iniciando processamento de Pedidos-----------
+[10/11/2026 05:00:16] -----------Fim processamento de Pedidos-----------
+[10/11/2026 05:00:16] -----------Iniciando processamento de PDFs-----------
+[10/11/2026 05:00:16] -----------Fim processamento de PDFs-----------
+[10/11/2026 05:00:16] Iniciando processamento dos Relatorios do Approval
+[10/11/2026 05:00:43] -----------Fim processamento dos Relatorios do Approval-----------
+[10/11/2026 05:00:43] **********Processamento concluído************
+[10/11/2026 09:00:03] -----------Iniciando processamento de RMs-----------
+[10/11/2026 09:00:13] -----------Fim processamento de RMs-----------
+[10/11/2026 09:00:13] -----------Iniciando processamento de Pedidos-----------
+[10/11/2026 09:00:20] -----------Fim processamento de Pedidos-----------
+[10/11/2026 09:00:20] -----------Iniciando processamento de PDFs-----------
+[10/11/2026 09:00:20] -----------Fim processamento de PDFs-----------
+[10/11/2026 09:00:20] Iniciando processamento dos Relatorios do Approval
+[10/11/2026 09:00:40] -----------Fim processamento dos Relatorios do Approval-----------
+[10/11/2026 09:00:40] **********Processamento concluído************
+[10/11/2026 11:06:05] -----------Iniciando processamento de RMs-----------
+[10/11/2026 11:06:14] -----------Fim processamento de RMs-----------
+[10/11/2026 11:06:14] -----------Iniciando processamento de Pedidos-----------
+[10/11/2026 11:06:24] -----------Fim processamento de Pedidos-----------
+[10/11/2026 11:06:24] -----------Iniciando processamento de PDFs-----------
+[10/11/2026 11:06:25] -----------Fim processamento de PDFs-----------
+[10/11/2026 11:06:25] Iniciando processamento dos Relatorios do Approval
+[10/11/2026 11:06:40] -----------Fim processamento dos Relatorios do Approval-----------
+[10/11/2026 11:06:40] **********Processamento concluído************
+[10/11/2026 13:00:02] -----------Iniciando processamento de RMs-----------
+[10/11/2026 13:00:11] -----------Fim processamento de RMs-----------
+[10/11/2026 13:00:11] -----------Iniciando processamento de Pedidos-----------
+[10/11/2026 13:00:18] -----------Fim processamento de Pedidos-----------
+[10/11/2026 13:00:18] -----------Iniciando processamento de PDFs-----------
+[10/11/2026 13:00:20] -----------Fim processamento de PDFs-----------
+[10/11/2026 13:00:20] Iniciando processamento dos Relatorios do Approval
+[10/11/2026 13:00:42] -----------Fim processamento dos Relatorios do Approval-----------
+[10/11/2026 13:00:42] **********Processamento concluído************
+[10/11/2026 17:00:02] -----------Iniciando processamento de RMs-----------
+[10/11/2026 17:00:12] -----------Fim processamento de RMs-----------
+[10/11/2026 17:00:12] -----------Iniciando processamento de Pedidos-----------
+[10/11/2026 17:00:17] -----------Fim processamento de Pedidos-----------
+[10/11/2026 17:00:17] -----------Iniciando processamento de PDFs-----------
+[10/11/2026 17:00:23] -----------Fim processamento de PDFs-----------
+[10/11/2026 17:00:23] Iniciando processamento dos Relatorios do Approval
+[10/11/2026 17:00:44] -----------Fim processamento dos Relatorios do Approval-----------
+[10/11/2026 17:00:44] **********Processamento concluído************
+[10/11/2026 21:00:02] -----------Iniciando processamento de RMs-----------
+[10/11/2026 21:00:19] -----------Fim processamento de RMs-----------
+[10/11/2026 21:00:19] -----------Iniciando processamento de Pedidos-----------
+[10/11/2026 21:00:26] -----------Fim processamento de Pedidos-----------
+[10/11/2026 21:00:26] -----------Iniciando processamento de PDFs-----------
+[10/11/2026 21:00:26] -----------Fim processamento de PDFs-----------
+[10/11/2026 21:00:26] Iniciando processamento dos Relatorios do Approval
+[10/11/2026 21:00:54] -----------Fim processamento dos Relatorios do Approval-----------
+[10/11/2026 21:00:54] **********Processamento concluído************
+[11/11/2026 09:00:03] -----------Iniciando processamento de RMs-----------
+[11/11/2026 09:00:13] -----------Fim processamento de RMs-----------
+[11/11/2026 09:00:13] -----------Iniciando processamento de Pedidos-----------
+[11/11/2026 09:00:20] -----------Fim processamento de Pedidos-----------
+[11/11/2026 09:00:20] -----------Iniciando processamento de PDFs-----------
+[11/11/2026 09:00:20] -----------Fim processamento de PDFs-----------
+[11/11/2026 09:00:20] Iniciando processamento dos Relatorios do Approval
+[11/11/2026 09:00:41] -----------Fim processamento dos Relatorios do Approval-----------
+[11/11/2026 09:00:41] **********Processamento concluído************
+[11/11/2026 13:00:03] -----------Iniciando processamento de RMs-----------
+[11/11/2026 13:00:11] -----------Fim processamento de RMs-----------
+[11/11/2026 13:00:11] -----------Iniciando processamento de Pedidos-----------
+[11/11/2026 13:00:17] -----------Fim processamento de Pedidos-----------
+[11/11/2026 13:00:17] -----------Iniciando processamento de PDFs-----------
+[11/11/2026 13:00:17] -----------Fim processamento de PDFs-----------
+[11/11/2026 13:00:17] Iniciando processamento dos Relatorios do Approval
+[11/11/2026 13:00:39] -----------Fim processamento dos Relatorios do Approval-----------
+[11/11/2026 13:00:39] **********Processamento concluído************
+[11/11/2026 17:00:03] -----------Iniciando processamento de RMs-----------
+[11/11/2026 17:00:11] -----------Fim processamento de RMs-----------
+[11/11/2026 17:00:11] -----------Iniciando processamento de Pedidos-----------
+[11/11/2026 17:00:16] -----------Fim processamento de Pedidos-----------
+[11/11/2026 17:00:16] -----------Iniciando processamento de PDFs-----------
+[11/11/2026 17:00:16] -----------Fim processamento de PDFs-----------
+[11/11/2026 17:00:16] Iniciando processamento dos Relatorios do Approval
+[11/11/2026 17:00:39] -----------Fim processamento dos Relatorios do Approval-----------
+[11/11/2026 17:00:39] **********Processamento concluído************
+[11/11/2026 21:00:02] -----------Iniciando processamento de RMs-----------
+[11/11/2026 21:00:11] -----------Fim processamento de RMs-----------
+[11/11/2026 21:00:11] -----------Iniciando processamento de Pedidos-----------
+[11/11/2026 21:00:17] -----------Fim processamento de Pedidos-----------
+[11/11/2026 21:00:17] -----------Iniciando processamento de PDFs-----------
+[11/11/2026 21:00:17] -----------Fim processamento de PDFs-----------
+[11/11/2026 21:00:17] Iniciando processamento dos Relatorios do Approval
+[11/11/2026 21:00:47] -----------Fim processamento dos Relatorios do Approval-----------
+[11/11/2026 21:00:47] **********Processamento concluído************
+[12/11/2026 01:00:02] -----------Iniciando processamento de RMs-----------
+[12/11/2026 01:00:11] -----------Fim processamento de RMs-----------
+[12/11/2026 01:00:11] -----------Iniciando processamento de Pedidos-----------
+[12/11/2026 01:00:16] -----------Fim processamento de Pedidos-----------
+[12/11/2026 01:00:16] -----------Iniciando processamento de PDFs-----------
+[12/11/2026 01:00:16] -----------Fim processamento de PDFs-----------
+[12/11/2026 01:00:16] Iniciando processamento dos Relatorios do Approval
+[12/11/2026 01:00:44] -----------Fim processamento dos Relatorios do Approval-----------
+[12/11/2026 01:00:44] **********Processamento concluído************
+[12/11/2026 05:00:02] -----------Iniciando processamento de RMs-----------
+[12/11/2026 05:00:10] -----------Fim processamento de RMs-----------
+[12/11/2026 05:00:10] -----------Iniciando processamento de Pedidos-----------
+[12/11/2026 05:00:16] -----------Fim processamento de Pedidos-----------
+[12/11/2026 05:00:16] -----------Iniciando processamento de PDFs-----------
+[12/11/2026 05:00:16] -----------Fim processamento de PDFs-----------
+[12/11/2026 05:00:16] Iniciando processamento dos Relatorios do Approval
+[12/11/2026 05:00:45] -----------Fim processamento dos Relatorios do Approval-----------
+[12/11/2026 05:00:45] **********Processamento concluído************
+[12/11/2026 09:00:02] -----------Iniciando processamento de RMs-----------
+[12/11/2026 09:00:13] -----------Fim processamento de RMs-----------
+[12/11/2026 09:00:13] -----------Iniciando processamento de Pedidos-----------
+[12/11/2026 09:00:21] -----------Fim processamento de Pedidos-----------
+[12/11/2026 09:00:21] -----------Iniciando processamento de PDFs-----------
+[12/11/2026 09:00:21] -----------Fim processamento de PDFs-----------
+[12/11/2026 09:00:21] Iniciando processamento dos Relatorios do Approval
+[12/11/2026 09:00:44] -----------Fim processamento dos Relatorios do Approval-----------
+[12/11/2026 09:00:44] **********Processamento concluído************
+[12/11/2026 13:00:02] -----------Iniciando processamento de RMs-----------
+[12/11/2026 13:00:12] -----------Fim processamento de RMs-----------
+[12/11/2026 13:00:12] -----------Iniciando processamento de Pedidos-----------
+[12/11/2026 13:00:18] -----------Fim processamento de Pedidos-----------
+[12/11/2026 13:00:18] -----------Iniciando processamento de PDFs-----------
+[12/11/2026 13:00:18] -----------Fim processamento de PDFs-----------
+[12/11/2026 13:00:18] Iniciando processamento dos Relatorios do Approval
+[12/11/2026 13:00:42] -----------Fim processamento dos Relatorios do Approval-----------
+[12/11/2026 13:00:42] **********Processamento concluído************
+[12/11/2026 17:00:03] -----------Iniciando processamento de RMs-----------
+[12/11/2026 17:00:17] -----------Fim processamento de RMs-----------
+[12/11/2026 17:00:17] -----------Iniciando processamento de Pedidos-----------
+[12/11/2026 17:00:23] -----------Fim processamento de Pedidos-----------
+[12/11/2026 17:00:23] -----------Iniciando processamento de PDFs-----------
+[12/11/2026 17:00:24] -----------Fim processamento de PDFs-----------
+[12/11/2026 17:00:24] Iniciando processamento dos Relatorios do Approval
+[12/11/2026 17:00:50] -----------Fim processamento dos Relatorios do Approval-----------
+[12/11/2026 17:00:50] **********Processamento concluído************
+[12/11/2026 21:00:02] -----------Iniciando processamento de RMs-----------
+[12/11/2026 21:00:11] -----------Fim processamento de RMs-----------
+[12/11/2026 21:00:11] -----------Iniciando processamento de Pedidos-----------
+[12/11/2026 21:00:24] -----------Fim processamento de Pedidos-----------
+[12/11/2026 21:00:24] -----------Iniciando processamento de PDFs-----------
+[12/11/2026 21:00:25] -----------Fim processamento de PDFs-----------
+[12/11/2026 21:00:25] Iniciando processamento dos Relatorios do Approval
+[12/11/2026 21:00:55] -----------Fim processamento dos Relatorios do Approval-----------
+[12/11/2026 21:00:55] **********Processamento concluído************
+[13/11/2026 01:00:02] -----------Iniciando processamento de RMs-----------
+[13/11/2026 01:00:11] -----------Fim processamento de RMs-----------
+[13/11/2026 01:00:11] -----------Iniciando processamento de Pedidos-----------
+[13/11/2026 01:00:17] -----------Fim processamento de Pedidos-----------
+[13/11/2026 01:00:17] -----------Iniciando processamento de PDFs-----------
+[13/11/2026 01:00:17] -----------Fim processamento de PDFs-----------
+[13/11/2026 01:00:17] Iniciando processamento dos Relatorios do Approval
+[13/11/2026 01:00:42] -----------Fim processamento dos Relatorios do Approval-----------
+[13/11/2026 01:00:42] **********Processamento concluído************
+[13/11/2026 05:00:02] -----------Iniciando processamento de RMs-----------
+[13/11/2026 05:00:11] -----------Fim processamento de RMs-----------
+[13/11/2026 05:00:11] -----------Iniciando processamento de Pedidos-----------
+[13/11/2026 05:00:17] -----------Fim processamento de Pedidos-----------
+[13/11/2026 05:00:17] -----------Iniciando processamento de PDFs-----------
+[13/11/2026 05:00:17] -----------Fim processamento de PDFs-----------
+[13/11/2026 05:00:17] Iniciando processamento dos Relatorios do Approval
+[13/11/2026 05:00:43] -----------Fim processamento dos Relatorios do Approval-----------
+[13/11/2026 05:00:43] **********Processamento concluído************
+[13/11/2026 09:00:03] -----------Iniciando processamento de RMs-----------
+[13/11/2026 09:00:10] -----------Fim processamento de RMs-----------
+[13/11/2026 09:00:10] -----------Iniciando processamento de Pedidos-----------
+[13/11/2026 09:00:18] -----------Fim processamento de Pedidos-----------
+[13/11/2026 09:00:18] -----------Iniciando processamento de PDFs-----------
+[13/11/2026 09:00:19] -----------Fim processamento de PDFs-----------
+[13/11/2026 09:00:19] Iniciando processamento dos Relatorios do Approval
+[13/11/2026 09:00:40] -----------Fim processamento dos Relatorios do Approval-----------
+[13/11/2026 09:00:40] **********Processamento concluído************
+[13/11/2026 13:00:02] -----------Iniciando processamento de RMs-----------
+[13/11/2026 13:00:12] -----------Fim processamento de RMs-----------
+[13/11/2026 13:00:12] -----------Iniciando processamento de Pedidos-----------
+[13/11/2026 13:00:20] -----------Fim processamento de Pedidos-----------
+[13/11/2026 13:00:20] -----------Iniciando processamento de PDFs-----------
+[13/11/2026 13:00:20] -----------Fim processamento de PDFs-----------
+[13/11/2026 13:00:20] Iniciando processamento dos Relatorios do Approval
+[13/11/2026 13:00:43] -----------Fim processamento dos Relatorios do Approval-----------
+[13/11/2026 13:00:43] **********Processamento concluído************
+[13/11/2026 17:00:02] -----------Iniciando processamento de RMs-----------
+[13/11/2026 17:00:11] -----------Fim processamento de RMs-----------
+[13/11/2026 17:00:11] -----------Iniciando processamento de Pedidos-----------
+[13/11/2026 17:00:17] -----------Fim processamento de Pedidos-----------
+[13/11/2026 17:00:17] -----------Iniciando processamento de PDFs-----------
+[13/11/2026 17:00:17] -----------Fim processamento de PDFs-----------
+[13/11/2026 17:00:17] Iniciando processamento dos Relatorios do Approval
+[13/11/2026 17:00:41] -----------Fim processamento dos Relatorios do Approval-----------
+[13/11/2026 17:00:41] **********Processamento concluído************
+[13/11/2026 21:00:02] -----------Iniciando processamento de RMs-----------
+[13/11/2026 21:00:11] -----------Fim processamento de RMs-----------
+[13/11/2026 21:00:11] -----------Iniciando processamento de Pedidos-----------
+[13/11/2026 21:00:17] -----------Fim processamento de Pedidos-----------
+[13/11/2026 21:00:17] -----------Iniciando processamento de PDFs-----------
+[13/11/2026 21:00:17] -----------Fim processamento de PDFs-----------
+[13/11/2026 21:00:17] Iniciando processamento dos Relatorios do Approval
+[13/11/2026 21:00:45] -----------Fim processamento dos Relatorios do Approval-----------
+[13/11/2026 21:00:45] **********Processamento concluído************
+[14/11/2026 01:00:02] -----------Iniciando processamento de RMs-----------
+[14/11/2026 01:00:11] -----------Fim processamento de RMs-----------
+[14/11/2026 01:00:11] -----------Iniciando processamento de Pedidos-----------
+[14/11/2026 01:00:16] -----------Fim processamento de Pedidos-----------
+[14/11/2026 01:00:16] -----------Iniciando processamento de PDFs-----------
+[14/11/2026 01:00:16] -----------Fim processamento de PDFs-----------
+[14/11/2026 01:00:16] Iniciando processamento dos Relatorios do Approval
+[14/11/2026 01:00:44] -----------Fim processamento dos Relatorios do Approval-----------
+[14/11/2026 01:00:44] **********Processamento concluído************
+[14/11/2026 05:00:02] -----------Iniciando processamento de RMs-----------
+[14/11/2026 05:00:11] -----------Fim processamento de RMs-----------
+[14/11/2026 05:00:11] -----------Iniciando processamento de Pedidos-----------
+[14/11/2026 05:00:20] -----------Fim processamento de Pedidos-----------
+[14/11/2026 05:00:20] -----------Iniciando processamento de PDFs-----------
+[14/11/2026 05:00:20] -----------Fim processamento de PDFs-----------
+[14/11/2026 05:00:20] Iniciando processamento dos Relatorios do Approval
+[14/11/2026 05:00:46] -----------Fim processamento dos Relatorios do Approval-----------
+[14/11/2026 05:00:46] **********Processamento concluído************
+[14/11/2026 09:00:02] -----------Iniciando processamento de RMs-----------
+[14/11/2026 09:00:10] -----------Fim processamento de RMs-----------
+[14/11/2026 09:00:10] -----------Iniciando processamento de Pedidos-----------
+[14/11/2026 09:00:15] -----------Fim processamento de Pedidos-----------
+[14/11/2026 09:00:15] -----------Iniciando processamento de PDFs-----------
+[14/11/2026 09:00:15] -----------Fim processamento de PDFs-----------
+[14/11/2026 09:00:15] Iniciando processamento dos Relatorios do Approval
+[14/11/2026 09:00:43] -----------Fim processamento dos Relatorios do Approval-----------
+[14/11/2026 09:00:43] **********Processamento concluído************
+[14/11/2026 13:00:02] -----------Iniciando processamento de RMs-----------
+[14/11/2026 13:00:11] -----------Fim processamento de RMs-----------
+[14/11/2026 13:00:11] -----------Iniciando processamento de Pedidos-----------
+[14/11/2026 13:00:16] -----------Fim processamento de Pedidos-----------
+[14/11/2026 13:00:16] -----------Iniciando processamento de PDFs-----------
+[14/11/2026 13:00:16] -----------Fim processamento de PDFs-----------
+[14/11/2026 13:00:16] Iniciando processamento dos Relatorios do Approval
+[14/11/2026 13:00:42] -----------Fim processamento dos Relatorios do Approval-----------
+[14/11/2026 13:00:42] **********Processamento concluído************
+[14/11/2026 17:00:02] -----------Iniciando processamento de RMs-----------
+[14/11/2026 17:00:11] -----------Fim processamento de RMs-----------
+[14/11/2026 17:00:11] -----------Iniciando processamento de Pedidos-----------
+[14/11/2026 17:00:17] -----------Fim processamento de Pedidos-----------
+[14/11/2026 17:00:17] -----------Iniciando processamento de PDFs-----------
+[14/11/2026 17:00:17] -----------Fim processamento de PDFs-----------
+[14/11/2026 17:00:17] Iniciando processamento dos Relatorios do Approval
+[14/11/2026 17:00:43] -----------Fim processamento dos Relatorios do Approval-----------
+[14/11/2026 17:00:43] **********Processamento concluído************
+[14/11/2026 21:00:02] -----------Iniciando processamento de RMs-----------
+[14/11/2026 21:00:11] -----------Fim processamento de RMs-----------
+[14/11/2026 21:00:11] -----------Iniciando processamento de Pedidos-----------
+[14/11/2026 21:00:17] -----------Fim processamento de Pedidos-----------
+[14/11/2026 21:00:17] -----------Iniciando processamento de PDFs-----------
+[14/11/2026 21:00:17] -----------Fim processamento de PDFs-----------
+[14/11/2026 21:00:17] Iniciando processamento dos Relatorios do Approval
+[14/11/2026 21:00:48] -----------Fim processamento dos Relatorios do Approval-----------
+[14/11/2026 21:00:48] **********Processamento concluído************
+[15/11/2026 01:00:02] -----------Iniciando processamento de RMs-----------
+[15/11/2026 01:00:11] -----------Fim processamento de RMs-----------
+[15/11/2026 01:00:11] -----------Iniciando processamento de Pedidos-----------
+[15/11/2026 01:00:17] -----------Fim processamento de Pedidos-----------
+[15/11/2026 01:00:17] -----------Iniciando processamento de PDFs-----------
+[15/11/2026 01:00:17] -----------Fim processamento de PDFs-----------
+[15/11/2026 01:00:17] Iniciando processamento dos Relatorios do Approval
+[15/11/2026 01:00:52] -----------Fim processamento dos Relatorios do Approval-----------
+[15/11/2026 01:00:52] **********Processamento concluído************
+[15/11/2026 05:00:02] -----------Iniciando processamento de RMs-----------
+[15/11/2026 05:00:11] -----------Fim processamento de RMs-----------
+[15/11/2026 05:00:11] -----------Iniciando processamento de Pedidos-----------
+[15/11/2026 05:00:18] -----------Fim processamento de Pedidos-----------
+[15/11/2026 05:00:18] -----------Iniciando processamento de PDFs-----------
+[15/11/2026 05:00:18] -----------Fim processamento de PDFs-----------
+[15/11/2026 05:00:18] Iniciando processamento dos Relatorios do Approval
+[15/11/2026 05:00:52] -----------Fim processamento dos Relatorios do Approval-----------
+[15/11/2026 05:00:52] **********Processamento concluído************
+[16/11/2026 05:00:03] -----------Iniciando processamento de RMs-----------
+[16/11/2026 05:00:11] -----------Fim processamento de RMs-----------
+[16/11/2026 05:00:11] -----------Iniciando processamento de Pedidos-----------
+[16/11/2026 05:00:16] -----------Fim processamento de Pedidos-----------
+[16/11/2026 05:00:16] -----------Iniciando processamento de PDFs-----------
+[16/11/2026 05:00:16] -----------Fim processamento de PDFs-----------
+[16/11/2026 05:00:16] Iniciando processamento dos Relatorios do Approval
+[16/11/2026 05:00:39] -----------Fim processamento dos Relatorios do Approval-----------
+[16/11/2026 05:00:39] **********Processamento concluído************
+[16/11/2026 09:00:03] -----------Iniciando processamento de RMs-----------
+[16/11/2026 09:00:11] -----------Fim processamento de RMs-----------
+[16/11/2026 09:00:11] -----------Iniciando processamento de Pedidos-----------
+[16/11/2026 09:00:17] -----------Fim processamento de Pedidos-----------
+[16/11/2026 09:00:17] -----------Iniciando processamento de PDFs-----------
+[16/11/2026 09:00:17] -----------Fim processamento de PDFs-----------
+[16/11/2026 09:00:17] Iniciando processamento dos Relatorios do Approval
+[16/11/2026 09:00:37] -----------Fim processamento dos Relatorios do Approval-----------
+[16/11/2026 09:00:37] **********Processamento concluído************
+[16/11/2026 13:00:02] -----------Iniciando processamento de RMs-----------
+[16/11/2026 13:00:11] -----------Fim processamento de RMs-----------
+[16/11/2026 13:00:11] -----------Iniciando processamento de Pedidos-----------
+[16/11/2026 13:00:18] -----------Fim processamento de Pedidos-----------
+[16/11/2026 13:00:18] -----------Iniciando processamento de PDFs-----------
+[16/11/2026 13:00:26] -----------Fim processamento de PDFs-----------
+[16/11/2026 13:00:26] Iniciando processamento dos Relatorios do Approval
+[16/11/2026 13:00:46] -----------Fim processamento dos Relatorios do Approval-----------
+[16/11/2026 13:00:46] **********Processamento concluído************
+[16/11/2026 17:00:03] -----------Iniciando processamento de RMs-----------
+[16/11/2026 17:00:15] -----------Fim processamento de RMs-----------
+[16/11/2026 17:00:15] -----------Iniciando processamento de Pedidos-----------
+[16/11/2026 17:00:21] -----------Fim processamento de Pedidos-----------
+[16/11/2026 17:00:21] -----------Iniciando processamento de PDFs-----------
+[16/11/2026 17:00:34] -----------Fim processamento de PDFs-----------
+[16/11/2026 17:00:34] Iniciando processamento dos Relatorios do Approval
+[16/11/2026 17:00:55] -----------Fim processamento dos Relatorios do Approval-----------
+[16/11/2026 17:00:55] **********Processamento concluído************
+[16/11/2026 21:00:02] -----------Iniciando processamento de RMs-----------
+[16/11/2026 21:00:19] -----------Fim processamento de RMs-----------
+[16/11/2026 21:00:19] -----------Iniciando processamento de Pedidos-----------
+[16/11/2026 21:00:27] -----------Fim processamento de Pedidos-----------
+[16/11/2026 21:00:27] -----------Iniciando processamento de PDFs-----------
+[16/11/2026 21:00:30] -----------Fim processamento de PDFs-----------
+[16/11/2026 21:00:30] Iniciando processamento dos Relatorios do Approval
+[16/11/2026 21:00:56] -----------Fim processamento dos Relatorios do Approval-----------
+[16/11/2026 21:00:56] **********Processamento concluído************
+[17/11/2026 01:00:02] -----------Iniciando processamento de RMs-----------
+[17/11/2026 01:00:12] -----------Fim processamento de RMs-----------
+[17/11/2026 01:00:12] -----------Iniciando processamento de Pedidos-----------
+[17/11/2026 01:00:18] -----------Fim processamento de Pedidos-----------
+[17/11/2026 01:00:18] -----------Iniciando processamento de PDFs-----------
+[17/11/2026 01:00:18] -----------Fim processamento de PDFs-----------
+[17/11/2026 01:00:18] Iniciando processamento dos Relatorios do Approval
+[17/11/2026 01:00:45] -----------Fim processamento dos Relatorios do Approval-----------
+[17/11/2026 01:00:45] **********Processamento concluído************
+[17/11/2026 05:00:02] -----------Iniciando processamento de RMs-----------
+[17/11/2026 05:00:11] -----------Fim processamento de RMs-----------
+[17/11/2026 05:00:11] -----------Iniciando processamento de Pedidos-----------
+[17/11/2026 05:00:17] -----------Fim processamento de Pedidos-----------
+[17/11/2026 05:00:17] -----------Iniciando processamento de PDFs-----------
+[17/11/2026 05:00:17] -----------Fim processamento de PDFs-----------
+[17/11/2026 05:00:17] Iniciando processamento dos Relatorios do Approval
+[17/11/2026 05:00:43] -----------Fim processamento dos Relatorios do Approval-----------
+[17/11/2026 05:00:43] **********Processamento concluído************
+[17/11/2026 09:00:03] -----------Iniciando processamento de RMs-----------
+[17/11/2026 09:00:11] -----------Fim processamento de RMs-----------
+[17/11/2026 09:00:11] -----------Iniciando processamento de Pedidos-----------
+[17/11/2026 09:00:19] -----------Fim processamento de Pedidos-----------
+[17/11/2026 09:00:19] -----------Iniciando processamento de PDFs-----------
+[17/11/2026 09:00:19] -----------Fim processamento de PDFs-----------
+[17/11/2026 09:00:19] Iniciando processamento dos Relatorios do Approval
+[17/11/2026 09:00:43] -----------Fim processamento dos Relatorios do Approval-----------
+[17/11/2026 09:00:43] **********Processamento concluído************
+[17/11/2026 13:00:03] -----------Iniciando processamento de RMs-----------
+[17/11/2026 13:00:11] -----------Fim processamento de RMs-----------
+[17/11/2026 13:00:11] -----------Iniciando processamento de Pedidos-----------
+[17/11/2026 13:00:16] -----------Fim processamento de Pedidos-----------
+[17/11/2026 13:00:16] -----------Iniciando processamento de PDFs-----------
+[17/11/2026 13:00:19] -----------Fim processamento de PDFs-----------
+[17/11/2026 13:00:19] Iniciando processamento dos Relatorios do Approval
+[17/11/2026 13:00:40] -----------Fim processamento dos Relatorios do Approval-----------
+[17/11/2026 13:00:40] **********Processamento concluído************
+[17/11/2026 17:00:02] -----------Iniciando processamento de RMs-----------
+[17/11/2026 17:00:14] -----------Fim processamento de RMs-----------
+[17/11/2026 17:00:14] -----------Iniciando processamento de Pedidos-----------
+[17/11/2026 17:00:19] -----------Fim processamento de Pedidos-----------
+[17/11/2026 17:00:19] -----------Iniciando processamento de PDFs-----------
+[17/11/2026 17:00:19] -----------Fim processamento de PDFs-----------
+[17/11/2026 17:00:19] Iniciando processamento dos Relatorios do Approval
+[17/11/2026 17:00:40] -----------Fim processamento dos Relatorios do Approval-----------
+[17/11/2026 17:00:40] **********Processamento concluído************
+[17/11/2026 21:00:02] -----------Iniciando processamento de RMs-----------
+[17/11/2026 21:00:13] -----------Fim processamento de RMs-----------
+[17/11/2026 21:00:13] -----------Iniciando processamento de Pedidos-----------
+[17/11/2026 21:00:18] -----------Fim processamento de Pedidos-----------
+[17/11/2026 21:00:18] -----------Iniciando processamento de PDFs-----------
+[17/11/2026 21:00:19] -----------Fim processamento de PDFs-----------
+[17/11/2026 21:00:19] Iniciando processamento dos Relatorios do Approval
+[17/11/2026 21:00:49] -----------Fim processamento dos Relatorios do Approval-----------
+[17/11/2026 21:00:49] **********Processamento concluído************
+[18/11/2026 01:00:02] -----------Iniciando processamento de RMs-----------
+[18/11/2026 01:00:10] -----------Fim processamento de RMs-----------
+[18/11/2026 01:00:10] -----------Iniciando processamento de Pedidos-----------
+[18/11/2026 01:00:16] -----------Fim processamento de Pedidos-----------
+[18/11/2026 01:00:16] -----------Iniciando processamento de PDFs-----------
+[18/11/2026 01:00:16] -----------Fim processamento de PDFs-----------
+[18/11/2026 01:00:16] Iniciando processamento dos Relatorios do Approval
+[18/11/2026 01:00:43] -----------Fim processamento dos Relatorios do Approval-----------
+[18/11/2026 01:00:43] **********Processamento concluído************
+[18/11/2026 05:00:02] -----------Iniciando processamento de RMs-----------
+[18/11/2026 05:00:11] -----------Fim processamento de RMs-----------
+[18/11/2026 05:00:11] -----------Iniciando processamento de Pedidos-----------
+[18/11/2026 05:00:16] -----------Fim processamento de Pedidos-----------
+[18/11/2026 05:00:16] -----------Iniciando processamento de PDFs-----------
+[18/11/2026 05:00:16] -----------Fim processamento de PDFs-----------
+[18/11/2026 05:00:16] Iniciando processamento dos Relatorios do Approval
+[18/11/2026 05:00:41] -----------Fim processamento dos Relatorios do Approval-----------
+[18/11/2026 05:00:41] **********Processamento concluído************
+[18/11/2026 09:00:03] -----------Iniciando processamento de RMs-----------
+[18/11/2026 09:00:20] -----------Fim processamento de RMs-----------
+[18/11/2026 09:00:20] -----------Iniciando processamento de Pedidos-----------
+[18/11/2026 09:00:27] -----------Fim processamento de Pedidos-----------
+[18/11/2026 09:00:27] -----------Iniciando processamento de PDFs-----------
+[18/11/2026 09:00:33] -----------Fim processamento de PDFs-----------
+[18/11/2026 09:00:33] Iniciando processamento dos Relatorios do Approval
+[18/11/2026 09:00:53] -----------Fim processamento dos Relatorios do Approval-----------
+[18/11/2026 09:00:53] **********Processamento concluído************
+[18/11/2026 13:00:03] -----------Iniciando processamento de RMs-----------
+[18/11/2026 13:00:11] -----------Fim processamento de RMs-----------
+[18/11/2026 13:00:11] -----------Iniciando processamento de Pedidos-----------
+[18/11/2026 13:00:16] -----------Fim processamento de Pedidos-----------
+[18/11/2026 13:00:16] -----------Iniciando processamento de PDFs-----------
+[18/11/2026 13:00:18] -----------Fim processamento de PDFs-----------
+[18/11/2026 13:00:18] Iniciando processamento dos Relatorios do Approval
+[18/11/2026 13:00:41] -----------Fim processamento dos Relatorios do Approval-----------
+[18/11/2026 13:00:41] **********Processamento concluído************
+[18/11/2026 17:00:03] -----------Iniciando processamento de RMs-----------
+[18/11/2026 17:00:12] -----------Fim processamento de RMs-----------
+[18/11/2026 17:00:12] -----------Iniciando processamento de Pedidos-----------
+[18/11/2026 17:00:17] -----------Fim processamento de Pedidos-----------
+[18/11/2026 17:00:17] -----------Iniciando processamento de PDFs-----------
+[18/11/2026 17:00:17] -----------Fim processamento de PDFs-----------
+[18/11/2026 17:00:17] Iniciando processamento dos Relatorios do Approval
+[18/11/2026 17:00:39] -----------Fim processamento dos Relatorios do Approval-----------
+[18/11/2026 17:00:39] **********Processamento concluído************
+[18/11/2026 21:00:02] -----------Iniciando processamento de RMs-----------
+[18/11/2026 21:00:11] -----------Fim processamento de RMs-----------
+[18/11/2026 21:00:11] -----------Iniciando processamento de Pedidos-----------
+[18/11/2026 21:00:18] -----------Fim processamento de Pedidos-----------
+[18/11/2026 21:00:18] -----------Iniciando processamento de PDFs-----------
+[18/11/2026 21:00:18] -----------Fim processamento de PDFs-----------
+[18/11/2026 21:00:18] Iniciando processamento dos Relatorios do Approval
+[18/11/2026 21:00:45] -----------Fim processamento dos Relatorios do Approval-----------
+[18/11/2026 21:00:45] **********Processamento concluído************
+[19/11/2026 01:00:02] -----------Iniciando processamento de RMs-----------
+[19/11/2026 01:00:11] -----------Fim processamento de RMs-----------
+[19/11/2026 01:00:11] -----------Iniciando processamento de Pedidos-----------
+[19/11/2026 01:00:17] -----------Fim processamento de Pedidos-----------
+[19/11/2026 01:00:17] -----------Iniciando processamento de PDFs-----------
+[19/11/2026 01:00:17] -----------Fim processamento de PDFs-----------
+[19/11/2026 01:00:17] Iniciando processamento dos Relatorios do Approval
+[19/11/2026 01:00:43] -----------Fim processamento dos Relatorios do Approval-----------
+[19/11/2026 01:00:43] **********Processamento concluído************
+[19/11/2026 05:00:02] -----------Iniciando processamento de RMs-----------
+[19/11/2026 05:00:13] -----------Fim processamento de RMs-----------
+[19/11/2026 05:00:13] -----------Iniciando processamento de Pedidos-----------
+[19/11/2026 05:00:19] -----------Fim processamento de Pedidos-----------
+[19/11/2026 05:00:19] -----------Iniciando processamento de PDFs-----------
+[19/11/2026 05:00:19] -----------Fim processamento de PDFs-----------
+[19/11/2026 05:00:19] Iniciando processamento dos Relatorios do Approval
+[19/11/2026 05:00:45] -----------Fim processamento dos Relatorios do Approval-----------
+[19/11/2026 05:00:45] **********Processamento concluído************
+[19/11/2026 09:00:03] -----------Iniciando processamento de RMs-----------
+[19/11/2026 09:00:11] -----------Fim processamento de RMs-----------
+[19/11/2026 09:00:11] -----------Iniciando processamento de Pedidos-----------
+[19/11/2026 09:00:19] -----------Fim processamento de Pedidos-----------
+[19/11/2026 09:00:19] -----------Iniciando processamento de PDFs-----------
+[19/11/2026 09:00:19] -----------Fim processamento de PDFs-----------
+[19/11/2026 09:00:19] Iniciando processamento dos Relatorios do Approval
+[19/11/2026 09:00:40] -----------Fim processamento dos Relatorios do Approval-----------
+[19/11/2026 09:00:40] **********Processamento concluído************
+[19/11/2026 11:18:17] -----------Iniciando processamento de RMs-----------
+[19/11/2026 11:18:30] -----------Fim processamento de RMs-----------
+[19/11/2026 11:18:30] -----------Iniciando processamento de Pedidos-----------
+[19/11/2026 11:18:36] -----------Fim processamento de Pedidos-----------
+[19/11/2026 11:18:36] -----------Iniciando processamento de PDFs-----------
+[19/11/2026 11:18:36] -----------Fim processamento de PDFs-----------
+[19/11/2026 11:18:36] Iniciando processamento dos Relatorios do Approval
+[19/11/2026 11:19:00] -----------Fim processamento dos Relatorios do Approval-----------
+[19/11/2026 11:19:00] **********Processamento concluído************

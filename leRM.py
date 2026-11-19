@@ -1,11 +1,19 @@
 import os
 import json
 import pandas as pd
-from datetime import datetime
 from supabase import create_client
 import toml
 
-config = toml.load(".streamlit/secrets.toml")
+from datetime import datetime, timezone, timedelta
+
+
+# config = toml.load(".streamlit/secrets.toml")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+SECRETS = os.path.join(BASE_DIR, ".streamlit", "secrets.toml")
+
+config = toml.load(SECRETS)
+
+
 SUPABASE_URL = config["SUPABASE_URL"]
 SUPABASE_KEY = config["SUPABASE_KEY"]
 
@@ -82,78 +90,95 @@ def gerar_log_rm(arquivo, registros, arquivo_log):
         )
 
 def registrar_historico_situacao(dados_formatados):
+    # 1. Paginação para buscar TODOS os registros do banco (ultrapassando o limite de 1000)
+    todos_atuais = []
+    offset = 0
+    tamanho_lote = 1000
 
-    registros_atuais = (
-        supabase.table("rel_solicitacao_compras")
-        .select(
-            "rm,seq_item,mat,sit_item"
+    while True:
+        resposta = (
+            supabase.table("rel_solicitacao_compras")
+            .select("rm,seq_item,mat,sit_item")
+            .range(offset, offset + tamanho_lote - 1)
+            .execute()
         )
-        .execute()
-    )
+        if not resposta.data:
+            break
+        todos_atuais.extend(resposta.data)
+        if len(resposta.data) < tamanho_lote:
+            break
+        offset += tamanho_lote
 
     mapa_atual = {
         (
-            str(r["rm"]),
+            str(r["rm"]).strip(),
             int(r["seq_item"]),
-            str(r["mat"])
+            str(r["mat"]).strip()
         ): r
-        for r in registros_atuais.data
+        for r in todos_atuais
     }
 
+    # 2. Busca o histórico já existente ignorando maiúsculas/minúsculas (.ilike)
+    todos_hist = []
+    offset_hist = 0
+    while True:
+        resp_hist = (
+            supabase.table("rel_solicitacao_compras_hist")
+            .select("rm,seq_item,mat")
+            .ilike("situacao_nova", "baixado")
+            .range(offset_hist, offset_hist + tamanho_lote - 1)
+            .execute()
+        )
+        if not resp_hist.data:
+            break
+        todos_hist.extend(resp_hist.data)
+        if len(resp_hist.data) < tamanho_lote:
+            break
+        offset_hist += tamanho_lote
+
+    chaves_ja_baixadas = {
+        (
+            str(h["rm"]).strip(),
+            int(h["seq_item"]),
+            str(h["mat"]).strip()
+        )
+        for h in todos_hist
+    }
+
+    fuso_brasilia = timezone(timedelta(hours=-3))
+    agora_brasilia = datetime.now(fuso_brasilia).strftime("%Y-%m-%d %H:%M:%S")
     historicos = []
 
     for registro in dados_formatados:
-
         chave = (
-            str(registro["rm"]),
+            str(registro["rm"]).strip(),
             int(registro["seq_item"]),
-            str(registro["mat"])
+            str(registro["mat"]).strip()
         )
 
-        registro_antigo = mapa_atual.get(chave)
+        situacao_nova = (registro.get("sit_item") or "").strip()
 
-        if not registro_antigo:
+        if situacao_nova.upper() != "BAIXADO":
             continue
 
-        situacao_antiga = (
-            registro_antigo.get("sit_item") or ""
-        ).strip()
+        registro_antigo = mapa_atual.get(chave)
+        situacao_antiga = (registro_antigo.get("sit_item") or "").strip() if registro_antigo else None
 
-        situacao_nova = (
-            registro.get("sit_item") or ""
-        ).strip()
-
-        if (situacao_antiga != situacao_nova and situacao_nova.upper() == "BAIXADO"):
-
-            existe = (
-                supabase.table("rel_solicitacao_compras_hist")
-                .select("id")
-                .eq("rm", registro["rm"])
-                .eq("seq_item", registro["seq_item"])
-                .eq("mat", registro["mat"])
-                .eq("situacao_nova", "BAIXADO")
-                .limit(1)
-                .execute()
-            )
-            if not existe.data:
-                historicos.append({
-                    "rm": registro["rm"],
-                    "seq_item": registro["seq_item"],
-                    "mat": registro["mat"],
-                    "situacao_anterior": situacao_antiga,
-                    "situacao_nova": situacao_nova
-                })
+        # Registra se mudou para Baixado OU se entrou novo já como Baixado (e ainda não tem histórico)
+        if (situacao_antiga != situacao_nova) and (chave not in chaves_ja_baixadas):
+            historicos.append({
+                "rm": registro["rm"],
+                "seq_item": registro["seq_item"],
+                "mat": registro["mat"],
+                "situacao_anterior": situacao_antiga,
+                "situacao_nova": situacao_nova,
+                "data_alteracao": agora_brasilia
+            })
+            chaves_ja_baixadas.add(chave)
 
     if historicos:
-        (
-            supabase.table("rel_solicitacao_compras_hist")
-            .insert(historicos)
-            .execute()
-        )
-        print(
-            f"✅ Histórico gerado: "
-            f"{len(historicos)} alterações)"
-        )
+        supabase.table("rel_solicitacao_compras_hist").insert(historicos).execute()
+        print(f"✅ Histórico gerado: {len(historicos)} alterações")
 
 def processar_rms():
     

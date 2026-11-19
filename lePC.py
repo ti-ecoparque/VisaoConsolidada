@@ -6,7 +6,11 @@ from supabase import create_client
 import toml
 
 
-config = toml.load(".streamlit/secrets.toml")
+#config = toml.load(".streamlit/secrets.toml")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+SECRETS = os.path.join(BASE_DIR, ".streamlit", "secrets.toml")
+
+config = toml.load(SECRETS)
 
 SUPABASE_URL = config["SUPABASE_URL"]
 SUPABASE_KEY = config["SUPABASE_KEY"]

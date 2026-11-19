@@ -1,5 +1,14 @@
 import streamlit as st
 
+
+import os
+import toml
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+SECRETS_FILE = os.path.join(BASE_DIR, ".streamlit", "secrets.toml")
+
+config = toml.load(SECRETS_FILE)
+
+
 def configurar_layout():
     """Configura o título e a largura total da página."""
     st.set_page_config(page_title="Visão Compras", layout="wide")
@@ -21,7 +30,8 @@ def checar_autenticacao():
             botao_entrar = st.form_submit_button("Entrar")
 
             if botao_entrar:
-                usuarios = st.secrets["credentials"]
+                #usuarios = st.secrets["credentials"]
+                usuarios = config["credentials"]
                 if (
                     usuario_input in usuarios
                     and usuarios[usuario_input] == senha_input
